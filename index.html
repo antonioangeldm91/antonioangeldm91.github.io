@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NeoPDF</title>
+<meta name="description" content="NeoPDF: app para leer y anotar PDF en Windows y Android.">
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1d2330; --muted:#5b6475; --accent:#d9462b; --line:#e3e6ec; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14171c; --card:#1d2128; --text:#e8ebf0; --muted:#9aa3b2; --accent:#ff7a5c; --line:#2c323c; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px; }
+  .logo { display:inline-flex; align-items:center; justify-content:center; width:64px; height:64px;
+          border-radius:16px; background:var(--accent); color:#fff; font-weight:800; font-size:22px; }
+  h1 { font-size:40px; margin:16px 0 4px; letter-spacing:-.5px; }
+  .lead { color:var(--muted); font-size:18px; margin:0 0 32px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px 24px; margin-bottom:16px; }
+  h2 { font-size:18px; margin:0 0 8px; }
+  ul { margin:0; padding-left:20px; }
+  li { margin:4px 0; }
+  a { color:var(--accent); }
+  footer { color:var(--muted); font-size:14px; margin-top:32px; border-top:1px solid var(--line); padding-top:16px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo">PDF</div>
+  <h1>NeoPDF</h1>
+  <p class="lead">Lee, subraya y anota tus PDF en Windows y Android, sin conexión.</p>
+
+  <div class="card">
+    <h2>Qué hace</h2>
+    <ul>
+      <li>Resaltado y subrayado en varios colores y estilos, dibujo a mano alzada, formas y cuadros de texto.</li>
+      <li>OCR para páginas escaneadas y búsqueda en el documento.</li>
+      <li>Imágenes enlazadas a una frase (cámara o galería).</li>
+      <li>Las anotaciones se guardan dentro del propio PDF.</li>
+      <li>Sincronización opcional con la carpeta <b>NeoPDF</b> de tu propio Google Drive.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Tus datos</h2>
+    <p style="margin:0">NeoPDF no tiene servidores propios: tus PDF están en tu dispositivo y, si conectas
+    Google Drive, en tu propia cuenta. Más detalles en la
+    <a href="privacidad.html">política de privacidad</a>.</p>
+  </div>
+
+  <footer>
+    © 2026 Antonio Ángel Díaz Moreno. Todos los derechos reservados.<br>
+    Desarrollado por Antonio Ángel Díaz Moreno ·
+    <a href="mailto:antonioangeldm91@gmail.com">antonioangeldm91@gmail.com</a> ·
+    <a href="privacidad.html">Privacidad</a>
+  </footer>
+</main>
+</body>
+</html>
