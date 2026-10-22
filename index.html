@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neptia</title>
+<meta name="description" content="Neptia: app para leer y anotar PDF en Windows y Android.">
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1d2330; --muted:#5b6475; --accent:#1769c2; --line:#e3e6ec; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14171c; --card:#1d2128; --text:#e8ebf0; --muted:#9aa3b2; --accent:#4fb3f0; --line:#2c323c; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px; }
+  .logo { display:inline-flex; align-items:center; justify-content:center; width:64px; height:64px;
+          border-radius:16px; background:linear-gradient(135deg,#1769c2,#2ec4f3); color:#fff;
+          font-weight:800; font-size:34px; }
+  h1 { font-size:40px; margin:16px 0 4px; letter-spacing:-.5px; }
+  .lead { color:var(--muted); font-size:18px; margin:0 0 32px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px 24px; margin-bottom:16px; }
+  h2 { font-size:18px; margin:0 0 8px; }
+  ul { margin:0; padding-left:20px; }
+  li { margin:4px 0; }
+  a { color:var(--accent); }
+  footer { color:var(--muted); font-size:14px; margin-top:32px; border-top:1px solid var(--line); padding-top:16px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo" aria-label="Logo de Neptia">N</div>
+  <h1>Neptia</h1>
+  <p class="lead">Lee, subraya, anota y estudia tus PDF en Windows y Android, sin conexión.</p>
+
+  <div class="card">
+    <h2>Qué hace</h2>
+    <ul>
+      <li>Resaltado y subrayado en varios colores y estilos, dibujo a mano alzada, formas y cuadros de texto.</li>
+      <li>OCR para páginas escaneadas y búsqueda en el documento.</li>
+      <li>Imágenes enlazadas a una frase (cámara o galería).</li>
+      <li>Estudio: tarjetas de repaso espaciado y tests tipo examen hechos con tus subrayados, dudas y
+      tiempo de estudio.</li>
+      <li>Notas de audio sincronizadas con lo que escribes y búsqueda en lo escrito a mano.</li>
+      <li>Organizar páginas: sustituir o añadir las actualizaciones de un tema y ver qué ha cambiado.</li>
+      <li>Sincronización opcional de tu biblioteca y tus anotaciones con la carpeta <b>Neptia</b> de tu
+      propio Google Drive, para tenerla igual en el PC y en el móvil.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Tus datos</h2>
+    <p style="margin:0">Tus PDF y anotaciones están en tu dispositivo y, si conectas Google Drive, en tu
+    propia cuenta: el desarrollador no tiene acceso a ellos. Más detalles en la
+    <a href="privacidad.html">política de privacidad</a>.</p>
+  </div>
+
+  <footer>
+    © 2026 Antonio Ángel Díaz Moreno. Todos los derechos reservados.<br>
+    Desarrollado por Antonio Ángel Díaz Moreno ·
+    <a href="mailto:neptia.enterprise@gmail.com">neptia.enterprise@gmail.com</a> ·
+    <a href="privacidad.html">Privacidad</a>
+  </footer>
+</main>
+</body>
+</html>
