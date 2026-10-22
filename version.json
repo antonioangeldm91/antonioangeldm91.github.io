@@ -1,11 +1,21 @@
 {
-    "version":  "0.14.31",
-    "build":  101,
+    "version":  "0.14.32",
+    "build":  102,
     "fecha":  "2026-10-22",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Cajas giradas: el marco de seleccion y sus esquinas giran con la caja, y al estirarla desde una esquina la contraria se queda quieta.\n- Archivos internos con el nombre de Neptia: la organizacion de la biblioteca, las imagenes guardadas y el paquete de anotaciones de cada PDF (.neptia) se renombran solos, tambien en Google Drive, sin perder nada. Conviene actualizar todos los dispositivos.\n- Movil: la barra de arriba ya no se monta sobre el boton de volver; grabar, recorte, sincronizar y ocultar herramientas estan en el menu (Rapido).",
+    "notas":  "Novedades de esta version:\n- Nuevo: Editar el PDF (menu Documento, o en la biblioteca). Cambia el texto original del documento linea a linea o por parrafos, borra o mueve texto e imagenes, cambia una imagen por otra, anade texto e imagenes fijos y tapa zonas con el color del papel. Se guarda al pulsar Guardar y siempre se puede volver al PDF sin editar.\n- Las miniaturas de Ir a pagina y de Organizar paginas ensenan lo anotado (subrayados, dibujos, textos...).\n- Nuevo: Notas (post-its) fuera de los documentos, con colores, fijadas, listas de tareas, fecha y enlace a un documento.\n- Nuevo: Calendario con eventos, las notas con fecha, importar y exportar .ics y ver tu Google Calendar (direccion iCal secreta, solo lectura). Notas y eventos se sincronizan con Google Drive.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.32",
+                          "fecha":  "22/10/2026",
+                          "cambios":  [
+                                          "Nuevo: Editar el PDF (menu Documento, o en la biblioteca). Cambia el texto original del documento linea a linea o por parrafos, borra o mueve texto e imagenes, cambia una imagen por otra, anade texto e imagenes fijos y tapa zonas con el color del papel. Se guarda al pulsar Guardar y siempre se puede volver al PDF sin editar.",
+                                          "Las miniaturas de Ir a pagina y de Organizar paginas ensenan lo anotado (subrayados, dibujos, textos...).",
+                                          "Nuevo: Notas (post-its) fuera de los documentos, con colores, fijadas, listas de tareas, fecha y enlace a un documento.",
+                                          "Nuevo: Calendario con eventos, las notas con fecha, importar y exportar .ics y ver tu Google Calendar (direccion iCal secreta, solo lectura). Notas y eventos se sincronizan con Google Drive."
+                                      ]
+                      },
                       {
                           "version":  "0.14.31",
                           "fecha":  "22/10/2026",
