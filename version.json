@@ -1,11 +1,20 @@
 {
-    "version":  "0.14.30",
-    "build":  100,
+    "version":  "0.14.31",
+    "build":  101,
     "fecha":  "2026-10-22",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Menu del documento agrupado por categorias: Documento, Estudiar, Notas y marcas, Borrar, Ver y Lapiz.\n- Menu de la biblioteca con grupos: Biblioteca, Estudiar, Copias y sincronizacion, Neptia.\n- Barra de herramientas reordenada por grupos (moverse, dibujar, marcar texto, anadir, borrar), centrada y con el nombre de cada herramienta en pantallas anchas.\n- Corregir al escribir: al terminar cada palabra pone las tildes que faltan y las correcciones seguras del corrector (se puede quitar en el editor de texto).\n- Sincronizacion: ajustes para activarla o no, sincronizar al abrir y cerrar, y cada cuantos minutos (o nunca).\n- Imagen enlazada: opcion \"Pegar el recorte\" (el de Neptia o, en Windows, el de Recortes de Windows).\n- Lapiz: la punta se dibuja un poco por delante del ultimo punto para que el trazo no vaya con retraso.\n- Windows: la grabacion de audio se hace en la carpeta temporal y se mueve al parar (evita el cierre con rutas con acentos).",
+    "notas":  "Novedades de esta version:\n- Cajas giradas: el marco de seleccion y sus esquinas giran con la caja, y al estirarla desde una esquina la contraria se queda quieta.\n- Archivos internos con el nombre de Neptia: la organizacion de la biblioteca, las imagenes guardadas y el paquete de anotaciones de cada PDF (.neptia) se renombran solos, tambien en Google Drive, sin perder nada. Conviene actualizar todos los dispositivos.\n- Movil: la barra de arriba ya no se monta sobre el boton de volver; grabar, recorte, sincronizar y ocultar herramientas estan en el menu (Rapido).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.31",
+                          "fecha":  "22/10/2026",
+                          "cambios":  [
+                                          "Cajas giradas: el marco de seleccion y sus esquinas giran con la caja, y al estirarla desde una esquina la contraria se queda quieta.",
+                                          "Archivos internos con el nombre de Neptia: la organizacion de la biblioteca, las imagenes guardadas y el paquete de anotaciones de cada PDF (.neptia) se renombran solos, tambien en Google Drive, sin perder nada. Conviene actualizar todos los dispositivos.",
+                                          "Movil: la barra de arriba ya no se monta sobre el boton de volver; grabar, recorte, sincronizar y ocultar herramientas estan en el menu (Rapido)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.30",
                           "fecha":  "22/10/2026",
