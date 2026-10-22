@@ -1,8 +1,75 @@
 {
-    "version":  "0.14.26",
-    "build":  96,
+    "version":  "0.14.27",
+    "build":  97,
     "fecha":  "2026-10-22",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\r\n- Estudiar: repaso de hoy de todos los temas, racha y tiempo de estudio.\r\n- Test tipo examen con tus subrayados (con tiempo y nota), y test de tus fallos.\r\n- Tarjetas con la frase completa, el tema y la pagina.\r\n- Dudas para el profesor, historial de cambios de cada tema y resumen en esquema.\r\n- Buscar en lo escrito a mano.\r\n- Conectar Google Drive sin escribir datos del proyecto.",
-    "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8"
+    "notas":  "Novedades de esta version:\n- Historial de cambios por version en \"Buscar actualizaciones\" y en el menu.\n- Recorte: marca una zona de la pagina y se copia como imagen para pegarla en cualquier documento (y en Windows, en otras aplicaciones; en Android, para compartir).\n- Al escribir un texto o una nota: negrita, cursiva, subrayado, tachado, color y resaltado de una parte, con vista previa.\n- Corrector ortografico al escribir (el de Windows y el del movil).\n- Windows: arreglado el cierre de la app al grabar audio.",
+    "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
+    "historial":  [
+                      {
+                          "version":  "0.14.27",
+                          "fecha":  "22/10/2026",
+                          "cambios":  [
+                                          "Historial de cambios por version en \"Buscar actualizaciones\" y en el menu.",
+                                          "Recorte: marca una zona de la pagina y se copia como imagen para pegarla en cualquier documento (y en Windows, en otras aplicaciones; en Android, para compartir).",
+                                          "Al escribir un texto o una nota: negrita, cursiva, subrayado, tachado, color y resaltado de una parte, con vista previa.",
+                                          "Corrector ortografico al escribir (el de Windows y el del movil).",
+                                          "Windows: arreglado el cierre de la app al grabar audio."
+                                      ]
+                      },
+                      {
+                          "version":  "0.14.26",
+                          "fecha":  "22/10/2026",
+                          "cambios":  [
+                                          "Agrupar y desagrupar (Ctrl+G / Ctrl+Mayus+G): lo agrupado se selecciona y se mueve junto.",
+                                          "Cortar, copiar y pegar dentro de la app (tambien en otra pagina).",
+                                          "Boton \"Mas\" de la seleccion: transparencia, girar, delante/detras, color del borde, tipo de caja, tipo de letra y minimizar notas.",
+                                          "Cajas de texto nuevas: redondeada, discontinua, bocadillo, etiqueta y sello. Tipos de letra y tamanos desde 2.",
+                                          "Negrita, cursiva y color de letra en un trozo del texto de una caja o nota.",
+                                          "Tablas: color de letra y de fondo por celda.",
+                                          "Lineas y flechas que se enganchan a cajas y formas y las siguen al moverlas.",
+                                          "Sellos (APROBADO, REVISADO... con fecha) y firma guardada.",
+                                          "Sincroniza con el documento abierto, primero sube y luego baja, y solo si hay cambios. Lo anotado se sube a los 90 s de dejar de anotar. Icono de nube en el editor.",
+                                          "Continuar leyendo: se ve el comentario de cada archivo.",
+                                          "Lapiz: se ignoran los toques \"fantasma\" junto a la punta y la mano apoyada debajo.",
+                                          "Windows: se abre maximizada."
+                                      ]
+                      },
+                      {
+                          "version":  "0.14.22",
+                          "fecha":  "22/10/2026",
+                          "cambios":  [
+                                          "Iconos: mas de 150 por grupos, numeros y letras, emojis e imagenes propias.",
+                                          "Marcador de texto: volver a marcar sustituye el color en vez de oscurecer; con el mismo color, desmarca.",
+                                          "Reconocer formas: solo triangulos, cuadrados/rectangulos y circulos/ovalos.",
+                                          "Boton Salir; al cerrar guarda y sincroniza si hace mas de 5 minutos.",
+                                          "Los objetos pequenos se mueven sin deformarse.",
+                                          "Los documentos se abren con la mano y el zoom bloqueado.",
+                                          "Windows: desactivados los gestos del lapiz que podian sacar de la app."
+                                      ]
+                      },
+                      {
+                          "version":  "0.14.19",
+                          "fecha":  "22/10/2026",
+                          "cambios":  [
+                                          "Version Basica y Premium, y plan en el administrador de licencias.",
+                                          "Indice impreso de los temas reconocido como indice.",
+                                          "Se guardan los colores, grosores y estilos de las herramientas.",
+                                          "Cajas de texto y notas: color de fondo y marcas de colores en su texto.",
+                                          "Lapiz con menos retraso y desplazamiento con dos dedos mas fluido."
+                                      ]
+                      },
+                      {
+                          "version":  "Versiones anteriores",
+                          "fecha":  "",
+                          "cambios":  [
+                                          "Estudiar: repaso de hoy de todos los temas, racha y tiempo de estudio.",
+                                          "Test tipo examen con tus subrayados (con tiempo y nota), y test de tus fallos.",
+                                          "Tarjetas con la frase completa, el tema y la pagina.",
+                                          "Dudas para el profesor, historial de cambios de cada tema y resumen en esquema.",
+                                          "Buscar en lo escrito a mano.",
+                                          "Conectar Google Drive sin escribir datos del proyecto."
+                                      ]
+                      }
+                  ]
 }
