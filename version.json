@@ -1,11 +1,19 @@
 {
-    "version":  "0.14.28",
-    "build":  98,
+    "version":  "0.14.29",
+    "build":  99,
     "fecha":  "2026-10-22",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Grupos y selecciones con el lazo: se agrandan o encogen enteros desde sus esquinas, sin deformarse.\n- Cajas de texto, notas, tablas e iconos se giran a mano con el tirador de arriba (iman cada 15 grados).\n- Las lineas y flechas enganchadas siguen a la caja tambien al estirarla o al agrandar el grupo.",
+    "notas":  "Novedades de esta version:\n- Editor de texto: letra mas grande o mas pequena en lo seleccionado (o en todo el texto).\n- Recorte mas a mano: boton arriba en el editor y Ctrl+Mayus+S; despues del recorte, \"Mas\" permite copiar su texto o compartir la imagen.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.29",
+                          "fecha":  "22/10/2026",
+                          "cambios":  [
+                                          "Editor de texto: letra mas grande o mas pequena en lo seleccionado (o en todo el texto).",
+                                          "Recorte mas a mano: boton arriba en el editor y Ctrl+Mayus+S; despues del recorte, \"Mas\" permite copiar su texto o compartir la imagen."
+                                      ]
+                      },
                       {
                           "version":  "0.14.28",
                           "fecha":  "22/10/2026",
