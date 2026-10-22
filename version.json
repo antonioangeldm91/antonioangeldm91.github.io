@@ -1,11 +1,20 @@
 {
-    "version":  "0.14.27",
-    "build":  97,
+    "version":  "0.14.28",
+    "build":  98,
     "fecha":  "2026-10-22",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Historial de cambios por version en \"Buscar actualizaciones\" y en el menu.\n- Recorte: marca una zona de la pagina y se copia como imagen para pegarla en cualquier documento (y en Windows, en otras aplicaciones; en Android, para compartir).\n- Al escribir un texto o una nota: negrita, cursiva, subrayado, tachado, color y resaltado de una parte, con vista previa.\n- Corrector ortografico al escribir (el de Windows y el del movil).\n- Windows: arreglado el cierre de la app al grabar audio.",
+    "notas":  "Novedades de esta version:\n- Grupos y selecciones con el lazo: se agrandan o encogen enteros desde sus esquinas, sin deformarse.\n- Cajas de texto, notas, tablas e iconos se giran a mano con el tirador de arriba (iman cada 15 grados).\n- Las lineas y flechas enganchadas siguen a la caja tambien al estirarla o al agrandar el grupo.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.28",
+                          "fecha":  "22/10/2026",
+                          "cambios":  [
+                                          "Grupos y selecciones con el lazo: se agrandan o encogen enteros desde sus esquinas, sin deformarse.",
+                                          "Cajas de texto, notas, tablas e iconos se giran a mano con el tirador de arriba (iman cada 15 grados).",
+                                          "Las lineas y flechas enganchadas siguen a la caja tambien al estirarla o al agrandar el grupo."
+                                      ]
+                      },
                       {
                           "version":  "0.14.27",
                           "fecha":  "22/10/2026",
