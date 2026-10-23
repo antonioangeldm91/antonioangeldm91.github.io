@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.41",
-    "build":  111,
+    "version":  "0.14.42",
+    "build":  112,
     "fecha":  "2026-10-23",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Cuadro de dibujo: puede llevar titulo (Ajustes de lo seleccionado), que se ve arriba y en la pestana al plegarlo; ahi tambien se pliega o despliega. El interruptor \"Minimizada\" era solo para cajas de texto y no se movia si habia algo mas seleccionado delante: ahora dice que es para las cajas y refleja su estado.",
+    "notas":  "Novedades de esta version:\n- Biblioteca: en \"Continuar leyendo\", mantener pulsado un archivo (o clic derecho en Windows) abre sus opciones: comentario, exportar PDF, editar, mover, renombrar...",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.42",
+                          "fecha":  "23/10/2026",
+                          "cambios":  [
+                                          "Biblioteca: en \"Continuar leyendo\", mantener pulsado un archivo (o clic derecho en Windows) abre sus opciones: comentario, exportar PDF, editar, mover, renombrar..."
+                                      ]
+                      },
                       {
                           "version":  "0.14.41",
                           "fecha":  "23/10/2026",
@@ -149,17 +156,6 @@
                                           "Los objetos pequenos se mueven sin deformarse.",
                                           "Los documentos se abren con la mano y el zoom bloqueado.",
                                           "Windows: desactivados los gestos del lapiz que podian sacar de la app."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.19",
-                          "fecha":  "22/10/2026",
-                          "cambios":  [
-                                          "Version Basica y Premium, y plan en el administrador de licencias.",
-                                          "Indice impreso de los temas reconocido como indice.",
-                                          "Se guardan los colores, grosores y estilos de las herramientas.",
-                                          "Cajas de texto y notas: color de fondo y marcas de colores en su texto.",
-                                          "Lapiz con menos retraso y desplazamiento con dos dedos mas fluido."
                                       ]
                       }
                   ]
