@@ -1,11 +1,28 @@
 {
-    "version":  "0.14.32",
-    "build":  102,
-    "fecha":  "2026-10-22",
+    "version":  "0.14.35",
+    "build":  105,
+    "fecha":  "2026-10-23",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Nuevo: Editar el PDF (menu Documento, o en la biblioteca). Cambia el texto original del documento linea a linea o por parrafos, borra o mueve texto e imagenes, cambia una imagen por otra, anade texto e imagenes fijos y tapa zonas con el color del papel. Se guarda al pulsar Guardar y siempre se puede volver al PDF sin editar.\n- Las miniaturas de Ir a pagina y de Organizar paginas ensenan lo anotado (subrayados, dibujos, textos...).\n- Nuevo: Notas (post-its) fuera de los documentos, con colores, fijadas, listas de tareas, fecha y enlace a un documento.\n- Nuevo: Calendario con eventos, las notas con fecha, importar y exportar .ics y ver tu Google Calendar (direccion iCal secreta, solo lectura). Notas y eventos se sincronizan con Google Drive.",
+    "notas":  "Novedades de esta version:\n- Tablas: en cada celda se puede poner en negrita, cursiva, subrayado, tachado, color o resaltado solo un trozo del texto, y cambiar su tamano (selecciona y pulsa el boton). Corregir al escribir tambien en las celdas.\n- Notas (post-its): formato de una parte del texto como en las cajas de texto.\n- Corregir al escribir tambien en las dudas, la nota de las imagenes enlazadas y los eventos del calendario.\n- Nuevo: cuadro de dibujo plegable (en Formas). Lo haces del tamano que quieras, lo que dibujas o escribes dentro va con el, y con el boton ^ se pliega a una pestana y deja ver lo que tapaba.\n- Android: tinta rapida tambien (el trazo del lapiz se ve al instante y Android entrega el lapiz sin esperar al fotograma).\n- Barra de herramientas: Marcar texto va justo despues de Seleccionar.\n- Windows: tinta rapida. El trazo del boligrafo se dibuja al instante en cuanto llega del lapiz (como en Paint) y Neptia lo sustituye por el trazo normal al levantarlo. Se puede quitar en el menu Lapiz.\n- Editar el PDF: al cambiar texto se usa por defecto una letra estandar parecida (reusar la letra del PDF cerraba la app en algunos documentos; queda como opcion experimental).\n- Lapiz: el trazo se dibuja con curvas que pasan por todos los puntos (la escritura rapida ya no sale a tramos rectos) y la punta estimada sigue la curva.\n- Buscar actualizaciones: quitado el boton \"No avisar de esta version\".\n- Nuevo: sincronizacion automatica con Google Calendar (Calendario \u003e Google Calendar). Tus eventos de Neptia van al calendario \"Neptia\" de tu cuenta y vuelven los cambios hechos alli; tus otros calendarios de Google se ven en Neptia.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.35",
+                          "fecha":  "23/10/2026",
+                          "cambios":  [
+                                          "Tablas: en cada celda se puede poner en negrita, cursiva, subrayado, tachado, color o resaltado solo un trozo del texto, y cambiar su tamano (selecciona y pulsa el boton). Corregir al escribir tambien en las celdas.",
+                                          "Notas (post-its): formato de una parte del texto como en las cajas de texto.",
+                                          "Corregir al escribir tambien en las dudas, la nota de las imagenes enlazadas y los eventos del calendario.",
+                                          "Nuevo: cuadro de dibujo plegable (en Formas). Lo haces del tamano que quieras, lo que dibujas o escribes dentro va con el, y con el boton ^ se pliega a una pestana y deja ver lo que tapaba.",
+                                          "Android: tinta rapida tambien (el trazo del lapiz se ve al instante y Android entrega el lapiz sin esperar al fotograma).",
+                                          "Barra de herramientas: Marcar texto va justo despues de Seleccionar.",
+                                          "Windows: tinta rapida. El trazo del boligrafo se dibuja al instante en cuanto llega del lapiz (como en Paint) y Neptia lo sustituye por el trazo normal al levantarlo. Se puede quitar en el menu Lapiz.",
+                                          "Editar el PDF: al cambiar texto se usa por defecto una letra estandar parecida (reusar la letra del PDF cerraba la app en algunos documentos; queda como opcion experimental).",
+                                          "Lapiz: el trazo se dibuja con curvas que pasan por todos los puntos (la escritura rapida ya no sale a tramos rectos) y la punta estimada sigue la curva.",
+                                          "Buscar actualizaciones: quitado el boton \"No avisar de esta version\".",
+                                          "Nuevo: sincronizacion automatica con Google Calendar (Calendario \u003e Google Calendar). Tus eventos de Neptia van al calendario \"Neptia\" de tu cuenta y vuelven los cambios hechos alli; tus otros calendarios de Google se ven en Neptia."
+                                      ]
+                      },
                       {
                           "version":  "0.14.32",
                           "fecha":  "22/10/2026",
