@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.40",
-    "build":  110,
+    "version":  "0.14.41",
+    "build":  111,
     "fecha":  "2026-10-23",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Cuadro de dibujo: lo que arrastras dentro (con el cuadro desplegado) pasa a ser suyo y se pliega con el; lo que sacas de el deja de serlo. Lo de dentro se selecciona suelto al tocarlo; el cuadro entero, tocando su borde.\n- Cuadro de dibujo: al plegarlo a veces seguia viendose lo de dentro y las cajas de texto salian como notas (pasaba si el cuadro se habia copiado, duplicado, agrupado o desagrupado). Ya no pasa, y los cuadros que estaban asi se arreglan solos al plegarlos.",
+    "notas":  "Novedades de esta version:\n- Cuadro de dibujo: puede llevar titulo (Ajustes de lo seleccionado), que se ve arriba y en la pestana al plegarlo; ahi tambien se pliega o despliega. El interruptor \"Minimizada\" era solo para cajas de texto y no se movia si habia algo mas seleccionado delante: ahora dice que es para las cajas y refleja su estado.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.41",
+                          "fecha":  "23/10/2026",
+                          "cambios":  [
+                                          "Cuadro de dibujo: puede llevar titulo (Ajustes de lo seleccionado), que se ve arriba y en la pestana al plegarlo; ahi tambien se pliega o despliega. El interruptor \"Minimizada\" era solo para cajas de texto y no se movia si habia algo mas seleccionado delante: ahora dice que es para las cajas y refleja su estado."
+                                      ]
+                      },
                       {
                           "version":  "0.14.40",
                           "fecha":  "23/10/2026",
@@ -153,18 +160,6 @@
                                           "Se guardan los colores, grosores y estilos de las herramientas.",
                                           "Cajas de texto y notas: color de fondo y marcas de colores en su texto.",
                                           "Lapiz con menos retraso y desplazamiento con dos dedos mas fluido."
-                                      ]
-                      },
-                      {
-                          "version":  "Versiones anteriores",
-                          "fecha":  "",
-                          "cambios":  [
-                                          "Estudiar: repaso de hoy de todos los temas, racha y tiempo de estudio.",
-                                          "Test tipo examen con tus subrayados (con tiempo y nota), y test de tus fallos.",
-                                          "Tarjetas con la frase completa, el tema y la pagina.",
-                                          "Dudas para el profesor, historial de cambios de cada tema y resumen en esquema.",
-                                          "Buscar en lo escrito a mano.",
-                                          "Conectar Google Drive sin escribir datos del proyecto."
                                       ]
                       }
                   ]
