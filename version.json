@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.37",
-    "build":  107,
+    "version":  "0.14.38",
+    "build":  108,
     "fecha":  "2026-10-23",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Cuadro de dibujo: dentro tambien se puede escribir (cajas de texto), y las formas, tablas o iconos van con el. La goma ya no se lleva el cuadro al borrar lo de dentro.",
+    "notas":  "Novedades de esta version:\n- Editar el PDF: nuevo \"Convertir el texto del OCR en editable\" (menu de los tres puntos, esta pagina o todas). En una pagina escaneada a la que se ha pasado el OCR, cada linea reconocida se tapa con el color del papel y se escribe encima como texto de verdad del PDF, del mismo color y ancho, que luego se cambia como cualquier otro. Se puede deshacer y volver al PDF sin editar (tambien recupera el OCR).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.38",
+                          "fecha":  "23/10/2026",
+                          "cambios":  [
+                                          "Editar el PDF: nuevo \"Convertir el texto del OCR en editable\" (menu de los tres puntos, esta pagina o todas). En una pagina escaneada a la que se ha pasado el OCR, cada linea reconocida se tapa con el color del papel y se escribe encima como texto de verdad del PDF, del mismo color y ancho, que luego se cambia como cualquier otro. Se puede deshacer y volver al PDF sin editar (tambien recupera el OCR)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.37",
                           "fecha":  "23/10/2026",
