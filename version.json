@@ -1,9 +1,9 @@
 {
-    "version":  "0.14.51",
-    "build":  121,
+    "version":  "0.14.53",
+    "build":  123,
     "fecha":  "2026-10-25",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Teclado: si el acento salia suelto (\"´a\" en vez de \"á\"), ahora se junta con la vocal en las cajas de texto, notas, tablas y dudas. Autocorrector de tildes propio (sin depender del corrector de Windows o Android): tambien, despues, aqui, pagina, espanol..., y las terminadas en -cion/-sion/-gion. No toca palabras que valen sin tilde (esta, solo, orden...).",
+    "notas":  "Novedades de esta version:\r\n- Estudiar: repaso de hoy de todos los temas, racha y tiempo de estudio.\r\n- Test tipo examen con tus subrayados (con tiempo y nota), y test de tus fallos.\r\n- Tarjetas con la frase completa, el tema y la pagina.\r\n- Dudas para el profesor, historial de cambios de cada tema y resumen en esquema.\r\n- Buscar en lo escrito a mano.\r\n- Conectar Google Drive sin escribir datos del proyecto.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
                       {
