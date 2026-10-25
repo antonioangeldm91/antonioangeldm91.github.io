@@ -1,11 +1,19 @@
 {
-    "version":  "0.14.47",
-    "build":  117,
+    "version":  "0.14.48",
+    "build":  118,
     "fecha":  "2026-10-25",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Modo libro: nuevo Modo texto, como un Kindle (boton del libro abierto, arriba): el texto se vuelve a colocar con la letra del tamano que elijas (A- / A+ o Ctrl + rueda) y lo que no cabe pasa a la pantalla siguiente; se recuerda la letra y, para cada documento, si lo lees asi. Muestra la pagina del PDF y el % leido. Solo texto (sin imagenes ni anotaciones).\n- Modo libro: zoom con dos dedos, Ctrl + rueda o los botones de la lupa (arriba). La pagina se dibuja nitida, el zoom se mantiene al pasar de pagina (se empieza por arriba) y se guarda para cada documento. Con zoom, un dedo mueve la parte ampliada y las paginas se pasan con las flechas o tocando los lados. En horizontal sale una sola pagina; las dos paginas a la vez siguen en el boton de arriba.",
+    "notas":  "Novedades de esta version:\n- Libros electronicos (ePub...): al importarlos se abren directamente en modo lectura; al salir, en la barra de arriba del editor queda el icono del libro para volver al modo lectura.\n- Corregido: con un cuadro de dibujo, la goma ya solo borra lo de dentro del cuadro; no se lleva el subrayado ni el resaltado que haya debajo.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.48",
+                          "fecha":  "25/10/2026",
+                          "cambios":  [
+                                          "Libros electronicos (ePub...): al importarlos se abren directamente en modo lectura; al salir, en la barra de arriba del editor queda el icono del libro para volver al modo lectura.",
+                                          "Corregido: con un cuadro de dibujo, la goma ya solo borra lo de dentro del cuadro; no se lleva el subrayado ni el resaltado que haya debajo."
+                                      ]
+                      },
                       {
                           "version":  "0.14.47",
                           "fecha":  "25/10/2026",
@@ -148,17 +156,6 @@
                                           "Grupos y selecciones con el lazo: se agrandan o encogen enteros desde sus esquinas, sin deformarse.",
                                           "Cajas de texto, notas, tablas e iconos se giran a mano con el tirador de arriba (iman cada 15 grados).",
                                           "Las lineas y flechas enganchadas siguen a la caja tambien al estirarla o al agrandar el grupo."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.27",
-                          "fecha":  "22/10/2026",
-                          "cambios":  [
-                                          "Historial de cambios por version en \"Buscar actualizaciones\" y en el menu.",
-                                          "Recorte: marca una zona de la pagina y se copia como imagen para pegarla en cualquier documento (y en Windows, en otras aplicaciones; en Android, para compartir).",
-                                          "Al escribir un texto o una nota: negrita, cursiva, subrayado, tachado, color y resaltado de una parte, con vista previa.",
-                                          "Corrector ortografico al escribir (el de Windows y el del movil).",
-                                          "Windows: arreglado el cierre de la app al grabar audio."
                                       ]
                       }
                   ]
