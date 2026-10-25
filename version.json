@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.48",
-    "build":  118,
+    "version":  "0.14.49",
+    "build":  119,
     "fecha":  "2026-10-25",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Libros electronicos (ePub...): al importarlos se abren directamente en modo lectura; al salir, en la barra de arriba del editor queda el icono del libro para volver al modo lectura.\n- Corregido: con un cuadro de dibujo, la goma ya solo borra lo de dentro del cuadro; no se lleva el subrayado ni el resaltado que haya debajo.",
+    "notas":  "Novedades de esta version:\n- Enlaces de texto y de pizarra: con la herramienta de enlace (Imagen o texto) ahora puedes enlazar a una frase o zona, ademas de una imagen, un texto con formato y listas (reglas mnemotecnicas, definiciones...) que sale en una ventana flotante al tocarlo (con Editar y Eliminar), o una pizarra: una pagina en blanco para escribir y dibujar con todas las herramientas. Se guardan en el propio documento y viajan con el. Al exportar el PDF aplanado, los enlaces de texto y de pizarra se ven marcados pero su contenido no se incluye.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.49",
+                          "fecha":  "25/10/2026",
+                          "cambios":  [
+                                          "Enlaces de texto y de pizarra: con la herramienta de enlace (Imagen o texto) ahora puedes enlazar a una frase o zona, ademas de una imagen, un texto con formato y listas (reglas mnemotecnicas, definiciones...) que sale en una ventana flotante al tocarlo (con Editar y Eliminar), o una pizarra: una pagina en blanco para escribir y dibujar con todas las herramientas. Se guardan en el propio documento y viajan con el. Al exportar el PDF aplanado, los enlaces de texto y de pizarra se ven marcados pero su contenido no se incluye."
+                                      ]
+                      },
                       {
                           "version":  "0.14.48",
                           "fecha":  "25/10/2026",
@@ -147,15 +154,6 @@
                           "cambios":  [
                                           "Editor de texto: letra mas grande o mas pequena en lo seleccionado (o en todo el texto).",
                                           "Recorte mas a mano: boton arriba en el editor y Ctrl+Mayus+S; despues del recorte, \"Mas\" permite copiar su texto o compartir la imagen."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.28",
-                          "fecha":  "22/10/2026",
-                          "cambios":  [
-                                          "Grupos y selecciones con el lazo: se agrandan o encogen enteros desde sus esquinas, sin deformarse.",
-                                          "Cajas de texto, notas, tablas e iconos se giran a mano con el tirador de arriba (iman cada 15 grados).",
-                                          "Las lineas y flechas enganchadas siguen a la caja tambien al estirarla o al agrandar el grupo."
                                       ]
                       }
                   ]
