@@ -1,11 +1,19 @@
 {
-    "version":  "0.14.46",
-    "build":  116,
-    "fecha":  "2026-10-24",
+    "version":  "0.14.47",
+    "build":  117,
+    "fecha":  "2026-10-25",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Alinear el texto (izquierda, centrado, derecha y justificado) en las cajas de texto, las notas y cada celda de las tablas: botones junto al formato, y tambien en Ajustes de lo seleccionado (para varias cajas o una tabla entera).\n- Listas como en Word en las cajas de texto, notas y tablas: boton de listas (vinetas, guiones, 1. 2., 1) 2), a) b), a. b., A. B.) y, si empiezas una linea con \"1. \", \"a) \", \"- \" o \"* \", al pulsar Intro sigue sola con el siguiente; Intro en un elemento vacio termina la lista.\n- Nuevo: aviso legal y privacidad. Se pide aceptarlo una vez al empezar y se puede leer en el menu (Aviso legal y privacidad): los archivos son responsabilidad del usuario y el desarrollador no responde de perdidas, errores ni de la difusion de archivos, en la medida en que la ley lo permita.\n- Nuevo: actualizar un tema con su version nueva sin perder lo anotado (menu del archivo). Cada pagina se empareja con la nueva que mas se le parece y los subrayados, notas y dibujos se llevan sobre su mismo texto. La version anterior se guarda aparte, con sus marcas.\n- Organizar paginas: al sustituir una pagina por su version nueva, sus anotaciones se pueden pasar a la nueva (sobre su mismo texto).\n- Nuevo: comparar dos documentos (menu del archivo): que se ha anadido, quitado o cambiado, palabra a palabra. Para leyes, por articulos y disposiciones (nuevo, suprimido, modificado).\n- Al anadir un PDF que ya esta en la biblioteca, avisa (abrir el que tienes o anadir otra copia); si tiene el mismo nombre que otro, ofrece compararlos o actualizarlo como version nueva.\n- Nuevo: rellenar formularios PDF (menu del archivo, menu Documento, y aviso al abrir un PDF que lo tiene). Se toca cada campo: texto, casillas, opciones y desplegables. Se guarda dentro del PDF como en Acrobat. Boton para ir al siguiente campo vacio; los obligatorios se marcan en rojo.\n- Nuevo: inspector de privacidad (menu del archivo o Documento). Busca DNI/NIE, telefonos, correos, IBAN, tarjetas, numeros de la Seguridad Social y matriculas, y los borra de verdad (no solo los tapa). Tambien guarda una copia limpia sin datos ocultos (autor, programa, adjuntos...).\n- Editar el PDF: nueva herramienta \"Borrar de verdad\": lo que hay en la zona desaparece del PDF (la pagina pasa a ser imagen). \"Tapar zona\" solo tapa.\n- Nuevo: reducir tamano (comprime las imagenes sin tocar el texto, o reduccion maxima), extraer paginas a otro documento, dividir en varios y unir varios documentos (seleccionalos y pulsa Unir). Las anotaciones van con sus paginas.\n- Nuevo: Imprimir (menu del archivo y menu Documento), con o sin las anotaciones. En Windows sale el dialogo de imprimir de Windows (impresora, paginas, copias); en Android, el servicio de impresion del movil.\n- Enlaces del PDF: con la herramienta Mano se pueden tocar los enlaces (indices, \"ver articulo...\", paginas web; las webs preguntan antes de abrirse). Dibujando no se siguen.\n- PDF con contrasena: al abrirlo se pide la contrasena una vez y Neptia guarda su copia sin proteccion (el original no se toca). Tambien se quitan las restricciones de \"no imprimir / no copiar\".\n- Sincronizacion \u003e Registro: botones \"Enviar registro\" (correo, WhatsApp, Drive... o guardarlo en Windows) y \"Copiar\", con la version y el sistema, para mandar los fallos.\n- Nuevo: modo presentacion (menu Ver, o \"Presentar\" en el menu del archivo), para PDF y PowerPoint: pantalla completa en negro, las diapositivas se pasan solas (3 a 60 segundos, con barrita de tiempo); con pausa se pasan a mano con las flechas, el teclado o tocando los lados. Opcion de volver a empezar al acabar.\n- Nuevo: modo libro (menu Ver, o tecla Esc para salir). Sin herramientas, pagina a pagina con flechas, deslizando, tocando los lados, con la rueda o las flechas del teclado, y \"Pagina x de y\". En horizontal, dos paginas como un libro abierto. Se ven las anotaciones. La pagina por la que vas se guarda al momento y se sincroniza con Google Drive: al volver a abrirlo, aqui o en otro dispositivo, sigue por ahi.\n- Nuevo: libros electronicos. Se pueden abrir EPUB, FB2, FBZ y comics CBZ (en formato simplificado: texto, titulos, tablas e imagenes). En Windows, con Calibre instalado, tambien MOBI, AZW y AZW3 y se conserva mas formato. Los libros con DRM no se pueden abrir.\n- Nuevo: Convertir (menu del archivo y menu Documento): a imagenes (PNG o JPG, una por pagina, con o sin anotaciones), a Word (con Microsoft Word en Windows, o version sencilla con el texto, o con las paginas como imagenes), a Excel (una hoja por pagina, texto en columnas) y a texto. Las paginas escaneadas usan el texto del OCR.\n- Nuevo: Convertir archivos sin anadirlos a la biblioteca (boton Nuevo): Word, Excel, PowerPoint, imagenes, libros... a PDF, imagenes, Word, Excel o texto. Varias imagenes juntas se unen en un PDF.",
+    "notas":  "Novedades de esta version:\n- Modo libro: nuevo Modo texto, como un Kindle (boton del libro abierto, arriba): el texto se vuelve a colocar con la letra del tamano que elijas (A- / A+ o Ctrl + rueda) y lo que no cabe pasa a la pantalla siguiente; se recuerda la letra y, para cada documento, si lo lees asi. Muestra la pagina del PDF y el % leido. Solo texto (sin imagenes ni anotaciones).\n- Modo libro: zoom con dos dedos, Ctrl + rueda o los botones de la lupa (arriba). La pagina se dibuja nitida, el zoom se mantiene al pasar de pagina (se empieza por arriba) y se guarda para cada documento. Con zoom, un dedo mueve la parte ampliada y las paginas se pasan con las flechas o tocando los lados. En horizontal sale una sola pagina; las dos paginas a la vez siguen en el boton de arriba.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.47",
+                          "fecha":  "25/10/2026",
+                          "cambios":  [
+                                          "Modo libro: nuevo Modo texto, como un Kindle (boton del libro abierto, arriba): el texto se vuelve a colocar con la letra del tamano que elijas (A- / A+ o Ctrl + rueda) y lo que no cabe pasa a la pantalla siguiente; se recuerda la letra y, para cada documento, si lo lees asi. Muestra la pagina del PDF y el % leido. Solo texto (sin imagenes ni anotaciones).",
+                                          "Modo libro: zoom con dos dedos, Ctrl + rueda o los botones de la lupa (arriba). La pagina se dibuja nitida, el zoom se mantiene al pasar de pagina (se empieza por arriba) y se guarda para cada documento. Con zoom, un dedo mueve la parte ampliada y las paginas se pasan con las flechas o tocando los lados. En horizontal sale una sola pagina; las dos paginas a la vez siguen en el boton de arriba."
+                                      ]
+                      },
                       {
                           "version":  "0.14.46",
                           "fecha":  "24/10/2026",
@@ -151,24 +159,6 @@
                                           "Al escribir un texto o una nota: negrita, cursiva, subrayado, tachado, color y resaltado de una parte, con vista previa.",
                                           "Corrector ortografico al escribir (el de Windows y el del movil).",
                                           "Windows: arreglado el cierre de la app al grabar audio."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.26",
-                          "fecha":  "22/10/2026",
-                          "cambios":  [
-                                          "Agrupar y desagrupar (Ctrl+G / Ctrl+Mayus+G): lo agrupado se selecciona y se mueve junto.",
-                                          "Cortar, copiar y pegar dentro de la app (tambien en otra pagina).",
-                                          "Boton \"Mas\" de la seleccion: transparencia, girar, delante/detras, color del borde, tipo de caja, tipo de letra y minimizar notas.",
-                                          "Cajas de texto nuevas: redondeada, discontinua, bocadillo, etiqueta y sello. Tipos de letra y tamanos desde 2.",
-                                          "Negrita, cursiva y color de letra en un trozo del texto de una caja o nota.",
-                                          "Tablas: color de letra y de fondo por celda.",
-                                          "Lineas y flechas que se enganchan a cajas y formas y las siguen al moverlas.",
-                                          "Sellos (APROBADO, REVISADO... con fecha) y firma guardada.",
-                                          "Sincroniza con el documento abierto, primero sube y luego baja, y solo si hay cambios. Lo anotado se sube a los 90 s de dejar de anotar. Icono de nube en el editor.",
-                                          "Continuar leyendo: se ve el comentario de cada archivo.",
-                                          "Lapiz: se ignoran los toques \"fantasma\" junto a la punta y la mano apoyada debajo.",
-                                          "Windows: se abre maximizada."
                                       ]
                       }
                   ]
