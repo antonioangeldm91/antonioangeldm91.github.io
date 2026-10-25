@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.49",
-    "build":  119,
+    "version":  "0.14.51",
+    "build":  121,
     "fecha":  "2026-10-25",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Enlaces de texto y de pizarra: con la herramienta de enlace (Imagen o texto) ahora puedes enlazar a una frase o zona, ademas de una imagen, un texto con formato y listas (reglas mnemotecnicas, definiciones...) que sale en una ventana flotante al tocarlo (con Editar y Eliminar), o una pizarra: una pagina en blanco para escribir y dibujar con todas las herramientas. Se guardan en el propio documento y viajan con el. Al exportar el PDF aplanado, los enlaces de texto y de pizarra se ven marcados pero su contenido no se incluye.",
+    "notas":  "Novedades de esta version:\n- Teclado: si el acento salia suelto (\"´a\" en vez de \"á\"), ahora se junta con la vocal en las cajas de texto, notas, tablas y dudas. Autocorrector de tildes propio (sin depender del corrector de Windows o Android): tambien, despues, aqui, pagina, espanol..., y las terminadas en -cion/-sion/-gion. No toca palabras que valen sin tilde (esta, solo, orden...).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.51",
+                          "fecha":  "25/10/2026",
+                          "cambios":  [
+                                          "Teclado: si el acento salia suelto (\"´a\" en vez de \"á\"), ahora se junta con la vocal en las cajas de texto, notas, tablas y dudas. Autocorrector de tildes propio (sin depender del corrector de Windows o Android): tambien, despues, aqui, pagina, espanol..., y las terminadas en -cion/-sion/-gion. No toca palabras que valen sin tilde (esta, solo, orden...)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.49",
                           "fecha":  "25/10/2026",
@@ -146,14 +153,6 @@
                                           "Imagen enlazada: opcion \"Pegar el recorte\" (el de Neptia o, en Windows, el de Recortes de Windows).",
                                           "Lapiz: la punta se dibuja un poco por delante del ultimo punto para que el trazo no vaya con retraso.",
                                           "Windows: la grabacion de audio se hace en la carpeta temporal y se mueve al parar (evita el cierre con rutas con acentos)."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.29",
-                          "fecha":  "22/10/2026",
-                          "cambios":  [
-                                          "Editor de texto: letra mas grande o mas pequena en lo seleccionado (o en todo el texto).",
-                                          "Recorte mas a mano: boton arriba en el editor y Ctrl+Mayus+S; despues del recorte, \"Mas\" permite copiar su texto o compartir la imagen."
                                       ]
                       }
                   ]
