@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.56",
-    "build":  126,
+    "version":  "0.14.57",
+    "build":  127,
     "fecha":  "2026-10-28",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Hipervinculos propios: con la herramienta de enlace puedes enlazar una frase o zona a una pagina web o a otra pagina del documento (ademas de imagen, texto o pizarra). Se ven con un icono de flecha.\n- Imagenes dentro de cuadros de texto y de celdas de tabla (debajo del texto): boton de imagen en los editores. Se guardan con el documento y salen al exportar.\n- Editar la imagen de un enlace: pintar y escribir encima, recortar y mejorar (luz, contraste, color; Mejorar y Documento). Se guarda como imagen nueva.\n- Ctrl+V pega la imagen copiada en el documento y en las pizarras.\n- El icono de la nube del documento cambia de color al guardar o sincronizar y, al tocarlo, ensena la fecha y hora de la ultima sincronizacion.\n- Editores de tabla y de texto: se ajustan a la pantalla (tablet y movil), con boton de pantalla completa, barra de menus (Editar, Ver, Insertar, Formato, Tabla, Herramientas, Ayuda), deshacer y rehacer, contador de palabras, fecha y hora y simbolos.\n- Pizarras: el boton de Atras ya no te saca del documento, cierra el panel. Ahora al abrir el panel ves la lista de pizarras una debajo de otra; al tocar una se abre. Boton de pantalla completa, panel a izquierda o derecha, transparencia del panel y boton flotante propio para cada pizarra (chincheta).\n- Con el raton, la rueda sube y baja el documento aunque este activa una herramienta de dibujo o texto.\n- Mientras haya un aviso de actualizacion sin decidir (o instalandose) no se sincroniza solo con Google; hasta que pulses Actualizar o Ahora no.\n- Continuar leyendo: se ven las etiquetas y se puede quitar un documento (X o mantener pulsado), sin borrarlo.",
+    "notas":  "Novedades de esta version:\n- Insertar imagen: boton nuevo (barra de arriba, o menu Rapido en pizarras y movil) que pone la imagen a la vista en la pagina, para mover y cambiar de tamano. Ctrl+V tambien. Enlazar una imagen sigue siendo para verla al tocar la frase.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.57",
+                          "fecha":  "28/10/2026",
+                          "cambios":  [
+                                          "Insertar imagen: boton nuevo (barra de arriba, o menu Rapido en pizarras y movil) que pone la imagen a la vista en la pagina, para mover y cambiar de tamano. Ctrl+V tambien. Enlazar una imagen sigue siendo para verla al tocar la frase."
+                                      ]
+                      },
                       {
                           "version":  "0.14.56",
                           "fecha":  "28/10/2026",
@@ -143,16 +150,6 @@
                                           "Lapiz: el trazo se dibuja con curvas que pasan por todos los puntos (la escritura rapida ya no sale a tramos rectos) y la punta estimada sigue la curva.",
                                           "Buscar actualizaciones: quitado el boton \"No avisar de esta version\".",
                                           "Nuevo: sincronizacion automatica con Google Calendar (Calendario \u003e Google Calendar). Tus eventos de Neptia van al calendario \"Neptia\" de tu cuenta y vuelven los cambios hechos alli; tus otros calendarios de Google se ven en Neptia."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.32",
-                          "fecha":  "22/10/2026",
-                          "cambios":  [
-                                          "Nuevo: Editar el PDF (menu Documento, o en la biblioteca). Cambia el texto original del documento linea a linea o por parrafos, borra o mueve texto e imagenes, cambia una imagen por otra, anade texto e imagenes fijos y tapa zonas con el color del papel. Se guarda al pulsar Guardar y siempre se puede volver al PDF sin editar.",
-                                          "Las miniaturas de Ir a pagina y de Organizar paginas ensenan lo anotado (subrayados, dibujos, textos...).",
-                                          "Nuevo: Notas (post-its) fuera de los documentos, con colores, fijadas, listas de tareas, fecha y enlace a un documento.",
-                                          "Nuevo: Calendario con eventos, las notas con fecha, importar y exportar .ics y ver tu Google Calendar (direccion iCal secreta, solo lectura). Notas y eventos se sincronizan con Google Drive."
                                       ]
                       }
                   ]
