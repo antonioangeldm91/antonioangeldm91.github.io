@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.57",
-    "build":  127,
+    "version":  "0.14.58",
+    "build":  128,
     "fecha":  "2026-10-28",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Insertar imagen: boton nuevo (barra de arriba, o menu Rapido en pizarras y movil) que pone la imagen a la vista en la pagina, para mover y cambiar de tamano. Ctrl+V tambien. Enlazar una imagen sigue siendo para verla al tocar la frase.",
+    "notas":  "Novedades de esta version:\n- Pizarras: Atras dentro de una pizarra vuelve a la lista de pizarras (y solo al volver a darle cierra el panel).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.58",
+                          "fecha":  "28/10/2026",
+                          "cambios":  [
+                                          "Pizarras: Atras dentro de una pizarra vuelve a la lista de pizarras (y solo al volver a darle cierra el panel)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.57",
                           "fecha":  "28/10/2026",
@@ -133,23 +140,6 @@
                           "fecha":  "23/10/2026",
                           "cambios":  [
                                           "Cuadro de dibujo: dentro tambien se puede escribir (cajas de texto), y las formas, tablas o iconos van con el. La goma ya no se lleva el cuadro al borrar lo de dentro."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.35",
-                          "fecha":  "23/10/2026",
-                          "cambios":  [
-                                          "Tablas: en cada celda se puede poner en negrita, cursiva, subrayado, tachado, color o resaltado solo un trozo del texto, y cambiar su tamano (selecciona y pulsa el boton). Corregir al escribir tambien en las celdas.",
-                                          "Notas (post-its): formato de una parte del texto como en las cajas de texto.",
-                                          "Corregir al escribir tambien en las dudas, la nota de las imagenes enlazadas y los eventos del calendario.",
-                                          "Nuevo: cuadro de dibujo plegable (en Formas). Lo haces del tamano que quieras, lo que dibujas o escribes dentro va con el, y con el boton ^ se pliega a una pestana y deja ver lo que tapaba.",
-                                          "Android: tinta rapida tambien (el trazo del lapiz se ve al instante y Android entrega el lapiz sin esperar al fotograma).",
-                                          "Barra de herramientas: Marcar texto va justo despues de Seleccionar.",
-                                          "Windows: tinta rapida. El trazo del boligrafo se dibuja al instante en cuanto llega del lapiz (como en Paint) y Neptia lo sustituye por el trazo normal al levantarlo. Se puede quitar en el menu Lapiz.",
-                                          "Editar el PDF: al cambiar texto se usa por defecto una letra estandar parecida (reusar la letra del PDF cerraba la app en algunos documentos; queda como opcion experimental).",
-                                          "Lapiz: el trazo se dibuja con curvas que pasan por todos los puntos (la escritura rapida ya no sale a tramos rectos) y la punta estimada sigue la curva.",
-                                          "Buscar actualizaciones: quitado el boton \"No avisar de esta version\".",
-                                          "Nuevo: sincronizacion automatica con Google Calendar (Calendario \u003e Google Calendar). Tus eventos de Neptia van al calendario \"Neptia\" de tu cuenta y vuelven los cambios hechos alli; tus otros calendarios de Google se ven en Neptia."
                                       ]
                       }
                   ]
