@@ -1,11 +1,27 @@
 {
-    "version":  "0.14.54",
-    "build":  124,
-    "fecha":  "2026-10-26",
+    "version":  "0.14.56",
+    "build":  126,
+    "fecha":  "2026-10-28",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Pizarras flotantes: un panel a la izquierda del documento (boton con el icono de pizarra) que te acompana aunque subas o bajes. Puedes crear varias pizarras (pestanas), cada una una hoja en blanco con todas las herramientas (texto, dibujo, tablas...), cambiarles el nombre, duplicarlas y borrarlas. Se puede dejar flotando encima del documento o acoplado (el documento se estrecha), y su anchura se cambia arrastrando el asa. Se guardan y sincronizan con el documento. Al exportar el PDF anotado (aplanado) o imprimir con anotaciones, van como hojas al final.",
+    "notas":  "Novedades de esta version:\n- Hipervinculos propios: con la herramienta de enlace puedes enlazar una frase o zona a una pagina web o a otra pagina del documento (ademas de imagen, texto o pizarra). Se ven con un icono de flecha.\n- Imagenes dentro de cuadros de texto y de celdas de tabla (debajo del texto): boton de imagen en los editores. Se guardan con el documento y salen al exportar.\n- Editar la imagen de un enlace: pintar y escribir encima, recortar y mejorar (luz, contraste, color; Mejorar y Documento). Se guarda como imagen nueva.\n- Ctrl+V pega la imagen copiada en el documento y en las pizarras.\n- El icono de la nube del documento cambia de color al guardar o sincronizar y, al tocarlo, ensena la fecha y hora de la ultima sincronizacion.\n- Editores de tabla y de texto: se ajustan a la pantalla (tablet y movil), con boton de pantalla completa, barra de menus (Editar, Ver, Insertar, Formato, Tabla, Herramientas, Ayuda), deshacer y rehacer, contador de palabras, fecha y hora y simbolos.\n- Pizarras: el boton de Atras ya no te saca del documento, cierra el panel. Ahora al abrir el panel ves la lista de pizarras una debajo de otra; al tocar una se abre. Boton de pantalla completa, panel a izquierda o derecha, transparencia del panel y boton flotante propio para cada pizarra (chincheta).\n- Con el raton, la rueda sube y baja el documento aunque este activa una herramienta de dibujo o texto.\n- Mientras haya un aviso de actualizacion sin decidir (o instalandose) no se sincroniza solo con Google; hasta que pulses Actualizar o Ahora no.\n- Continuar leyendo: se ven las etiquetas y se puede quitar un documento (X o mantener pulsado), sin borrarlo.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.56",
+                          "fecha":  "28/10/2026",
+                          "cambios":  [
+                                          "Hipervinculos propios: con la herramienta de enlace puedes enlazar una frase o zona a una pagina web o a otra pagina del documento (ademas de imagen, texto o pizarra). Se ven con un icono de flecha.",
+                                          "Imagenes dentro de cuadros de texto y de celdas de tabla (debajo del texto): boton de imagen en los editores. Se guardan con el documento y salen al exportar.",
+                                          "Editar la imagen de un enlace: pintar y escribir encima, recortar y mejorar (luz, contraste, color; Mejorar y Documento). Se guarda como imagen nueva.",
+                                          "Ctrl+V pega la imagen copiada en el documento y en las pizarras.",
+                                          "El icono de la nube del documento cambia de color al guardar o sincronizar y, al tocarlo, ensena la fecha y hora de la ultima sincronizacion.",
+                                          "Editores de tabla y de texto: se ajustan a la pantalla (tablet y movil), con boton de pantalla completa, barra de menus (Editar, Ver, Insertar, Formato, Tabla, Herramientas, Ayuda), deshacer y rehacer, contador de palabras, fecha y hora y simbolos.",
+                                          "Pizarras: el boton de Atras ya no te saca del documento, cierra el panel. Ahora al abrir el panel ves la lista de pizarras una debajo de otra; al tocar una se abre. Boton de pantalla completa, panel a izquierda o derecha, transparencia del panel y boton flotante propio para cada pizarra (chincheta).",
+                                          "Con el raton, la rueda sube y baja el documento aunque este activa una herramienta de dibujo o texto.",
+                                          "Mientras haya un aviso de actualizacion sin decidir (o instalandose) no se sincroniza solo con Google; hasta que pulses Actualizar o Ahora no.",
+                                          "Continuar leyendo: se ven las etiquetas y se puede quitar un documento (X o mantener pulsado), sin borrarlo."
+                                      ]
+                      },
                       {
                           "version":  "0.14.54",
                           "fecha":  "26/10/2026",
@@ -137,15 +153,6 @@
                                           "Las miniaturas de Ir a pagina y de Organizar paginas ensenan lo anotado (subrayados, dibujos, textos...).",
                                           "Nuevo: Notas (post-its) fuera de los documentos, con colores, fijadas, listas de tareas, fecha y enlace a un documento.",
                                           "Nuevo: Calendario con eventos, las notas con fecha, importar y exportar .ics y ver tu Google Calendar (direccion iCal secreta, solo lectura). Notas y eventos se sincronizan con Google Drive."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.31",
-                          "fecha":  "22/10/2026",
-                          "cambios":  [
-                                          "Cajas giradas: el marco de seleccion y sus esquinas giran con la caja, y al estirarla desde una esquina la contraria se queda quieta.",
-                                          "Archivos internos con el nombre de Neptia: la organizacion de la biblioteca, las imagenes guardadas y el paquete de anotaciones de cada PDF (.neptia) se renombran solos, tambien en Google Drive, sin perder nada. Conviene actualizar todos los dispositivos.",
-                                          "Movil: la barra de arriba ya no se monta sobre el boton de volver; grabar, recorte, sincronizar y ocultar herramientas estan en el menu (Rapido)."
                                       ]
                       }
                   ]
