@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.59",
-    "build":  129,
+    "version":  "0.14.60",
+    "build":  130,
     "fecha":  "2026-10-29",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Barra de herramientas: la herramienta elegida ensena su nombre y llevan Deshacer y Rehacer al final.\n- Cuadros de texto y notas: imagenes entre las letras, en medio de un parrafo (Insertar \u003e Imagen en el texto, donde esta el cursor); tambien siguen las de debajo.\n- Editor de imagenes: zoom (pellizco, rueda del raton o botones + y -) y \u0027Mover vista\u0027 para desplazarte por la imagen ampliada.\n- Editor de imagenes: \u0027Texto de la imagen\u0027 reconoce el texto y deja seleccionar palabras arrastrando para copiarlas, subrayarlas, resaltarlas o tacharlas.\n- Editor de imagenes: panel de Capas (lo que hay encima de la imagen) para ocultar, subir, bajar, marcar o borrar cada trazo y texto.\n- Insertar imagen: ahora tocas en la pagina donde la quieres (o arrastras para darle el tamano) y queda a la vista.\n- Barra de desplazamiento arrastrable en los documentos (con el numero de pagina).\n- Modo lectura (libro): el documento recuerda que lo dejaste asi y se abre en modo lectura la proxima vez (hasta que anotes con alguna herramienta).\n- Pantalla principal: las opciones de cada documento estan agrupadas (Exportar y convertir, Herramientas del PDF, Versiones y comparar, Organizar en la biblioteca).\n- Zonas de imagen/texto/pizarra: se pueden agrandar y reducir desde las esquinas al seleccionarlas, y se abren bien aunque esten giradas.\n- Goma: elige que borrar (tipo y color de lo usado en el documento: subrayados azules, marcas rojas, ovalos, cuadrados...) sin tocar lo demas.\n- Editor de imagen: los textos escritos se pueden tocar para editarlos, cambiar tamano y color o borrarlos; boton nuevo para reconocer el texto de la imagen (seleccionar, copiar, editar o ponerlo sobre la imagen).\n- Notas de las imagenes enlazadas: se editan como cualquier texto (negrita, colores, tamano, alineacion) y se pueden seleccionar al verlas.\n- Copiar texto del PDF mientras editas: en Marcar texto, boton Copiar; arrastras sobre el texto y se copia al portapapeles (sin marcarlo).\n- Editor de imagen: al volver a editar una imagen ya editada, sus textos y trazos siguen siendo editables (se guardan junto a la imagen y viajan con el documento).\n- Tablas: formulas como en Excel (=A1+B1, =SUMA(B1:B5), =PROMEDIO, =MAX, =MIN, =CONTAR, =REDONDEAR...) y Autosuma en el menu Tabla.\n- Editor de imagen: formas (linea, flecha, cuadrado, ovalo, con relleno), resaltador, goma, cuentagotas, girar y voltear, y filtros (blanco y negro, sepia, negativo).\n- Documento: Numerar paginas, encabezado/pie y marca de agua (se ponen en todas las paginas o en un rango y se deshacen de una vez).\n- Tablas: ordenar las filas por la columna actual (A a Z / Z a A, numeros o texto).\n- Editor de texto: Buscar y reemplazar (menu Herramientas).",
+    "notas":  "Novedades de esta version:\n- Goma: los filtros por tipo y color salen justo despues de \"Todo\" (antes quedaban escondidos tras un texto largo).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.60",
+                          "fecha":  "29/10/2026",
+                          "cambios":  [
+                                          "Goma: los filtros por tipo y color salen justo despues de \"Todo\" (antes quedaban escondidos tras un texto largo)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.59",
                           "fecha":  "29/10/2026",
@@ -152,13 +159,6 @@
                           "fecha":  "23/10/2026",
                           "cambios":  [
                                           "Android: la tinta rapida tambien funciona con los lapices que la tableta ve como un dedo (los que no se conectan a ella, como el Subblim): el trazo sale al instante y Android entrega todos los puntos del lapiz, no uno por fotograma. Ademas el trazo rapido va por curvas, sin tramos rectos. Con \"solo lapiz\" el dedo sigue sin dibujar."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.38",
-                          "fecha":  "23/10/2026",
-                          "cambios":  [
-                                          "Editar el PDF: nuevo \"Convertir el texto del OCR en editable\" (menu de los tres puntos, esta pagina o todas). En una pagina escaneada a la que se ha pasado el OCR, cada linea reconocida se tapa con el color del papel y se escribe encima como texto de verdad del PDF, del mismo color y ancho, que luego se cambia como cualquier otro. Se puede deshacer y volver al PDF sin editar (tambien recupera el OCR)."
                                       ]
                       }
                   ]
