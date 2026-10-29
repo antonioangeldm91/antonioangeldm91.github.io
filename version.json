@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.60",
-    "build":  130,
+    "version":  "0.14.61",
+    "build":  131,
     "fecha":  "2026-10-29",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Goma: los filtros por tipo y color salen justo despues de \"Todo\" (antes quedaban escondidos tras un texto largo).",
+    "notas":  "Novedades de esta version:\n- Seleccionar: boton \u0027Copiar texto\u0027 para copiar una frase del PDF original arrastrando sobre ella (se copia una vez y vuelve a Seleccionar).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.61",
+                          "fecha":  "29/10/2026",
+                          "cambios":  [
+                                          "Seleccionar: boton \u0027Copiar texto\u0027 para copiar una frase del PDF original arrastrando sobre ella (se copia una vez y vuelve a Seleccionar)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.60",
                           "fecha":  "29/10/2026",
@@ -152,13 +159,6 @@
                           "cambios":  [
                                           "Cuadro de dibujo: lo que arrastras dentro (con el cuadro desplegado) pasa a ser suyo y se pliega con el; lo que sacas de el deja de serlo. Lo de dentro se selecciona suelto al tocarlo; el cuadro entero, tocando su borde.",
                                           "Cuadro de dibujo: al plegarlo a veces seguia viendose lo de dentro y las cajas de texto salian como notas (pasaba si el cuadro se habia copiado, duplicado, agrupado o desagrupado). Ya no pasa, y los cuadros que estaban asi se arreglan solos al plegarlos."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.39",
-                          "fecha":  "23/10/2026",
-                          "cambios":  [
-                                          "Android: la tinta rapida tambien funciona con los lapices que la tableta ve como un dedo (los que no se conectan a ella, como el Subblim): el trazo sale al instante y Android entrega todos los puntos del lapiz, no uno por fotograma. Ademas el trazo rapido va por curvas, sin tramos rectos. Con \"solo lapiz\" el dedo sigue sin dibujar."
                                       ]
                       }
                   ]
