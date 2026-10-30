@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.63",
-    "build":  133,
+    "version":  "0.14.64",
+    "build":  134,
     "fecha":  "2026-10-30",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Tableta (Android en horizontal): las herramientas en una columna a la izquierda, con su nombre, y las opciones abajo.\n- Plumas favoritas: con boligrafo o resaltador, la estrella guarda el color y grosor actuales; se tocan para ponerlas y se mantienen pulsadas para quitarlas.\n- Tocar otra vez la herramienta elegida vuelve a la anterior.\n- Barra de herramientas adaptable: en el movil, una sola fila de herramientas y las opciones de la elegida en varias lineas (todas a la vista) que se pliegan con la flecha; en tableta y PC, las opciones en varias lineas en vez de desplazarse de lado; nombres de herramientas desde 840 px; botones algo mas grandes.\n- Sincronizacion con Google: debajo de \u0027Conectado como\u0027 se ve la ultima sincronizacion (y se recuerda aunque cierres la app).",
+    "notas":  "Novedades de esta version:\n- Lapiz mas fino: se recogen muchos mas puntos del trazo (las rectas a mano salen rectas y los numeros y letras con su forma), y mantener quieto el lapiz a mitad de un numero ya no lo convierte en una linea.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.64",
+                          "fecha":  "30/10/2026",
+                          "cambios":  [
+                                          "Lapiz mas fino: se recogen muchos mas puntos del trazo (las rectas a mano salen rectas y los numeros y letras con su forma), y mantener quieto el lapiz a mitad de un numero ya no lo convierte en una linea."
+                                      ]
+                      },
                       {
                           "version":  "0.14.63",
                           "fecha":  "30/10/2026",
@@ -160,13 +167,6 @@
                                           "Nuevo: libros electronicos. Se pueden abrir EPUB, FB2, FBZ y comics CBZ (en formato simplificado: texto, titulos, tablas e imagenes). En Windows, con Calibre instalado, tambien MOBI, AZW y AZW3 y se conserva mas formato. Los libros con DRM no se pueden abrir.",
                                           "Nuevo: Convertir (menu del archivo y menu Documento): a imagenes (PNG o JPG, una por pagina, con o sin anotaciones), a Word (con Microsoft Word en Windows, o version sencilla con el texto, o con las paginas como imagenes), a Excel (una hoja por pagina, texto en columnas) y a texto. Las paginas escaneadas usan el texto del OCR.",
                                           "Nuevo: Convertir archivos sin anadirlos a la biblioteca (boton Nuevo): Word, Excel, PowerPoint, imagenes, libros... a PDF, imagenes, Word, Excel o texto. Varias imagenes juntas se unen en un PDF."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.42",
-                          "fecha":  "23/10/2026",
-                          "cambios":  [
-                                          "Biblioteca: en \"Continuar leyendo\", mantener pulsado un archivo (o clic derecho en Windows) abre sus opciones: comentario, exportar PDF, editar, mover, renombrar..."
                                       ]
                       }
                   ]
