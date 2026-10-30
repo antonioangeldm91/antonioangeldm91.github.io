@@ -1,11 +1,22 @@
 {
-    "version":  "0.14.62",
-    "build":  132,
+    "version":  "0.14.63",
+    "build":  133,
     "fecha":  "2026-10-30",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Reloj arriba (junto al microfono): cronometro y cuenta atras con avisos; sigue contando al cambiar de documento.\n- El boton flotante de las pizarras se puede arrastrar hacia arriba o abajo.\n- Barra de herramientas: boton con reguladores para ordenar, ocultar o mostrar las herramientas (y restaurar).\n- Nueva seccion Bloques (cinta, cuadro de dibujo plegable y tabla), sacadas de Formas y de Texto.\n- Marcar texto: subrayado doble, de rayas y de puntos; el boton Copiar pasa solo a Seleccionar \u003e Copiar texto.\n- Sincronizacion: nueva opcion \u0027En cada modificacion\u0027 que sube lo que cambies a los pocos segundos.",
+    "notas":  "Novedades de esta version:\n- Tableta (Android en horizontal): las herramientas en una columna a la izquierda, con su nombre, y las opciones abajo.\n- Plumas favoritas: con boligrafo o resaltador, la estrella guarda el color y grosor actuales; se tocan para ponerlas y se mantienen pulsadas para quitarlas.\n- Tocar otra vez la herramienta elegida vuelve a la anterior.\n- Barra de herramientas adaptable: en el movil, una sola fila de herramientas y las opciones de la elegida en varias lineas (todas a la vista) que se pliegan con la flecha; en tableta y PC, las opciones en varias lineas en vez de desplazarse de lado; nombres de herramientas desde 840 px; botones algo mas grandes.\n- Sincronizacion con Google: debajo de \u0027Conectado como\u0027 se ve la ultima sincronizacion (y se recuerda aunque cierres la app).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.63",
+                          "fecha":  "30/10/2026",
+                          "cambios":  [
+                                          "Tableta (Android en horizontal): las herramientas en una columna a la izquierda, con su nombre, y las opciones abajo.",
+                                          "Plumas favoritas: con boligrafo o resaltador, la estrella guarda el color y grosor actuales; se tocan para ponerlas y se mantienen pulsadas para quitarlas.",
+                                          "Tocar otra vez la herramienta elegida vuelve a la anterior.",
+                                          "Barra de herramientas adaptable: en el movil, una sola fila de herramientas y las opciones de la elegida en varias lineas (todas a la vista) que se pliegan con la flecha; en tableta y PC, las opciones en varias lineas en vez de desplazarse de lado; nombres de herramientas desde 840 px; botones algo mas grandes.",
+                                          "Sincronizacion con Google: debajo de \u0027Conectado como\u0027 se ve la ultima sincronizacion (y se recuerda aunque cierres la app)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.62",
                           "fecha":  "30/10/2026",
@@ -156,13 +167,6 @@
                           "fecha":  "23/10/2026",
                           "cambios":  [
                                           "Biblioteca: en \"Continuar leyendo\", mantener pulsado un archivo (o clic derecho en Windows) abre sus opciones: comentario, exportar PDF, editar, mover, renombrar..."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.41",
-                          "fecha":  "23/10/2026",
-                          "cambios":  [
-                                          "Cuadro de dibujo: puede llevar titulo (Ajustes de lo seleccionado), que se ve arriba y en la pestana al plegarlo; ahi tambien se pliega o despliega. El interruptor \"Minimizada\" era solo para cajas de texto y no se movia si habia algo mas seleccionado delante: ahora dice que es para las cajas y refleja su estado."
                                       ]
                       }
                   ]
