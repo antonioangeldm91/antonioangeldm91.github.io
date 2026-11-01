@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.65",
-    "build":  135,
-    "fecha":  "2026-10-30",
+    "version":  "0.14.66",
+    "build":  136,
+    "fecha":  "2026-11-01",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Estabilizador del lapiz: las lineas en diagonal ya no salen en escalera ni onduladas (el trazo se suaviza segun la distancia recorrida, las esquinas de letras y numeros apenas se redondean).\n- La punta del trazo ya no se adelanta en linea recta al escribir: solo se estima un poco, y solo cuando el trazo va recto.",
+    "notas":  "Novedades de esta version:\n- Mantener el lapiz al acabar un ovalo o rectangulo en diagonal lo convierte en la forma girada (antes solo se reconocian rectos).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.66",
+                          "fecha":  "01/11/2026",
+                          "cambios":  [
+                                          "Mantener el lapiz al acabar un ovalo o rectangulo en diagonal lo convierte en la forma girada (antes solo se reconocian rectos)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.65",
                           "fecha":  "30/10/2026",
@@ -141,14 +148,6 @@
                           "cambios":  [
                                           "Libros electronicos (ePub...): al importarlos se abren directamente en modo lectura; al salir, en la barra de arriba del editor queda el icono del libro para volver al modo lectura.",
                                           "Corregido: con un cuadro de dibujo, la goma ya solo borra lo de dentro del cuadro; no se lleva el subrayado ni el resaltado que haya debajo."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.47",
-                          "fecha":  "25/10/2026",
-                          "cambios":  [
-                                          "Modo libro: nuevo Modo texto, como un Kindle (boton del libro abierto, arriba): el texto se vuelve a colocar con la letra del tamano que elijas (A- / A+ o Ctrl + rueda) y lo que no cabe pasa a la pantalla siguiente; se recuerda la letra y, para cada documento, si lo lees asi. Muestra la pagina del PDF y el % leido. Solo texto (sin imagenes ni anotaciones).",
-                                          "Modo libro: zoom con dos dedos, Ctrl + rueda o los botones de la lupa (arriba). La pagina se dibuja nitida, el zoom se mantiene al pasar de pagina (se empieza por arriba) y se guarda para cada documento. Con zoom, un dedo mueve la parte ampliada y las paginas se pasan con las flechas o tocando los lados. En horizontal sale una sola pagina; las dos paginas a la vez siguen en el boton de arriba."
                                       ]
                       }
                   ]
