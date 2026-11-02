@@ -1,11 +1,21 @@
 {
-    "version":  "0.14.68",
-    "build":  138,
+    "version":  "0.14.69",
+    "build":  139,
     "fecha":  "2026-11-02",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- CONCURSO EN DIRECTO (Clases y avisos \u003e tu clase \u003e icono de la copa): eliges un tema y Neptia saca las preguntas (cifras, plazos y definiciones). Lo proyectas y los alumnos responden a la vez desde el móvil con 4 botones de colores; puntos por acertar y por rapidez (y por racha), reparto de respuestas, clasificación animada y podio final con confeti. Los alumnos entran en su clase \u003e \"Entrar al concurso\" (les llega un aviso). Hay que volver a desplegar el Worker (wrangler deploy).\n- PREGÚNTALE EN VOZ ALTA (Estudiar, y el micrófono dentro de Explícamelo): le preguntas hablando (en Android con el dictado del sistema; en Windows escribiendo o con Win+H), te contesta con voz y la cámara vuela a la frase del PDF donde lo dice y la subraya. En plena clase, la interrumpe, responde y sigue.\n- MIS ANOTACIONES SOBRE EL PAPEL (Estudiar, Android): apuntas la cámara a la hoja impresa del tema y ves encima tus subrayados, notas y dibujos en su sitio y en perspectiva. Neptia reconoce sola qué página es leyendo el texto; linterna y \"solo subrayados\".\n- EXPLÍCAMELO (Estudiar o Ctrl+Mayús+E): la app te da la clase del tema sobre el propio PDF. La cámara va de una idea clave a otra, apaga el resto de la página, un rotulador la subraya mientras una voz te la explica (con subtítulos), cada apartado empieza con su título a pantalla completa y cada pocas ideas hay una pregunta rápida. Al final, resumen con lo que te tienes que llevar y \"Subrayar estas ideas en el PDF\". Rápida, normal o completa; con o sin voz; velocidad; teclado (espacio, flechas, 1-4).\n- Arreglado: exportar \"Para compartir o imprimir\" (y imprimir y entregar) cerraba la app en Android. La capa de anotaciones de cada página se guardaba sin comprimir (10-15 MB por página) y se quedaba sin memoria; ahora va comprimida (decenas de KB por página) y el PDF aplanado pesa mucho menos también en Windows.\n- RECITAR DE MEMORIA (Estudiar o Ctrl+Mayús+R): eliges un artículo, apartado o párrafo, lo memorizas con ayuda que se va quitando (entero, con huecos, solo iniciales, nada), lo recitas escribiendo o dictando con el micrófono del teclado y Neptia lo compara palabra a palabra: lo que te dejas, lo que cambias, las cifras mal dichas y tu nota. Marca tus fallos en el PDF y te dice cuándo toca repasarlo (lo que sale bien vuelve más tarde).\n- MAPA MENTAL rehecho: sale de los títulos del propio texto (o de los marcadores, o de las palabras clave si no hay), con las ideas clave en pocas palabras (\"Constitución: norma suprema...\"), las listas con sus puntos y tus subrayados. Ramas de colores a los dos lados, plegar y desplegar, frase entera y página al tocar, modo repaso (oculta las ideas) y copiar como esquema.\n- SUBRAYADO AUTOMÁTICO rehecho: entiende la página (títulos, párrafos, listas, artículos), no toca encabezados, pies ni el índice, ningún título se pega a la frase siguiente, reparte por apartados sin repetir ideas y, con \"Lo esencial\", subraya solo el trozo que importa (término y definición, plazo, idea principal) en vez de frases enteras.",
+    "notas":  "Novedades de esta version:\n- Arreglado de verdad: exportar \"Para compartir o imprimir\", imprimir y entregar cerraban la app (en Windows tambien: el registro lo marcaba en la primera pagina anotada). Ahora todo el trabajo con el PDF va en el hilo de fondo de pdfrx, con su propio documento y leyendo el archivo por trozos; probado con el TEMA 21 real.\n- Mapa mental y Explícamelo, hechos con tus PDF reales: ya no salen el índice, la portada, la cabecera, el pie ni la pestaña \"TEMA\" del margen; las comas y puntos sueltos ya no parten los párrafos; los títulos numerados (1.1, 1.2.3, aunque el PDF los parta \"1. 2\") se reconocen; en el mapa, tus subrayados eligen las frases completas en vez de salir trozos sueltos; las listas van con su rótulo (\"Sujetos que ejercen violencia\").\n- Explícamelo recorre todo el tema por apartados (1.1, 1.2.1...) sin saltarse páginas.\n- Voz: \"Elegir la voz\" (Explícamelo y Estudiar \u003e Elegir la voz de lectura) con botón para escuchar cada una; si no eliges, usa la mejor voz en español que tenga el aparato.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.69",
+                          "fecha":  "02/11/2026",
+                          "cambios":  [
+                                          "Arreglado de verdad: exportar \"Para compartir o imprimir\", imprimir y entregar cerraban la app (en Windows tambien: el registro lo marcaba en la primera pagina anotada). Ahora todo el trabajo con el PDF va en el hilo de fondo de pdfrx, con su propio documento y leyendo el archivo por trozos; probado con el TEMA 21 real.",
+                                          "Mapa mental y Explícamelo, hechos con tus PDF reales: ya no salen el índice, la portada, la cabecera, el pie ni la pestaña \"TEMA\" del margen; las comas y puntos sueltos ya no parten los párrafos; los títulos numerados (1.1, 1.2.3, aunque el PDF los parta \"1. 2\") se reconocen; en el mapa, tus subrayados eligen las frases completas en vez de salir trozos sueltos; las listas van con su rótulo (\"Sujetos que ejercen violencia\").",
+                                          "Explícamelo recorre todo el tema por apartados (1.1, 1.2.1...) sin saltarse páginas.",
+                                          "Voz: \"Elegir la voz\" (Explícamelo y Estudiar \u003e Elegir la voz de lectura) con botón para escuchar cada una; si no eliges, usa la mejor voz en español que tenga el aparato."
+                                      ]
+                      },
                       {
                           "version":  "0.14.68",
                           "fecha":  "02/11/2026",
@@ -182,13 +192,6 @@
                           "fecha":  "26/10/2026",
                           "cambios":  [
                                           "Pizarras flotantes: un panel a la izquierda del documento (boton con el icono de pizarra) que te acompana aunque subas o bajes. Puedes crear varias pizarras (pestanas), cada una una hoja en blanco con todas las herramientas (texto, dibujo, tablas...), cambiarles el nombre, duplicarlas y borrarlas. Se puede dejar flotando encima del documento o acoplado (el documento se estrecha), y su anchura se cambia arrastrando el asa. Se guardan y sincronizan con el documento. Al exportar el PDF anotado (aplanado) o imprimir con anotaciones, van como hojas al final."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.51",
-                          "fecha":  "25/10/2026",
-                          "cambios":  [
-                                          "Teclado: si el acento salia suelto (\"´a\" en vez de \"á\"), ahora se junta con la vocal en las cajas de texto, notas, tablas y dudas. Autocorrector de tildes propio (sin depender del corrector de Windows o Android): tambien, despues, aqui, pagina, espanol..., y las terminadas en -cion/-sion/-gion. No toca palabras que valen sin tilde (esta, solo, orden...)."
                                       ]
                       }
                   ]
