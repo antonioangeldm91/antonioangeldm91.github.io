@@ -1,11 +1,20 @@
 {
-    "version":  "0.14.69",
-    "build":  139,
+    "version":  "0.14.70",
+    "build":  140,
     "fecha":  "2026-11-02",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Arreglado de verdad: exportar \"Para compartir o imprimir\", imprimir y entregar cerraban la app (en Windows tambien: el registro lo marcaba en la primera pagina anotada). Ahora todo el trabajo con el PDF va en el hilo de fondo de pdfrx, con su propio documento y leyendo el archivo por trozos; probado con el TEMA 21 real.\n- Mapa mental y Explícamelo, hechos con tus PDF reales: ya no salen el índice, la portada, la cabecera, el pie ni la pestaña \"TEMA\" del margen; las comas y puntos sueltos ya no parten los párrafos; los títulos numerados (1.1, 1.2.3, aunque el PDF los parta \"1. 2\") se reconocen; en el mapa, tus subrayados eligen las frases completas en vez de salir trozos sueltos; las listas van con su rótulo (\"Sujetos que ejercen violencia\").\n- Explícamelo recorre todo el tema por apartados (1.1, 1.2.1...) sin saltarse páginas.\n- Voz: \"Elegir la voz\" (Explícamelo y Estudiar \u003e Elegir la voz de lectura) con botón para escuchar cada una; si no eliges, usa la mejor voz en español que tenga el aparato.",
+    "notas":  "Novedades de esta version:\n- VOCES NATURALES (Elegir la voz \u003e Voces naturales): voces neuronales que suenan como una persona (Dave y Mario, de España; Lucía, de España; Clara, de México). Se descargan una vez (67-80 MB) y luego funcionan sin Internet en el móvil y en el PC. Se usan en Explícamelo, en Leer en voz alta y en todo lo que habla. La pronunciación la hace Neptia (números, \"art.\", \"Ley 1/2004\"...), sin eSpeak.\n- Subrayado automático con tu estilo: si el PDF resalta lo clave en otra letra (como los temas de academia), subraya a trozos: el arranque de la frase (\"Garantizar derechos\"), los términos resaltados y las cifras y plazos, sin las coletillas. Probado con tu TEMA 21: en \"Normal\" marca la mitad que tú y casi dos tercios coinciden con lo que marcaste.\n- Explícamelo: al explicar una lista, la cámara y el subrayado van punto por punto según lo dice la voz (antes se quedaba en la frase de arriba).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.70",
+                          "fecha":  "02/11/2026",
+                          "cambios":  [
+                                          "VOCES NATURALES (Elegir la voz \u003e Voces naturales): voces neuronales que suenan como una persona (Dave y Mario, de España; Lucía, de España; Clara, de México). Se descargan una vez (67-80 MB) y luego funcionan sin Internet en el móvil y en el PC. Se usan en Explícamelo, en Leer en voz alta y en todo lo que habla. La pronunciación la hace Neptia (números, \"art.\", \"Ley 1/2004\"...), sin eSpeak.",
+                                          "Subrayado automático con tu estilo: si el PDF resalta lo clave en otra letra (como los temas de academia), subraya a trozos: el arranque de la frase (\"Garantizar derechos\"), los términos resaltados y las cifras y plazos, sin las coletillas. Probado con tu TEMA 21: en \"Normal\" marca la mitad que tú y casi dos tercios coinciden con lo que marcaste.",
+                                          "Explícamelo: al explicar una lista, la cámara y el subrayado van punto por punto según lo dice la voz (antes se quedaba en la frase de arriba)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.69",
                           "fecha":  "02/11/2026",
@@ -185,13 +194,6 @@
                                           "Con el raton, la rueda sube y baja el documento aunque este activa una herramienta de dibujo o texto.",
                                           "Mientras haya un aviso de actualizacion sin decidir (o instalandose) no se sincroniza solo con Google; hasta que pulses Actualizar o Ahora no.",
                                           "Continuar leyendo: se ven las etiquetas y se puede quitar un documento (X o mantener pulsado), sin borrarlo."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.54",
-                          "fecha":  "26/10/2026",
-                          "cambios":  [
-                                          "Pizarras flotantes: un panel a la izquierda del documento (boton con el icono de pizarra) que te acompana aunque subas o bajes. Puedes crear varias pizarras (pestanas), cada una una hoja en blanco con todas las herramientas (texto, dibujo, tablas...), cambiarles el nombre, duplicarlas y borrarlas. Se puede dejar flotando encima del documento o acoplado (el documento se estrecha), y su anchura se cambia arrastrando el asa. Se guardan y sincronizan con el documento. Al exportar el PDF anotado (aplanado) o imprimir con anotaciones, van como hojas al final."
                                       ]
                       }
                   ]
