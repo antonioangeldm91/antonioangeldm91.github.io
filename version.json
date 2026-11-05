@@ -1,11 +1,20 @@
 {
-    "version":  "0.14.73",
-    "build":  143,
+    "version":  "0.14.75",
+    "build":  145,
     "fecha":  "2026-11-05",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- CENTRO DE ESTUDIO (Estudiar \u003e Centro de estudio, o en la biblioteca: menú del archivo \u003e Estudiar): preguntas tipo test de TODO el tema (no hace falta subrayar; o solo de tus subrayados), verdadero o falso con la frase que lo justifica, simulacro con tiempo y penalización, flashcards escribiendo la respuesta (Fácil / Difícil), resumen automático, cuadros transversales, chat con el tema y juegos.\n- CUADROS TRANSVERSALES (Estudiar \u003e Cuadros transversales): recorre el documento artículo a artículo y junta en tablas todos los plazos, mayorías, porcentajes, cuantías, edades, órganos competentes y fechas, con su artículo y página; practicar cada cuadro como test, copiarlo para Excel o guardarlo en PDF.\n- RESUMEN AUTOMÁTICO (Estudiar \u003e Resumen automático): lo importante de cada apartado, corto, medio o largo; copiar o guardar como PDF en la biblioteca.\n- JUEGOS con las palabras clave del tema: Anagrama, Rosco (pasapalabra), Manicomio (racha y muerte súbita, con récord), Ahorcado y Crucigrama.\n- LIBRETA DE ESTUDIO (biblioteca \u003e Estudiar): tus fallos de todos los tests y juegos y las preguntas que marcas con la estrella; test solo con ellas. REPASO SEMANAL: vuelven los fallos de la semana y lo que hace tiempo que no ves. CURVA DEL OLVIDO: cuánto recuerdas de cada tema, cómo bajaría si no repasas y repasar lo que se está olvidando.\n- LEYES DEL BOE (biblioteca \u003e Estudiar): descarga el texto consolidado de la Constitución, Leyes 39/2015 y 40/2015, TREBEP, LOPDGDD, Código Penal y otras 17 leyes a la carpeta Leyes, para estudiarlas con todo lo anterior.\n- IA OPCIONAL (biblioteca \u003e Estudiar \u003e IA en la nube): con una clave de Google Gemini o Anthropic Claude, las preguntas, el verdadero o falso, el resumen y el chat los hace la IA. Sin clave todo sigue funcionando sin Internet.\n- SELECCIONAR EL TEXTO DEL DOCUMENTO: con Seleccionar, arrastra sobre el texto original (o doble toque en una palabra) y se selecciona como en cualquier lector; la barra ofrece Copiar (o Ctrl+C), resaltar en 4 colores, subrayar, ondulado, tachar, buscar en el documento y traducir. Tocar un subrayado lo sigue seleccionando y arrastrar fuera del texto hace el lazo de siempre.\n- EDITOR DE TEXTO Y TABLAS: se abren a pantalla completa y la cinta baja de línea para que se vean todas las opciones (en pantallas estrechas se desliza también con el ratón).",
+    "notas":  "Novedades de esta version:\n- ESCRIBIR EN EL EDITOR DE TEXTO EN WINDOWS: arreglado que el teclado no escribiera; la hoja se abre ya ampliada al ancho de la ventana y al hacer clic en la zona gris se pone el cursor para escribir.\n- SELECCIONAR EL TEXTO SIN BOTONES: con la mano (la herramienta normal) arrastra sobre el texto del PDF, haz doble clic en una palabra o mantén pulsado en el móvil, y aparece encima un menú con Copiar, Resaltar, Subrayar, Tachar y Buscar. Sobre el texto el ratón cambia al cursor de texto; fuera del texto la mano sigue moviendo la página.\n- CUADROS TRANSVERSALES MÁS LIMPIOS: ya no salen símbolos raros (?) del texto mal leído del PDF, ni títulos, epígrafes, cabeceras o pies de página como si fueran datos; la columna Qué es la parte de la frase donde está el dato, sin comillas ni números de apartado sueltos, y si no hay artículo se pone el apartado del tema. Nuevo filtro para buscar en el cuadro y botón para quitar filas que no te sirvan.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.75",
+                          "fecha":  "05/11/2026",
+                          "cambios":  [
+                                          "ESCRIBIR EN EL EDITOR DE TEXTO EN WINDOWS: arreglado que el teclado no escribiera; la hoja se abre ya ampliada al ancho de la ventana y al hacer clic en la zona gris se pone el cursor para escribir.",
+                                          "SELECCIONAR EL TEXTO SIN BOTONES: con la mano (la herramienta normal) arrastra sobre el texto del PDF, haz doble clic en una palabra o mantén pulsado en el móvil, y aparece encima un menú con Copiar, Resaltar, Subrayar, Tachar y Buscar. Sobre el texto el ratón cambia al cursor de texto; fuera del texto la mano sigue moviendo la página.",
+                                          "CUADROS TRANSVERSALES MÁS LIMPIOS: ya no salen símbolos raros (?) del texto mal leído del PDF, ni títulos, epígrafes, cabeceras o pies de página como si fueran datos; la columna Qué es la parte de la frase donde está el dato, sin comillas ni números de apartado sueltos, y si no hay artículo se pone el apartado del tema. Nuevo filtro para buscar en el cuadro y botón para quitar filas que no te sirvan."
+                                      ]
+                      },
                       {
                           "version":  "0.14.73",
                           "fecha":  "05/11/2026",
@@ -190,32 +199,6 @@
                           "fecha":  "29/10/2026",
                           "cambios":  [
                                           "Goma: los filtros por tipo y color salen justo despues de \"Todo\" (antes quedaban escondidos tras un texto largo)."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.59",
-                          "fecha":  "29/10/2026",
-                          "cambios":  [
-                                          "Barra de herramientas: la herramienta elegida ensena su nombre y llevan Deshacer y Rehacer al final.",
-                                          "Cuadros de texto y notas: imagenes entre las letras, en medio de un parrafo (Insertar \u003e Imagen en el texto, donde esta el cursor); tambien siguen las de debajo.",
-                                          "Editor de imagenes: zoom (pellizco, rueda del raton o botones + y -) y \u0027Mover vista\u0027 para desplazarte por la imagen ampliada.",
-                                          "Editor de imagenes: \u0027Texto de la imagen\u0027 reconoce el texto y deja seleccionar palabras arrastrando para copiarlas, subrayarlas, resaltarlas o tacharlas.",
-                                          "Editor de imagenes: panel de Capas (lo que hay encima de la imagen) para ocultar, subir, bajar, marcar o borrar cada trazo y texto.",
-                                          "Insertar imagen: ahora tocas en la pagina donde la quieres (o arrastras para darle el tamano) y queda a la vista.",
-                                          "Barra de desplazamiento arrastrable en los documentos (con el numero de pagina).",
-                                          "Modo lectura (libro): el documento recuerda que lo dejaste asi y se abre en modo lectura la proxima vez (hasta que anotes con alguna herramienta).",
-                                          "Pantalla principal: las opciones de cada documento estan agrupadas (Exportar y convertir, Herramientas del PDF, Versiones y comparar, Organizar en la biblioteca).",
-                                          "Zonas de imagen/texto/pizarra: se pueden agrandar y reducir desde las esquinas al seleccionarlas, y se abren bien aunque esten giradas.",
-                                          "Goma: elige que borrar (tipo y color de lo usado en el documento: subrayados azules, marcas rojas, ovalos, cuadrados...) sin tocar lo demas.",
-                                          "Editor de imagen: los textos escritos se pueden tocar para editarlos, cambiar tamano y color o borrarlos; boton nuevo para reconocer el texto de la imagen (seleccionar, copiar, editar o ponerlo sobre la imagen).",
-                                          "Notas de las imagenes enlazadas: se editan como cualquier texto (negrita, colores, tamano, alineacion) y se pueden seleccionar al verlas.",
-                                          "Copiar texto del PDF mientras editas: en Marcar texto, boton Copiar; arrastras sobre el texto y se copia al portapapeles (sin marcarlo).",
-                                          "Editor de imagen: al volver a editar una imagen ya editada, sus textos y trazos siguen siendo editables (se guardan junto a la imagen y viajan con el documento).",
-                                          "Tablas: formulas como en Excel (=A1+B1, =SUMA(B1:B5), =PROMEDIO, =MAX, =MIN, =CONTAR, =REDONDEAR...) y Autosuma en el menu Tabla.",
-                                          "Editor de imagen: formas (linea, flecha, cuadrado, ovalo, con relleno), resaltador, goma, cuentagotas, girar y voltear, y filtros (blanco y negro, sepia, negativo).",
-                                          "Documento: Numerar paginas, encabezado/pie y marca de agua (se ponen en todas las paginas o en un rango y se deshacen de una vez).",
-                                          "Tablas: ordenar las filas por la columna actual (A a Z / Z a A, numeros o texto).",
-                                          "Editor de texto: Buscar y reemplazar (menu Herramientas)."
                                       ]
                       }
                   ]
