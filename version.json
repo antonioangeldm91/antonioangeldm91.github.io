@@ -1,9 +1,9 @@
 {
-    "version":  "0.14.75",
-    "build":  145,
+    "version":  "0.14.76",
+    "build":  146,
     "fecha":  "2026-11-05",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- ESCRIBIR EN EL EDITOR DE TEXTO EN WINDOWS: arreglado que el teclado no escribiera; la hoja se abre ya ampliada al ancho de la ventana y al hacer clic en la zona gris se pone el cursor para escribir.\n- SELECCIONAR EL TEXTO SIN BOTONES: con la mano (la herramienta normal) arrastra sobre el texto del PDF, haz doble clic en una palabra o mantén pulsado en el móvil, y aparece encima un menú con Copiar, Resaltar, Subrayar, Tachar y Buscar. Sobre el texto el ratón cambia al cursor de texto; fuera del texto la mano sigue moviendo la página.\n- CUADROS TRANSVERSALES MÁS LIMPIOS: ya no salen símbolos raros (?) del texto mal leído del PDF, ni títulos, epígrafes, cabeceras o pies de página como si fueran datos; la columna Qué es la parte de la frase donde está el dato, sin comillas ni números de apartado sueltos, y si no hay artículo se pone el apartado del tema. Nuevo filtro para buscar en el cuadro y botón para quitar filas que no te sirvan.",
+    "notas":  "Novedades de esta version:\r\n- Estudiar: repaso de hoy de todos los temas, racha y tiempo de estudio.\r\n- Test tipo examen con tus subrayados (con tiempo y nota), y test de tus fallos.\r\n- Tarjetas con la frase completa, el tema y la pagina.\r\n- Dudas para el profesor, historial de cambios de cada tema y resumen en esquema.\r\n- Buscar en lo escrito a mano.\r\n- Conectar Google Drive sin escribir datos del proyecto.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
                       {
