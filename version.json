@@ -1,11 +1,20 @@
 {
-    "version":  "0.14.82",
-    "build":  152,
+    "version":  "0.14.84",
+    "build":  154,
     "fecha":  "2026-11-05",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- BOTÓN CERRAR EN TODAS LAS PANTALLAS (PC): el documento enlazado, la imagen enlazada, el centro de estudio, los cuadros, la libreta, el calendario, las notas, los juegos, los mapas mentales y el resto de pantallas que se abren encima tienen arriba a la derecha un botón \"Cerrar\" que cierra solo esa pantalla (la X de arriba del todo es la de Windows y cierra Neptia).\n- INSTALABLE DE WINDOWS: COMPILAR.bat crea el instalable en una carpeta temporal y lo reintenta hasta 3 veces (fallaba con \"EndUpdateResource failed\" porque el antivirus o Google Drive tenían abierto el archivo en COMPILADOS).",
+    "notas":  "Novedades de esta version:\n- MÓVIL Y TABLETA, MOVER CON UN DEDO: con la herramienta Mover la página vuelve a moverse con un dedo (si el lápiz pasaba flotando por encima del texto, la Mano se quedaba en modo seleccionar texto y solo se movía con dos dedos). Seleccionar arrastrando es solo con el ratón; con el dedo, mantener pulsado.\n- TABLAS: al poner una tabla se abre siempre el editor completo (con los botones de filas y columnas), en el PC y en el móvil; se quita la cuadrícula previa de tamaño.\n- ANDROID, TECLADO AL ESCRIBIR TEXTO: al poner un texto el teclado sale solo (si la ventana aún se estaba abriendo, Android no lo enseñaba); y al tocar la hoja vuelve a salir aunque se haya cerrado con atrás.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.84",
+                          "fecha":  "05/11/2026",
+                          "cambios":  [
+                                          "MÓVIL Y TABLETA, MOVER CON UN DEDO: con la herramienta Mover la página vuelve a moverse con un dedo (si el lápiz pasaba flotando por encima del texto, la Mano se quedaba en modo seleccionar texto y solo se movía con dos dedos). Seleccionar arrastrando es solo con el ratón; con el dedo, mantener pulsado.",
+                                          "TABLAS: al poner una tabla se abre siempre el editor completo (con los botones de filas y columnas), en el PC y en el móvil; se quita la cuadrícula previa de tamaño.",
+                                          "ANDROID, TECLADO AL ESCRIBIR TEXTO: al poner un texto el teclado sale solo (si la ventana aún se estaba abriendo, Android no lo enseñaba); y al tocar la hoja vuelve a salir aunque se haya cerrado con atrás."
+                                      ]
+                      },
                       {
                           "version":  "0.14.82",
                           "fecha":  "05/11/2026",
@@ -197,17 +206,6 @@
                           "fecha":  "30/10/2026",
                           "cambios":  [
                                           "Lapiz mas fino: se recogen muchos mas puntos del trazo (las rectas a mano salen rectas y los numeros y letras con su forma), y mantener quieto el lapiz a mitad de un numero ya no lo convierte en una linea."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.63",
-                          "fecha":  "30/10/2026",
-                          "cambios":  [
-                                          "Tableta (Android en horizontal): las herramientas en una columna a la izquierda, con su nombre, y las opciones abajo.",
-                                          "Plumas favoritas: con boligrafo o resaltador, la estrella guarda el color y grosor actuales; se tocan para ponerlas y se mantienen pulsadas para quitarlas.",
-                                          "Tocar otra vez la herramienta elegida vuelve a la anterior.",
-                                          "Barra de herramientas adaptable: en el movil, una sola fila de herramientas y las opciones de la elegida en varias lineas (todas a la vista) que se pliegan con la flecha; en tableta y PC, las opciones en varias lineas en vez de desplazarse de lado; nombres de herramientas desde 840 px; botones algo mas grandes.",
-                                          "Sincronizacion con Google: debajo de \u0027Conectado como\u0027 se ve la ultima sincronizacion (y se recuerda aunque cierres la app)."
                                       ]
                       }
                   ]
