@@ -1,11 +1,19 @@
 {
-    "version":  "0.14.80",
-    "build":  150,
+    "version":  "0.14.82",
+    "build":  152,
     "fecha":  "2026-11-05",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- SELECCIONAR COMO EN EL EXPLORADOR (PC): Ctrl+clic añade o quita un documento, Mayús+clic selecciona desde el último pulsado hasta ese, Ctrl+A todos y Esc quita la selección.\n- ARRASTRAR A CARPETAS (PC): coge uno o varios documentos seleccionados con el ratón y suéltalos en una carpeta, en una asignatura de la barra lateral o en Inicio (para sacarlos a la biblioteca).\n- ÁRBOL DE ASIGNATURAS: en la barra lateral, la flecha de cada asignatura despliega sus carpetas y subcarpetas; la carpeta abierta se marca y su camino se despliega solo.\n- INSERTAR TABLA COMO EN WORD: al elegir Tabla sale la cuadrícula; pasa el ratón (o toca) para elegir el tamaño (\"Tabla de 4x2\") y toca la página donde va; se abre vacía para escribir. \"Insertar tabla...\" sigue abriendo el editor completo.\n- \"+\" EN LAS TABLAS: en el editor de tablas, al acercar el ratón al borde de arriba entre dos columnas (o al de la izquierda entre dos filas) sale un + que inserta ahí una columna (o una fila); al final de la última columna y de la última fila hay siempre uno (también en el móvil).\n- TAB EN LAS TABLAS: Tab pasa a la celda siguiente y en la última crea una fila nueva, como en Word; Mayús+Tab vuelve a la anterior.\n- VENTANAS DE TEXTO Y TABLA EN EL PC: a pantalla completa dejan un margen y tienen su propio botón \"Cerrar\", para no confundirlo con la X de Windows que cierra Neptia.\n- ENLAZAR CON LA BIBLIOTECA: al enlazar un texto, la opción \"Otro documento de la biblioteca\" abre ese documento al tocarlo (donde lo dejaste o en la página que elijas). Y al poner o enlazar una imagen, \"De la biblioteca\" saca la imagen de una página de otro documento (o de una imagen que tengas en la biblioteca).\n- HERRAMIENTAS DEL EDITOR (PC y tableta): las herramientas van en una barra flotante centrada, del tamaño justo, y las opciones de la herramienta (colores, grosor...) en otra pastilla encima; la herramienta elegida se marca en azul claro.\n- RUEDA DEL RATÓN (PC): sube y baja el documento con cualquier herramienta, también con Mover (la Mano) y con el ratón encima del texto; Mayús+rueda lo mueve a los lados. CTRL+RUEDA amplía o aleja alrededor del ratón (salvo con el candado del zoom puesto).",
+    "notas":  "Novedades de esta version:\n- BOTÓN CERRAR EN TODAS LAS PANTALLAS (PC): el documento enlazado, la imagen enlazada, el centro de estudio, los cuadros, la libreta, el calendario, las notas, los juegos, los mapas mentales y el resto de pantallas que se abren encima tienen arriba a la derecha un botón \"Cerrar\" que cierra solo esa pantalla (la X de arriba del todo es la de Windows y cierra Neptia).\n- INSTALABLE DE WINDOWS: COMPILAR.bat crea el instalable en una carpeta temporal y lo reintenta hasta 3 veces (fallaba con \"EndUpdateResource failed\" porque el antivirus o Google Drive tenían abierto el archivo en COMPILADOS).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.82",
+                          "fecha":  "05/11/2026",
+                          "cambios":  [
+                                          "BOTÓN CERRAR EN TODAS LAS PANTALLAS (PC): el documento enlazado, la imagen enlazada, el centro de estudio, los cuadros, la libreta, el calendario, las notas, los juegos, los mapas mentales y el resto de pantallas que se abren encima tienen arriba a la derecha un botón \"Cerrar\" que cierra solo esa pantalla (la X de arriba del todo es la de Windows y cierra Neptia).",
+                                          "INSTALABLE DE WINDOWS: COMPILAR.bat crea el instalable en una carpeta temporal y lo reintenta hasta 3 veces (fallaba con \"EndUpdateResource failed\" porque el antivirus o Google Drive tenían abierto el archivo en COMPILADOS)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.80",
                           "fecha":  "05/11/2026",
@@ -200,18 +208,6 @@
                                           "Tocar otra vez la herramienta elegida vuelve a la anterior.",
                                           "Barra de herramientas adaptable: en el movil, una sola fila de herramientas y las opciones de la elegida en varias lineas (todas a la vista) que se pliegan con la flecha; en tableta y PC, las opciones en varias lineas en vez de desplazarse de lado; nombres de herramientas desde 840 px; botones algo mas grandes.",
                                           "Sincronizacion con Google: debajo de \u0027Conectado como\u0027 se ve la ultima sincronizacion (y se recuerda aunque cierres la app)."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.62",
-                          "fecha":  "30/10/2026",
-                          "cambios":  [
-                                          "Reloj arriba (junto al microfono): cronometro y cuenta atras con avisos; sigue contando al cambiar de documento.",
-                                          "El boton flotante de las pizarras se puede arrastrar hacia arriba o abajo.",
-                                          "Barra de herramientas: boton con reguladores para ordenar, ocultar o mostrar las herramientas (y restaurar).",
-                                          "Nueva seccion Bloques (cinta, cuadro de dibujo plegable y tabla), sacadas de Formas y de Texto.",
-                                          "Marcar texto: subrayado doble, de rayas y de puntos; el boton Copiar pasa solo a Seleccionar \u003e Copiar texto.",
-                                          "Sincronizacion: nueva opcion \u0027En cada modificacion\u0027 que sube lo que cambies a los pocos segundos."
                                       ]
                       }
                   ]
