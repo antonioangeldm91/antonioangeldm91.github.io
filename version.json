@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.84",
-    "build":  154,
+    "version":  "0.14.85",
+    "build":  155,
     "fecha":  "2026-11-05",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- MÓVIL Y TABLETA, MOVER CON UN DEDO: con la herramienta Mover la página vuelve a moverse con un dedo (si el lápiz pasaba flotando por encima del texto, la Mano se quedaba en modo seleccionar texto y solo se movía con dos dedos). Seleccionar arrastrando es solo con el ratón; con el dedo, mantener pulsado.\n- TABLAS: al poner una tabla se abre siempre el editor completo (con los botones de filas y columnas), en el PC y en el móvil; se quita la cuadrícula previa de tamaño.\n- ANDROID, TECLADO AL ESCRIBIR TEXTO: al poner un texto el teclado sale solo (si la ventana aún se estaba abriendo, Android no lo enseñaba); y al tocar la hoja vuelve a salir aunque se haya cerrado con atrás.",
+    "notas":  "Novedades de esta version:\n- MÓVIL, MOVER CON UN DEDO (otra vez): con Mover, el dedo arrastra la página siempre (lo hace Neptia directamente, con inercia al soltar deprisa); con dos dedos se amplía y se mueve como antes.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.85",
+                          "fecha":  "05/11/2026",
+                          "cambios":  [
+                                          "MÓVIL, MOVER CON UN DEDO (otra vez): con Mover, el dedo arrastra la página siempre (lo hace Neptia directamente, con inercia al soltar deprisa); con dos dedos se amplía y se mueve como antes."
+                                      ]
+                      },
                       {
                           "version":  "0.14.84",
                           "fecha":  "05/11/2026",
@@ -199,13 +206,6 @@
                           "cambios":  [
                                           "Estabilizador del lapiz: las lineas en diagonal ya no salen en escalera ni onduladas (el trazo se suaviza segun la distancia recorrida, las esquinas de letras y numeros apenas se redondean).",
                                           "La punta del trazo ya no se adelanta en linea recta al escribir: solo se estima un poco, y solo cuando el trazo va recto."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.64",
-                          "fecha":  "30/10/2026",
-                          "cambios":  [
-                                          "Lapiz mas fino: se recogen muchos mas puntos del trazo (las rectas a mano salen rectas y los numeros y letras con su forma), y mantener quieto el lapiz a mitad de un numero ya no lo convierte en una linea."
                                       ]
                       }
                   ]
