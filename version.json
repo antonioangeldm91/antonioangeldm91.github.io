@@ -1,11 +1,22 @@
 {
-    "version":  "0.14.76",
-    "build":  146,
+    "version":  "0.14.77",
+    "build":  147,
     "fecha":  "2026-11-05",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\r\n- Estudiar: repaso de hoy de todos los temas, racha y tiempo de estudio.\r\n- Test tipo examen con tus subrayados (con tiempo y nota), y test de tus fallos.\r\n- Tarjetas con la frase completa, el tema y la pagina.\r\n- Dudas para el profesor, historial de cambios de cada tema y resumen en esquema.\r\n- Buscar en lo escrito a mano.\r\n- Conectar Google Drive sin escribir datos del proyecto.",
+    "notas":  "Novedades de esta version:\n- NUEVO DISEÑO: letra nueva (Plus Jakarta Sans, va dentro de la app y funciona sin Internet), botones y tarjetas más grandes y redondeados, y un color para cada asignatura (las carpetas de la biblioteca) que se repite en su cuaderno, sus documentos, el editor y el centro de estudio. El color se cambia en el menú de la carpeta \u003e Color.\n- INICIO: en el PC, barra lateral con Inicio, Estudiar, Plan de estudio, Libreta, Curva del olvido, Calendario, Notas, Leyes y Aula, más tus asignaturas; en el móvil, barra abajo con Inicio, Estudiar, Libreta y Plan. Saludo con la fecha y bloque HOY: tarjetas para repasar (con botón para empezar), racha de la semana y cuánto recuerdas de lo estudiado.\n- BIBLIOTECA: Continuar enseña la página por la que vas, la asignatura, \"Página X de N\" y una barra de progreso; las carpetas son cuadernos de color (con su imagen si la tienen) y cada documento de la lista lleva la miniatura de su primera página.\n- CENTRO DE ESTUDIO REDISEÑADO: cabecera del color de la asignatura con el dominio del tema y \"Repaso inteligente\"; Practicar, Entender y organizar, y Jugar; a la derecha tus puntos débiles (los apartados que más fallas) con un test solo de lo fallado, y el seguimiento (curva del olvido, repaso semanal, libreta).\n- EDITOR: barra superior más limpia con la asignatura y un botón Estudiar a la vista.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.77",
+                          "fecha":  "05/11/2026",
+                          "cambios":  [
+                                          "NUEVO DISEÑO: letra nueva (Plus Jakarta Sans, va dentro de la app y funciona sin Internet), botones y tarjetas más grandes y redondeados, y un color para cada asignatura (las carpetas de la biblioteca) que se repite en su cuaderno, sus documentos, el editor y el centro de estudio. El color se cambia en el menú de la carpeta \u003e Color.",
+                                          "INICIO: en el PC, barra lateral con Inicio, Estudiar, Plan de estudio, Libreta, Curva del olvido, Calendario, Notas, Leyes y Aula, más tus asignaturas; en el móvil, barra abajo con Inicio, Estudiar, Libreta y Plan. Saludo con la fecha y bloque HOY: tarjetas para repasar (con botón para empezar), racha de la semana y cuánto recuerdas de lo estudiado.",
+                                          "BIBLIOTECA: Continuar enseña la página por la que vas, la asignatura, \"Página X de N\" y una barra de progreso; las carpetas son cuadernos de color (con su imagen si la tienen) y cada documento de la lista lleva la miniatura de su primera página.",
+                                          "CENTRO DE ESTUDIO REDISEÑADO: cabecera del color de la asignatura con el dominio del tema y \"Repaso inteligente\"; Practicar, Entender y organizar, y Jugar; a la derecha tus puntos débiles (los apartados que más fallas) con un test solo de lo fallado, y el seguimiento (curva del olvido, repaso semanal, libreta).",
+                                          "EDITOR: barra superior más limpia con la asignatura y un botón Estudiar a la vista."
+                                      ]
+                      },
                       {
                           "version":  "0.14.75",
                           "fecha":  "05/11/2026",
@@ -192,13 +203,6 @@
                           "fecha":  "29/10/2026",
                           "cambios":  [
                                           "Seleccionar: boton \u0027Copiar texto\u0027 para copiar una frase del PDF original arrastrando sobre ella (se copia una vez y vuelve a Seleccionar)."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.60",
-                          "fecha":  "29/10/2026",
-                          "cambios":  [
-                                          "Goma: los filtros por tipo y color salen justo despues de \"Todo\" (antes quedaban escondidos tras un texto largo)."
                                       ]
                       }
                   ]
