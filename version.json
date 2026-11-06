@@ -1,11 +1,42 @@
 {
-    "version":  "0.14.85",
-    "build":  155,
-    "fecha":  "2026-11-05",
+    "version":  "0.14.87",
+    "build":  157,
+    "fecha":  "2026-11-06",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- MÓVIL, MOVER CON UN DEDO (otra vez): con Mover, el dedo arrastra la página siempre (lo hace Neptia directamente, con inercia al soltar deprisa); con dos dedos se amplía y se mueve como antes.",
+    "notas":  "Novedades de esta version:\n- Repaso con FSRS: los intervalos se ajustan a tu memoria y hay 4 botones (Otra vez, Difícil, Bien, Fácil) con el próximo repaso a la vista.\n- Curva del olvido: puedes elegir la retención que quieres (80-95 %).\n- Test a medida: elige temas, páginas y tipo de preguntas (nuevas, falladas, favoritas, pendientes, flojas) y guárdalo como examen.\n- Juegos nuevos: Relacionar (parejas contrarreloj) y Ordenar; Relacionar también desde las tablas cruzadas.\n- Objetivo diario, nivel y puntos; la racha perdona un día cada semana.\n- Pomodoro (25/5, 50/10, 90/15) con aviso y minutos de concentración.\n- Repaso en audio: lee la pregunta, deja una pausa y dice la respuesta (para el coche o el paseo).\n- Estadísticas: horas, preguntas, evolución de notas, nota prevista y temas flojos.\n- Convocatorias: fechas de publicación, plazo y examen con cuenta atrás.\n- Mazos de Anki y Quizlet: importa tus tarjetas y repásalas o haz tests.\n- Tarjetas contrarreloj (10, 20 o 30 segundos).\n- Tablas cruzadas: columna \"Desde cuándo\" en los plazos.\n- Transcribir la clase: graba y pasa la clase a texto sin Internet, y guárdala como documento para estudiarla.\n- Límite de tarjetas nuevas al día (20 por defecto) para que los repasos no se acumulen; se cambia en Estudiar \u003e Ajustes del repaso.\n- Fecha del examen: ninguna tarjeta se deja para después del examen (toma la de Convocatorias o la del Plan de estudio).\n- Cuadros transversales: los plazos, mayorías, cifras y órganos se pueden repasar como tarjetas con repaso espaciado.\n- Repetir solo las falladas al terminar un test, unas flashcards o un test de opciones.\n- Botón de bandera para quitar una pregunta mal hecha (no vuelve a salir); se recuperan en Ajustes del repaso.\n- Al guardar los cuadros transversales o el resumen en PDF, el aviso dice en qué carpeta queda y el documento aparece el primero en Recientes.\n- Android: con la Mano vuelve a funcionar el zoom pellizcando.\n- Cuadros transversales legibles: agrupados por artículo o apartado, con el dato destacado y la frase completa del texto (en la app y en el PDF, sin cortar nada).\n- Cuadros transversales: ya salen los plazos escritos en letra como \"doce meses\" o \"cuarenta y cinco días\".\n- Documentos muy subrayados más fluidos: lo anotado de cada página se dibuja una vez y se reutiliza, en vez de repintarlo entero con cada cambio.\n- Abrir y cerrar documentos más rápido: las anotaciones grandes se leen y se empaquetan para sincronizar en segundo plano, y ya no se espera a la sincronización del documento anterior al abrir otro.\n- La biblioteca guarda las portadas dibujadas: al abrir la app aparecen al momento.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.87",
+                          "fecha":  "06/11/2026",
+                          "cambios":  [
+                                          "Repaso con FSRS: los intervalos se ajustan a tu memoria y hay 4 botones (Otra vez, Difícil, Bien, Fácil) con el próximo repaso a la vista.",
+                                          "Curva del olvido: puedes elegir la retención que quieres (80-95 %).",
+                                          "Test a medida: elige temas, páginas y tipo de preguntas (nuevas, falladas, favoritas, pendientes, flojas) y guárdalo como examen.",
+                                          "Juegos nuevos: Relacionar (parejas contrarreloj) y Ordenar; Relacionar también desde las tablas cruzadas.",
+                                          "Objetivo diario, nivel y puntos; la racha perdona un día cada semana.",
+                                          "Pomodoro (25/5, 50/10, 90/15) con aviso y minutos de concentración.",
+                                          "Repaso en audio: lee la pregunta, deja una pausa y dice la respuesta (para el coche o el paseo).",
+                                          "Estadísticas: horas, preguntas, evolución de notas, nota prevista y temas flojos.",
+                                          "Convocatorias: fechas de publicación, plazo y examen con cuenta atrás.",
+                                          "Mazos de Anki y Quizlet: importa tus tarjetas y repásalas o haz tests.",
+                                          "Tarjetas contrarreloj (10, 20 o 30 segundos).",
+                                          "Tablas cruzadas: columna \"Desde cuándo\" en los plazos.",
+                                          "Transcribir la clase: graba y pasa la clase a texto sin Internet, y guárdala como documento para estudiarla.",
+                                          "Límite de tarjetas nuevas al día (20 por defecto) para que los repasos no se acumulen; se cambia en Estudiar \u003e Ajustes del repaso.",
+                                          "Fecha del examen: ninguna tarjeta se deja para después del examen (toma la de Convocatorias o la del Plan de estudio).",
+                                          "Cuadros transversales: los plazos, mayorías, cifras y órganos se pueden repasar como tarjetas con repaso espaciado.",
+                                          "Repetir solo las falladas al terminar un test, unas flashcards o un test de opciones.",
+                                          "Botón de bandera para quitar una pregunta mal hecha (no vuelve a salir); se recuperan en Ajustes del repaso.",
+                                          "Al guardar los cuadros transversales o el resumen en PDF, el aviso dice en qué carpeta queda y el documento aparece el primero en Recientes.",
+                                          "Android: con la Mano vuelve a funcionar el zoom pellizcando.",
+                                          "Cuadros transversales legibles: agrupados por artículo o apartado, con el dato destacado y la frase completa del texto (en la app y en el PDF, sin cortar nada).",
+                                          "Cuadros transversales: ya salen los plazos escritos en letra como \"doce meses\" o \"cuarenta y cinco días\".",
+                                          "Documentos muy subrayados más fluidos: lo anotado de cada página se dibuja una vez y se reutiliza, en vez de repintarlo entero con cada cambio.",
+                                          "Abrir y cerrar documentos más rápido: las anotaciones grandes se leen y se empaquetan para sincronizar en segundo plano, y ya no se espera a la sincronización del documento anterior al abrir otro.",
+                                          "La biblioteca guarda las portadas dibujadas: al abrir la app aparecen al momento."
+                                      ]
+                      },
                       {
                           "version":  "0.14.85",
                           "fecha":  "05/11/2026",
@@ -198,14 +229,6 @@
                           "fecha":  "01/11/2026",
                           "cambios":  [
                                           "Mantener el lapiz al acabar un ovalo o rectangulo en diagonal lo convierte en la forma girada (antes solo se reconocian rectos)."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.65",
-                          "fecha":  "30/10/2026",
-                          "cambios":  [
-                                          "Estabilizador del lapiz: las lineas en diagonal ya no salen en escalera ni onduladas (el trazo se suaviza segun la distancia recorrida, las esquinas de letras y numeros apenas se redondean).",
-                                          "La punta del trazo ya no se adelanta en linea recta al escribir: solo se estima un poco, y solo cuando el trazo va recto."
                                       ]
                       }
                   ]
