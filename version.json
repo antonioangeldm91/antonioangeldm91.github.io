@@ -1,11 +1,20 @@
 {
-    "version":  "0.14.97",
-    "build":  167,
+    "version":  "0.14.99",
+    "build":  169,
     "fecha":  "2026-11-08",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Arrastrar o importar documentos: se añaden en segundo plano (puedes seguir usando Neptia, con barra de progreso y botón Cancelar abajo). Antes mira si ya los tienes y, si es así, pregunta: con otro nombre, sobrescribir, no subirlo o (PDF) actualizar versión conservando tus marcas; con opción de hacer lo mismo con los demás.",
+    "notas":  "Novedades de esta version:\n- Pellizcar para ampliar o reducir funciona con cualquier herramienta (bolígrafo, subrayador, texto, selección… y en modo solo lápiz) si el candado está quitado, también con el panel táctil del portátil; aunque el segundo dedo llegue un poco tarde.\n- Textos enlazados a una frase (y notas de imagen): ahora guardan las listas 1), a), viñetas, niveles y sangrías; se ven igual al abrirlos y no se pierden al editarlos.\n- Compilar: el instalable de Windows se crea en una carpeta temporal y se reintenta; si falla, no se sube a Drive uno a medias, y ya no se borra de Drive el que se acaba de subir.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.99",
+                          "fecha":  "08/11/2026",
+                          "cambios":  [
+                                          "Pellizcar para ampliar o reducir funciona con cualquier herramienta (bolígrafo, subrayador, texto, selección… y en modo solo lápiz) si el candado está quitado, también con el panel táctil del portátil; aunque el segundo dedo llegue un poco tarde.",
+                                          "Textos enlazados a una frase (y notas de imagen): ahora guardan las listas 1), a), viñetas, niveles y sangrías; se ven igual al abrirlos y no se pierden al editarlos.",
+                                          "Compilar: el instalable de Windows se crea en una carpeta temporal y se reintenta; si falla, no se sube a Drive uno a medias, y ya no se borra de Drive el que se acaba de subir."
+                                      ]
+                      },
                       {
                           "version":  "0.14.97",
                           "fecha":  "08/11/2026",
@@ -203,30 +212,6 @@
                                           "TABLAS COMO EN WORD: combinar celdas (selecciona varias con \"Seleccionar celdas\" o Mayús+clic), separarlas y dividir una celda en dos columnas o dos filas; arrastrar los bordes de las columnas para cambiar su ancho, distribuirlas o autoajustarlas; estilos de tabla (cuadrícula, con bandas, encabezado azul u oscuro, moderna, clara, sin bordes); bordes (todos, externos, internos, solo horizontales, solo bajo el encabezado); filas con bandas; alineación en las 9 posiciones (también arriba, centro y abajo); colores y alineación para varias celdas a la vez. En la página se ven igual.",
                                           "HOJAS EN HORIZONTAL: al crear un cuaderno o añadir una página en blanco se elige vertical u horizontal (la hoja nueva propone la orientación de la página donde estás). Todas las plantillas se adaptan.",
                                           "Premium: lo avanzado del texto (estilos, regla y sangrías, espaciado, interlineado, multinivel, sombreado y tipos de letra) y las hojas en horizontal. El Básico sigue con negrita, cursiva, subrayado, colores, tamaño, alineación, viñetas y numeración."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.71",
-                          "fecha":  "03/11/2026",
-                          "cambios":  [
-                                          "MAPA MENTAL NUEVO, al estilo de MarginNote: ahora es editable y se guarda. Cada tarjeta sale de un subrayado y lleva a él (y desde un subrayado, \"Ver en el mapa mental\"); tus subrayados nuevos entran solos en su apartado; arrastrar para cambiar de rama u ordenar, soltar en el vacío para colocarla a mano; añadir (Tab / Intro), editar con nota (F2), borrar, juntar dos tarjetas, colores, marcos para agrupar, enlaces entre tarjetas, plegar por niveles, buscar, resaltar un color, deshacer y rehacer; vista de esquema (subir, bajar, meter y sacar de nivel); modo recordar (tapa y destapa); tarjetas de repaso con repetición espaciada; exportar como imagen, esquema Markdown o tarjetas para Anki. En pantallas anchas se abre al lado del documento.",
-                                          "SOLO LO SUBRAYADO (Ver \u003e Solo lo subrayado): el documento plegado con solo tus líneas marcadas, como tiras del propio PDF, filtrable por color; tocar una lleva a su página.",
-                                          "LO QUE DOMINAS (Estudiar \u003e Lo que dominas): semáforo por apartados y por páginas con tus repasos (tarjetas de subrayados, cintas y tarjetas del mapa) y \"hoy repasa\" las tres zonas más flojas.",
-                                          "\"NO LO ENTIENDO\" EN LA CLASE EN DIRECTO: el alumno toca la línea que no entiende y el profesor ve en su pantalla una mancha roja donde se pierde la clase (más fuerte donde coinciden). Requiere volver a desplegar el Worker (npx wrangler deploy).",
-                                          "PLAN BÁSICO Y PREMIUM: el Básico se queda con lo de siempre (abrir, anotar con lo básico, biblioteca, marcadores, buscar, dudas, exportar, copias); todo lo demás, y cualquier función nueva, es Premium. Los alumnos con Básica pueden unirse a clases, recibir avisos, hacer tareas y tests; crear clases y todo lo del profesor es Premium.",
-                                          "TAREAS CON ENTREGA Y CORRECCIÓN (Clases y avisos \u003e la clase \u003e Tareas): el profesor manda un documento para resolver encima, un test o una entrega libre, con fecha de entrega y de apertura; el alumno la hace en Neptia y la entrega; el profesor la corrige encima, pone nota y comentario y se la devuelve; el alumno ve la corrección como capa en su documento. Recordatorio a quien no ha entregado y resultados por pregunta de los tests.",
-                                          "MATERIALES POR CURSO Y CON FECHA DE APERTURA: al compartir un tema se elige curso o nivel y desde cuándo lo ven los alumnos (se puede cambiar tocándolo).",
-                                          "ALERTAS E INFORMES (profesor): quién no estudia, quién no entrega y quién suspende, aviso a todos ellos con un toque e informe en PDF de cada alumno.",
-                                          "ESCANEAR APUNTES EN PAPEL (Android, Nuevo \u003e Escanear): la cámara recorta, endereza y limpia cada hoja y la guarda como PDF.",
-                                          "PLAN DE ESTUDIO (menú \u003e Estudiar): eliges documentos y fecha del examen y reparte las páginas de cada día en el calendario (cada día abre el documento en su página), con días de repaso al final.",
-                                          "EL TEMA EN AUDIO (documento \u003e Estudiar \u003e Guardar el tema en audio): con la voz natural, para el coche o pasear.",
-                                          "TARJETAS DE IMAGEN: las cintas se repasan con repetición espaciada (Estudiar \u003e Repaso de hoy de las cintas): tapa etiquetas de un esquema, fechas o palabras y te las pregunta cuando toca.",
-                                          "PLANTILLAS NUEVAS de cuaderno: milimetrado, isométrica, pentagrama, caligrafía y vocabulario.",
-                                          "CIENCIAS (documento \u003e Ciencias): calculadora científica, gráficas de funciones que se ponen en la página, editor de fórmulas (fracciones, raíces, potencias, símbolos) y, en Lápiz, compás para círculos perfectos y transportador.",
-                                          "IDIOMAS: traducir lo marcado sin Internet (Android) y guardarlo en Mi vocabulario; idioma de cada documento para leerlo con la voz de su idioma.",
-                                          "Menores de 14 años: al unirse a una clase hace falta la autorización del padre, madre o tutor y no se envían estadísticas de uso.",
-                                          "FUNCIONES VISIBLES (administrador: Licencias \u003e menú \u003e Funciones visibles): ocultar cualquier opción de los menús del documento, de la biblioteca o de cada archivo, las herramientas de la barra (bolígrafo, formas...) y los botones sueltos (reloj, nube, candado del zoom, Nuevo...) a todos, a una clase o academia, a una licencia (persona o academia) o a un aparato concreto. Manda lo más concreto (aparato \u003e licencia \u003e clase \u003e todos). Los atajos de teclado de lo oculto tampoco funcionan. Sirve para probar funciones nuevas solo en tus aparatos y enseñarlas cuando estén listas.",
-                                          "ESTADÍSTICAS DE USO (administrador: Licencias \u003e menú \u003e Uso de las funciones): qué opciones se usan y en cuántos aparatos, en 7, 30 o 60 días, en total, por licencia o por clase, y cuáles no usa nadie. Solo de quien lo acepta: la app lo pregunta una vez y se puede cambiar en Aviso legal y privacidad (al quitarlo se borra lo enviado). Nunca se envía el contenido."
                                       ]
                       }
                   ]
