@@ -1,11 +1,20 @@
 {
-    "version":  "0.14.94",
-    "build":  164,
+    "version":  "0.14.95",
+    "build":  165,
     "fecha":  "2026-11-08",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Gemini y los modelos que \"piensan\" (GPT-OSS en Groq y Cerebras): se les pide pensar lo mínimo para que no se queden sin espacio y respondan en blanco; si aun así pasa, se explica el motivo.\n- Nuevo apartado \"IAs: descargar y borrar\": la IA de texto, los lectores y las IA en línea en un solo sitio. Las descargas van en segundo plano: puedes salir y seguir usando Neptia, abajo se ve el progreso y hay un botón para cancelar en cualquier momento.\n- Cómic con contenido: en cada apartado alguien pregunta y el experto lo explica con las frases importantes del tema (enteras), las listas y los datos; sin apartados repetidos, preguntas más naturales (\"¿Qué regula el Título II, «De la Corona»?\") y selector de detalle (Poco, Normal, Mucho).\n- Esquema de llaves y tema ilustrado: las frases salen enteras (sin \"…\"), en pantalla y al exportar, y el esquema ya no corta las ramas largas con \"y N más\".\n- Tema ilustrado con más información: los apartados con poco contenido se completan con las frases más importantes del propio tema, los apartados repetidos se juntan, las ideas se cortan en un punto (no a mitad) y hay un selector de detalle (Poco, Normal, Mucho). El cómic también aprovecha esas frases.\n- IA en línea: nombres de modelo puestos al día (Groq y Cerebras con GPT-OSS 120B, OpenRouter con su selector gratuito, Qwen 3.8) y, si alguno deja de existir, Neptia prueba otros sola. OpenRouter gratis también lee fotos.\n- Gemini: si el modelo de siempre ya no está disponible (Google los va retirando), Neptia busca solo uno que funcione con tu clave y se queda con él. Reconoce también las claves nuevas de Google (\"AQ.\").",
+    "notas":  "Novedades de esta version:\n- IA sin Internet más rápida: usa la tarjeta gráfica (también la integrada de Intel o AMD) si la hay; si no funciona con tu tarjeta, vuelve sola al procesador. Usa bien los núcleos del procesador.\n- Nueva IA sin Internet \"rápida\" (Qwen3 1,7B, unos 1,1 GB): 2-3 veces más rápida que la buena, aunque se equivoca más. Se elige en \"IAs: descargar y borrar\".\n- Windows: arrastra documentos o carpetas a la ventana de la biblioteca y se guardan en la carpeta que tengas abierta.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.95",
+                          "fecha":  "08/11/2026",
+                          "cambios":  [
+                                          "IA sin Internet más rápida: usa la tarjeta gráfica (también la integrada de Intel o AMD) si la hay; si no funciona con tu tarjeta, vuelve sola al procesador. Usa bien los núcleos del procesador.",
+                                          "Nueva IA sin Internet \"rápida\" (Qwen3 1,7B, unos 1,1 GB): 2-3 veces más rápida que la buena, aunque se equivoca más. Se elige en \"IAs: descargar y borrar\".",
+                                          "Windows: arrastra documentos o carpetas a la ventana de la biblioteca y se guardan en la carpeta que tengas abierta."
+                                      ]
+                      },
                       {
                           "version":  "0.14.94",
                           "fecha":  "08/11/2026",
@@ -220,16 +229,6 @@
                                           "VOCES NATURALES (Elegir la voz \u003e Voces naturales): voces neuronales que suenan como una persona (Dave y Mario, de España; Lucía, de España; Clara, de México). Se descargan una vez (67-80 MB) y luego funcionan sin Internet en el móvil y en el PC. Se usan en Explícamelo, en Leer en voz alta y en todo lo que habla. La pronunciación la hace Neptia (números, \"art.\", \"Ley 1/2004\"...), sin eSpeak.",
                                           "Subrayado automático con tu estilo: si el PDF resalta lo clave en otra letra (como los temas de academia), subraya a trozos: el arranque de la frase (\"Garantizar derechos\"), los términos resaltados y las cifras y plazos, sin las coletillas. Probado con tu TEMA 21: en \"Normal\" marca la mitad que tú y casi dos tercios coinciden con lo que marcaste.",
                                           "Explícamelo: al explicar una lista, la cámara y el subrayado van punto por punto según lo dice la voz (antes se quedaba en la frase de arriba)."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.69",
-                          "fecha":  "02/11/2026",
-                          "cambios":  [
-                                          "Arreglado de verdad: exportar \"Para compartir o imprimir\", imprimir y entregar cerraban la app (en Windows tambien: el registro lo marcaba en la primera pagina anotada). Ahora todo el trabajo con el PDF va en el hilo de fondo de pdfrx, con su propio documento y leyendo el archivo por trozos; probado con el TEMA 21 real.",
-                                          "Mapa mental y Explícamelo, hechos con tus PDF reales: ya no salen el índice, la portada, la cabecera, el pie ni la pestaña \"TEMA\" del margen; las comas y puntos sueltos ya no parten los párrafos; los títulos numerados (1.1, 1.2.3, aunque el PDF los parta \"1. 2\") se reconocen; en el mapa, tus subrayados eligen las frases completas en vez de salir trozos sueltos; las listas van con su rótulo (\"Sujetos que ejercen violencia\").",
-                                          "Explícamelo recorre todo el tema por apartados (1.1, 1.2.1...) sin saltarse páginas.",
-                                          "Voz: \"Elegir la voz\" (Explícamelo y Estudiar \u003e Elegir la voz de lectura) con botón para escuchar cada una; si no eliges, usa la mejor voz en español que tenga el aparato."
                                       ]
                       }
                   ]
