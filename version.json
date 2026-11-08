@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.95",
-    "build":  165,
+    "version":  "0.14.97",
+    "build":  167,
     "fecha":  "2026-11-08",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- IA sin Internet más rápida: usa la tarjeta gráfica (también la integrada de Intel o AMD) si la hay; si no funciona con tu tarjeta, vuelve sola al procesador. Usa bien los núcleos del procesador.\n- Nueva IA sin Internet \"rápida\" (Qwen3 1,7B, unos 1,1 GB): 2-3 veces más rápida que la buena, aunque se equivoca más. Se elige en \"IAs: descargar y borrar\".\n- Windows: arrastra documentos o carpetas a la ventana de la biblioteca y se guardan en la carpeta que tengas abierta.",
+    "notas":  "Novedades de esta version:\n- Arrastrar o importar documentos: se añaden en segundo plano (puedes seguir usando Neptia, con barra de progreso y botón Cancelar abajo). Antes mira si ya los tienes y, si es así, pregunta: con otro nombre, sobrescribir, no subirlo o (PDF) actualizar versión conservando tus marcas; con opción de hacer lo mismo con los demás.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.97",
+                          "fecha":  "08/11/2026",
+                          "cambios":  [
+                                          "Arrastrar o importar documentos: se añaden en segundo plano (puedes seguir usando Neptia, con barra de progreso y botón Cancelar abajo). Antes mira si ya los tienes y, si es así, pregunta: con otro nombre, sobrescribir, no subirlo o (PDF) actualizar versión conservando tus marcas; con opción de hacer lo mismo con los demás."
+                                      ]
+                      },
                       {
                           "version":  "0.14.95",
                           "fecha":  "08/11/2026",
@@ -220,15 +227,6 @@
                                           "Menores de 14 años: al unirse a una clase hace falta la autorización del padre, madre o tutor y no se envían estadísticas de uso.",
                                           "FUNCIONES VISIBLES (administrador: Licencias \u003e menú \u003e Funciones visibles): ocultar cualquier opción de los menús del documento, de la biblioteca o de cada archivo, las herramientas de la barra (bolígrafo, formas...) y los botones sueltos (reloj, nube, candado del zoom, Nuevo...) a todos, a una clase o academia, a una licencia (persona o academia) o a un aparato concreto. Manda lo más concreto (aparato \u003e licencia \u003e clase \u003e todos). Los atajos de teclado de lo oculto tampoco funcionan. Sirve para probar funciones nuevas solo en tus aparatos y enseñarlas cuando estén listas.",
                                           "ESTADÍSTICAS DE USO (administrador: Licencias \u003e menú \u003e Uso de las funciones): qué opciones se usan y en cuántos aparatos, en 7, 30 o 60 días, en total, por licencia o por clase, y cuáles no usa nadie. Solo de quien lo acepta: la app lo pregunta una vez y se puede cambiar en Aviso legal y privacidad (al quitarlo se borra lo enviado). Nunca se envía el contenido."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.70",
-                          "fecha":  "02/11/2026",
-                          "cambios":  [
-                                          "VOCES NATURALES (Elegir la voz \u003e Voces naturales): voces neuronales que suenan como una persona (Dave y Mario, de España; Lucía, de España; Clara, de México). Se descargan una vez (67-80 MB) y luego funcionan sin Internet en el móvil y en el PC. Se usan en Explícamelo, en Leer en voz alta y en todo lo que habla. La pronunciación la hace Neptia (números, \"art.\", \"Ley 1/2004\"...), sin eSpeak.",
-                                          "Subrayado automático con tu estilo: si el PDF resalta lo clave en otra letra (como los temas de academia), subraya a trozos: el arranque de la frase (\"Garantizar derechos\"), los términos resaltados y las cifras y plazos, sin las coletillas. Probado con tu TEMA 21: en \"Normal\" marca la mitad que tú y casi dos tercios coinciden con lo que marcaste.",
-                                          "Explícamelo: al explicar una lista, la cámara y el subrayado van punto por punto según lo dice la voz (antes se quedaba en la frase de arriba)."
                                       ]
                       }
                   ]
