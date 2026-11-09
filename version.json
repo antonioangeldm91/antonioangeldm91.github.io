@@ -1,11 +1,21 @@
 {
-    "version":  "0.14.99",
-    "build":  169,
-    "fecha":  "2026-11-08",
+    "version":  "0.14.100",
+    "build":  170,
+    "fecha":  "2026-11-09",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Pellizcar para ampliar o reducir funciona con cualquier herramienta (bolígrafo, subrayador, texto, selección… y en modo solo lápiz) si el candado está quitado, también con el panel táctil del portátil; aunque el segundo dedo llegue un poco tarde.\n- Textos enlazados a una frase (y notas de imagen): ahora guardan las listas 1), a), viñetas, niveles y sangrías; se ven igual al abrirlos y no se pierden al editarlos.\n- Compilar: el instalable de Windows se crea en una carpeta temporal y se reintenta; si falla, no se sube a Drive uno a medias, y ya no se borra de Drive el que se acaba de subir.",
+    "notas":  "Novedades de esta version:\n- Diccionario de español sin conexión (Wikcionario, unos 22 MB que se descargan una vez, en Windows y Android): \"¿Qué significa?\" del menú al seleccionar texto muestra las acepciones al instante, también de plurales y verbos conjugados; y, si se quiere, la IA (sin Internet en el PC o en línea) explica el significado en esa frase. Se descarga o borra desde ese mismo aviso o en \"IAs: descargar y borrar\".\n- Al seleccionar texto del documento, el menú rápido tiene \"¿Qué significa?\" (con la IA: su significado en esa frase, otros usos y un sinónimo; y el diccionario de la RAE) y \"Traducir\" (en Windows, con la IA). Se puede guardar en Mi vocabulario.\n- Editor de texto: \"Más colores y código hex…\" para la letra, el resaltado y el sombreado (paleta completa, personalizado o hex).\n- Editor de texto: al poner una lista, el párrafo entra una tabulación (como en Word) y vuelve a su sitio al quitarla.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.100",
+                          "fecha":  "09/11/2026",
+                          "cambios":  [
+                                          "Diccionario de español sin conexión (Wikcionario, unos 22 MB que se descargan una vez, en Windows y Android): \"¿Qué significa?\" del menú al seleccionar texto muestra las acepciones al instante, también de plurales y verbos conjugados; y, si se quiere, la IA (sin Internet en el PC o en línea) explica el significado en esa frase. Se descarga o borra desde ese mismo aviso o en \"IAs: descargar y borrar\".",
+                                          "Al seleccionar texto del documento, el menú rápido tiene \"¿Qué significa?\" (con la IA: su significado en esa frase, otros usos y un sinónimo; y el diccionario de la RAE) y \"Traducir\" (en Windows, con la IA). Se puede guardar en Mi vocabulario.",
+                                          "Editor de texto: \"Más colores y código hex…\" para la letra, el resaltado y el sombreado (paleta completa, personalizado o hex).",
+                                          "Editor de texto: al poner una lista, el párrafo entra una tabulación (como en Word) y vuelve a su sitio al quitarla."
+                                      ]
+                      },
                       {
                           "version":  "0.14.99",
                           "fecha":  "08/11/2026",
@@ -199,19 +209,6 @@
                                           "IA OPCIONAL (biblioteca \u003e Estudiar \u003e IA en la nube): con una clave de Google Gemini o Anthropic Claude, las preguntas, el verdadero o falso, el resumen y el chat los hace la IA. Sin clave todo sigue funcionando sin Internet.",
                                           "SELECCIONAR EL TEXTO DEL DOCUMENTO: con Seleccionar, arrastra sobre el texto original (o doble toque en una palabra) y se selecciona como en cualquier lector; la barra ofrece Copiar (o Ctrl+C), resaltar en 4 colores, subrayar, ondulado, tachar, buscar en el documento y traducir. Tocar un subrayado lo sigue seleccionando y arrastrar fuera del texto hace el lazo de siempre.",
                                           "EDITOR DE TEXTO Y TABLAS: se abren a pantalla completa y la cinta baja de línea para que se vean todas las opciones (en pantallas estrechas se desliza también con el ratón)."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.72",
-                          "fecha":  "04/11/2026",
-                          "cambios":  [
-                                          "TEXTO COMO EN WORD: el editor de las cajas de texto es nuevo. Lo que escribes se ve tal cual quedará en la página (mismo ancho, letra y estilo de la caja). Cinta con pestañas Inicio, Insertar, Párrafo y Revisar; galería de estilos (Normal, Sin espaciado, Título, Subtítulo, Título 1 a 4, Cita, Cita destacada) y estilos de carácter (Énfasis, Énfasis sutil, Énfasis intenso, Texto en negrita).",
-                                          "PÁRRAFOS COMO EN WORD: regla con los marcadores de sangría (primera línea, francesa, izquierda y derecha) que se arrastran; aumentar y disminuir sangría; espaciado antes y después; interlineado sencillo, 1,15, 1,5, doble...; sombreado de párrafo; ventana Párrafo con todo junto; alineación por párrafo; mostrar marcas de párrafo (¶).",
-                                          "LISTAS DE VERDAD: viñetas (•, guiones, círculos, cuadrados, flechas, casillas), numeración (1. 1) a) A. i. I.) y lista multinivel (1. 1.1. 1.1.1.); Tab y Mayús+Tab bajan o suben de nivel; Intro en un elemento vacío termina la lista; escribir \"1. \", \"a) \", \"- \" o \"* \" al empezar un párrafo la crea sola; reiniciar la numeración.",
-                                          "ESCRIBIR COMO EN WORD: pulsar Negrita (o cualquier formato) sin seleccionar y lo que escribes sale así; lo escrito sigue el formato de la letra de delante; tipo de letra por trozos (Calibri, Arial, Times...), tamaño en puntos, cinco tipos de subrayado, brocha de formato, copiar y pegar con formato, buscar y reemplazar uno a uno, contar palabras, zoom. Ratón: doble clic palabra, triple clic párrafo, Mayús+clic, arrastrar; clic derecho con las sugerencias del corrector. Atajos de Word: Ctrl+N/K/S, Ctrl+E/L/R/J, Ctrl+1/5/2, Ctrl+M, Ctrl+T, Ctrl+]/[, Mayús+F3, Ctrl+Espacio, Ctrl+Q, Mayús+Intro (salto de línea) y más.",
-                                          "TABLAS COMO EN WORD: combinar celdas (selecciona varias con \"Seleccionar celdas\" o Mayús+clic), separarlas y dividir una celda en dos columnas o dos filas; arrastrar los bordes de las columnas para cambiar su ancho, distribuirlas o autoajustarlas; estilos de tabla (cuadrícula, con bandas, encabezado azul u oscuro, moderna, clara, sin bordes); bordes (todos, externos, internos, solo horizontales, solo bajo el encabezado); filas con bandas; alineación en las 9 posiciones (también arriba, centro y abajo); colores y alineación para varias celdas a la vez. En la página se ven igual.",
-                                          "HOJAS EN HORIZONTAL: al crear un cuaderno o añadir una página en blanco se elige vertical u horizontal (la hoja nueva propone la orientación de la página donde estás). Todas las plantillas se adaptan.",
-                                          "Premium: lo avanzado del texto (estilos, regla y sangrías, espaciado, interlineado, multinivel, sombreado y tipos de letra) y las hojas en horizontal. El Básico sigue con negrita, cursiva, subrayado, colores, tamaño, alineación, viñetas y numeración."
                                       ]
                       }
                   ]
