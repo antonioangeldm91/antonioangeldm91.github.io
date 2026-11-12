@@ -1,11 +1,29 @@
 {
-    "version":  "0.14.100",
-    "build":  170,
-    "fecha":  "2026-11-09",
+    "version":  "0.14.102",
+    "build":  172,
+    "fecha":  "2026-11-12",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Diccionario de español sin conexión (Wikcionario, unos 22 MB que se descargan una vez, en Windows y Android): \"¿Qué significa?\" del menú al seleccionar texto muestra las acepciones al instante, también de plurales y verbos conjugados; y, si se quiere, la IA (sin Internet en el PC o en línea) explica el significado en esa frase. Se descarga o borra desde ese mismo aviso o en \"IAs: descargar y borrar\".\n- Al seleccionar texto del documento, el menú rápido tiene \"¿Qué significa?\" (con la IA: su significado en esa frase, otros usos y un sinónimo; y el diccionario de la RAE) y \"Traducir\" (en Windows, con la IA). Se puede guardar en Mi vocabulario.\n- Editor de texto: \"Más colores y código hex…\" para la letra, el resaltado y el sombreado (paleta completa, personalizado o hex).\n- Editor de texto: al poner una lista, el párrafo entra una tabulación (como en Word) y vuelve a su sitio al quitarla.",
+    "notas":  "Novedades de esta version:\n- Sincronizar desde un documento: ahora guarda, sincroniza de verdad y dice cómo ha ido. Si Neptia se cerró haciendo otra cosa (p. ej. editando un PDF), la sincronización ya no se queda en pausa.\n- Modo solo lápiz: el dedo vuelve a mover la página (y dos dedos amplían).\n- Buscar en el documento: sin caracteres raros, sin importar las tildes y encontrando las palabras aunque haya otras entre medias (\"consideracion servicio publico\" encuentra \"consideración de servicio público\").\n- Diccionario: sinónimos y antónimos, palabras como \"dimanante\" (busca dimanar), y de un participio se ve también el verbo. Hay que volver a descargarlo una vez.\n- Solo lo subrayado: ahora se ve como texto completo, en tarjetas y sin que se monten (con un botón para verlo como en el PDF).\n- Seleccionar: flechas al final de la barra para mover lo seleccionado poco a poco (mantén pulsado para seguir).\n- Grosor exacto escribiendo los px (bolígrafo, resaltador, formas...).\n- Rectángulos y círculos: con o sin fondo, y del color que quieras.\n- Goma que cambia de color: pasa por encima y lo amarillo (o lo que filtres) pasa al color elegido.\n- El zoom en vertical y en horizontal se recuerda por separado.\n- Actualizar Neptia: \"Seguir usando Neptia\" descarga la actualización en segundo plano y al terminar pregunta si instalar.\n- Calculadora científica flotante encima del documento; se ancla en pequeño junto al botón de las pizarras.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.102",
+                          "fecha":  "12/11/2026",
+                          "cambios":  [
+                                          "Sincronizar desde un documento: ahora guarda, sincroniza de verdad y dice cómo ha ido. Si Neptia se cerró haciendo otra cosa (p. ej. editando un PDF), la sincronización ya no se queda en pausa.",
+                                          "Modo solo lápiz: el dedo vuelve a mover la página (y dos dedos amplían).",
+                                          "Buscar en el documento: sin caracteres raros, sin importar las tildes y encontrando las palabras aunque haya otras entre medias (\"consideracion servicio publico\" encuentra \"consideración de servicio público\").",
+                                          "Diccionario: sinónimos y antónimos, palabras como \"dimanante\" (busca dimanar), y de un participio se ve también el verbo. Hay que volver a descargarlo una vez.",
+                                          "Solo lo subrayado: ahora se ve como texto completo, en tarjetas y sin que se monten (con un botón para verlo como en el PDF).",
+                                          "Seleccionar: flechas al final de la barra para mover lo seleccionado poco a poco (mantén pulsado para seguir).",
+                                          "Grosor exacto escribiendo los px (bolígrafo, resaltador, formas...).",
+                                          "Rectángulos y círculos: con o sin fondo, y del color que quieras.",
+                                          "Goma que cambia de color: pasa por encima y lo amarillo (o lo que filtres) pasa al color elegido.",
+                                          "El zoom en vertical y en horizontal se recuerda por separado.",
+                                          "Actualizar Neptia: \"Seguir usando Neptia\" descarga la actualización en segundo plano y al terminar pregunta si instalar.",
+                                          "Calculadora científica flotante encima del documento; se ancla en pequeño junto al botón de las pizarras."
+                                      ]
+                      },
                       {
                           "version":  "0.14.100",
                           "fecha":  "09/11/2026",
@@ -194,21 +212,6 @@
                                           "ESCRIBIR EN EL EDITOR DE TEXTO EN WINDOWS: arreglado que el teclado no escribiera; la hoja se abre ya ampliada al ancho de la ventana y al hacer clic en la zona gris se pone el cursor para escribir.",
                                           "SELECCIONAR EL TEXTO SIN BOTONES: con la mano (la herramienta normal) arrastra sobre el texto del PDF, haz doble clic en una palabra o mantén pulsado en el móvil, y aparece encima un menú con Copiar, Resaltar, Subrayar, Tachar y Buscar. Sobre el texto el ratón cambia al cursor de texto; fuera del texto la mano sigue moviendo la página.",
                                           "CUADROS TRANSVERSALES MÁS LIMPIOS: ya no salen símbolos raros (?) del texto mal leído del PDF, ni títulos, epígrafes, cabeceras o pies de página como si fueran datos; la columna Qué es la parte de la frase donde está el dato, sin comillas ni números de apartado sueltos, y si no hay artículo se pone el apartado del tema. Nuevo filtro para buscar en el cuadro y botón para quitar filas que no te sirvan."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.73",
-                          "fecha":  "05/11/2026",
-                          "cambios":  [
-                                          "CENTRO DE ESTUDIO (Estudiar \u003e Centro de estudio, o en la biblioteca: menú del archivo \u003e Estudiar): preguntas tipo test de TODO el tema (no hace falta subrayar; o solo de tus subrayados), verdadero o falso con la frase que lo justifica, simulacro con tiempo y penalización, flashcards escribiendo la respuesta (Fácil / Difícil), resumen automático, cuadros transversales, chat con el tema y juegos.",
-                                          "CUADROS TRANSVERSALES (Estudiar \u003e Cuadros transversales): recorre el documento artículo a artículo y junta en tablas todos los plazos, mayorías, porcentajes, cuantías, edades, órganos competentes y fechas, con su artículo y página; practicar cada cuadro como test, copiarlo para Excel o guardarlo en PDF.",
-                                          "RESUMEN AUTOMÁTICO (Estudiar \u003e Resumen automático): lo importante de cada apartado, corto, medio o largo; copiar o guardar como PDF en la biblioteca.",
-                                          "JUEGOS con las palabras clave del tema: Anagrama, Rosco (pasapalabra), Manicomio (racha y muerte súbita, con récord), Ahorcado y Crucigrama.",
-                                          "LIBRETA DE ESTUDIO (biblioteca \u003e Estudiar): tus fallos de todos los tests y juegos y las preguntas que marcas con la estrella; test solo con ellas. REPASO SEMANAL: vuelven los fallos de la semana y lo que hace tiempo que no ves. CURVA DEL OLVIDO: cuánto recuerdas de cada tema, cómo bajaría si no repasas y repasar lo que se está olvidando.",
-                                          "LEYES DEL BOE (biblioteca \u003e Estudiar): descarga el texto consolidado de la Constitución, Leyes 39/2015 y 40/2015, TREBEP, LOPDGDD, Código Penal y otras 17 leyes a la carpeta Leyes, para estudiarlas con todo lo anterior.",
-                                          "IA OPCIONAL (biblioteca \u003e Estudiar \u003e IA en la nube): con una clave de Google Gemini o Anthropic Claude, las preguntas, el verdadero o falso, el resumen y el chat los hace la IA. Sin clave todo sigue funcionando sin Internet.",
-                                          "SELECCIONAR EL TEXTO DEL DOCUMENTO: con Seleccionar, arrastra sobre el texto original (o doble toque en una palabra) y se selecciona como en cualquier lector; la barra ofrece Copiar (o Ctrl+C), resaltar en 4 colores, subrayar, ondulado, tachar, buscar en el documento y traducir. Tocar un subrayado lo sigue seleccionando y arrastrar fuera del texto hace el lazo de siempre.",
-                                          "EDITOR DE TEXTO Y TABLAS: se abren a pantalla completa y la cinta baja de línea para que se vean todas las opciones (en pantallas estrechas se desliza también con el ratón)."
                                       ]
                       }
                   ]
