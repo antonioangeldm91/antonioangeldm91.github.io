@@ -1,11 +1,19 @@
 {
-    "version":  "0.14.102",
-    "build":  172,
+    "version":  "0.14.103",
+    "build":  173,
     "fecha":  "2026-11-12",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Sincronizar desde un documento: ahora guarda, sincroniza de verdad y dice cómo ha ido. Si Neptia se cerró haciendo otra cosa (p. ej. editando un PDF), la sincronización ya no se queda en pausa.\n- Modo solo lápiz: el dedo vuelve a mover la página (y dos dedos amplían).\n- Buscar en el documento: sin caracteres raros, sin importar las tildes y encontrando las palabras aunque haya otras entre medias (\"consideracion servicio publico\" encuentra \"consideración de servicio público\").\n- Diccionario: sinónimos y antónimos, palabras como \"dimanante\" (busca dimanar), y de un participio se ve también el verbo. Hay que volver a descargarlo una vez.\n- Solo lo subrayado: ahora se ve como texto completo, en tarjetas y sin que se monten (con un botón para verlo como en el PDF).\n- Seleccionar: flechas al final de la barra para mover lo seleccionado poco a poco (mantén pulsado para seguir).\n- Grosor exacto escribiendo los px (bolígrafo, resaltador, formas...).\n- Rectángulos y círculos: con o sin fondo, y del color que quieras.\n- Goma que cambia de color: pasa por encima y lo amarillo (o lo que filtres) pasa al color elegido.\n- El zoom en vertical y en horizontal se recuerda por separado.\n- Actualizar Neptia: \"Seguir usando Neptia\" descarga la actualización en segundo plano y al terminar pregunta si instalar.\n- Calculadora científica flotante encima del documento; se ancla en pequeño junto al botón de las pizarras.",
+    "notas":  "Novedades de esta version:\n- Editar PDF: cambiar o borrar un texto ya no cierra la app (Windows y Android): el texto original se vacía en vez de quitarlo de la página, y la letra estándar solo se carga si hace falta.\n- Editar PDF en Android: ya no se cierra la app al abrirlo o al cambiar un texto (usaba demasiada memoria: la imagen de la página era enorme y cada cambio guardaba una copia del PDF entero). Con PDF grandes en el móvil, los cambios no se pueden deshacer (sal sin guardar si no te gusta).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.103",
+                          "fecha":  "12/11/2026",
+                          "cambios":  [
+                                          "Editar PDF: cambiar o borrar un texto ya no cierra la app (Windows y Android): el texto original se vacía en vez de quitarlo de la página, y la letra estándar solo se carga si hace falta.",
+                                          "Editar PDF en Android: ya no se cierra la app al abrirlo o al cambiar un texto (usaba demasiada memoria: la imagen de la página era enorme y cada cambio guardaba una copia del PDF entero). Con PDF grandes en el móvil, los cambios no se pueden deshacer (sal sin guardar si no te gusta)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.102",
                           "fecha":  "12/11/2026",
@@ -203,15 +211,6 @@
                                           "BIBLIOTECA: Continuar enseña la página por la que vas, la asignatura, \"Página X de N\" y una barra de progreso; las carpetas son cuadernos de color (con su imagen si la tienen) y cada documento de la lista lleva la miniatura de su primera página.",
                                           "CENTRO DE ESTUDIO REDISEÑADO: cabecera del color de la asignatura con el dominio del tema y \"Repaso inteligente\"; Practicar, Entender y organizar, y Jugar; a la derecha tus puntos débiles (los apartados que más fallas) con un test solo de lo fallado, y el seguimiento (curva del olvido, repaso semanal, libreta).",
                                           "EDITOR: barra superior más limpia con la asignatura y un botón Estudiar a la vista."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.75",
-                          "fecha":  "05/11/2026",
-                          "cambios":  [
-                                          "ESCRIBIR EN EL EDITOR DE TEXTO EN WINDOWS: arreglado que el teclado no escribiera; la hoja se abre ya ampliada al ancho de la ventana y al hacer clic en la zona gris se pone el cursor para escribir.",
-                                          "SELECCIONAR EL TEXTO SIN BOTONES: con la mano (la herramienta normal) arrastra sobre el texto del PDF, haz doble clic en una palabra o mantén pulsado en el móvil, y aparece encima un menú con Copiar, Resaltar, Subrayar, Tachar y Buscar. Sobre el texto el ratón cambia al cursor de texto; fuera del texto la mano sigue moviendo la página.",
-                                          "CUADROS TRANSVERSALES MÁS LIMPIOS: ya no salen símbolos raros (?) del texto mal leído del PDF, ni títulos, epígrafes, cabeceras o pies de página como si fueran datos; la columna Qué es la parte de la frase donde está el dato, sin comillas ni números de apartado sueltos, y si no hay artículo se pone el apartado del tema. Nuevo filtro para buscar en el cuadro y botón para quitar filas que no te sirvan."
                                       ]
                       }
                   ]
