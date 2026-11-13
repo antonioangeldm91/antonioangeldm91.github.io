@@ -1,11 +1,19 @@
 {
-    "version":  "0.14.108",
-    "build":  178,
+    "version":  "0.14.111",
+    "build":  181,
     "fecha":  "2026-11-13",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Editar PDF: arreglado el cierre de la app al cambiar o borrar un texto (PDFium cerraba la app al dejar un texto vacío).",
+    "notas":  "Novedades de esta version:\n- Editar PDF: ya no se cierra la app al añadir texto ni al cambiarlo (PDFium buscaba la letra desde un hilo que no era el suyo; ahora los cambios se hacen en el hilo de PDFium).\n- Editar PDF: tocar un texto lo selecciona sin moverlo; para moverlo, arrástralo una vez seleccionado.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.111",
+                          "fecha":  "13/11/2026",
+                          "cambios":  [
+                                          "Editar PDF: ya no se cierra la app al añadir texto ni al cambiarlo (PDFium buscaba la letra desde un hilo que no era el suyo; ahora los cambios se hacen en el hilo de PDFium).",
+                                          "Editar PDF: tocar un texto lo selecciona sin moverlo; para moverlo, arrástralo una vez seleccionado."
+                                      ]
+                      },
                       {
                           "version":  "0.14.108",
                           "fecha":  "13/11/2026",
@@ -191,22 +199,6 @@
                           "cambios":  [
                                           "BOTÓN CERRAR EN TODAS LAS PANTALLAS (PC): el documento enlazado, la imagen enlazada, el centro de estudio, los cuadros, la libreta, el calendario, las notas, los juegos, los mapas mentales y el resto de pantallas que se abren encima tienen arriba a la derecha un botón \"Cerrar\" que cierra solo esa pantalla (la X de arriba del todo es la de Windows y cierra Neptia).",
                                           "INSTALABLE DE WINDOWS: COMPILAR.bat crea el instalable en una carpeta temporal y lo reintenta hasta 3 veces (fallaba con \"EndUpdateResource failed\" porque el antivirus o Google Drive tenían abierto el archivo en COMPILADOS)."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.80",
-                          "fecha":  "05/11/2026",
-                          "cambios":  [
-                                          "SELECCIONAR COMO EN EL EXPLORADOR (PC): Ctrl+clic añade o quita un documento, Mayús+clic selecciona desde el último pulsado hasta ese, Ctrl+A todos y Esc quita la selección.",
-                                          "ARRASTRAR A CARPETAS (PC): coge uno o varios documentos seleccionados con el ratón y suéltalos en una carpeta, en una asignatura de la barra lateral o en Inicio (para sacarlos a la biblioteca).",
-                                          "ÁRBOL DE ASIGNATURAS: en la barra lateral, la flecha de cada asignatura despliega sus carpetas y subcarpetas; la carpeta abierta se marca y su camino se despliega solo.",
-                                          "INSERTAR TABLA COMO EN WORD: al elegir Tabla sale la cuadrícula; pasa el ratón (o toca) para elegir el tamaño (\"Tabla de 4x2\") y toca la página donde va; se abre vacía para escribir. \"Insertar tabla...\" sigue abriendo el editor completo.",
-                                          "\"+\" EN LAS TABLAS: en el editor de tablas, al acercar el ratón al borde de arriba entre dos columnas (o al de la izquierda entre dos filas) sale un + que inserta ahí una columna (o una fila); al final de la última columna y de la última fila hay siempre uno (también en el móvil).",
-                                          "TAB EN LAS TABLAS: Tab pasa a la celda siguiente y en la última crea una fila nueva, como en Word; Mayús+Tab vuelve a la anterior.",
-                                          "VENTANAS DE TEXTO Y TABLA EN EL PC: a pantalla completa dejan un margen y tienen su propio botón \"Cerrar\", para no confundirlo con la X de Windows que cierra Neptia.",
-                                          "ENLAZAR CON LA BIBLIOTECA: al enlazar un texto, la opción \"Otro documento de la biblioteca\" abre ese documento al tocarlo (donde lo dejaste o en la página que elijas). Y al poner o enlazar una imagen, \"De la biblioteca\" saca la imagen de una página de otro documento (o de una imagen que tengas en la biblioteca).",
-                                          "HERRAMIENTAS DEL EDITOR (PC y tableta): las herramientas van en una barra flotante centrada, del tamaño justo, y las opciones de la herramienta (colores, grosor...) en otra pastilla encima; la herramienta elegida se marca en azul claro.",
-                                          "RUEDA DEL RATÓN (PC): sube y baja el documento con cualquier herramienta, también con Mover (la Mano) y con el ratón encima del texto; Mayús+rueda lo mueve a los lados. CTRL+RUEDA amplía o aleja alrededor del ratón (salvo con el candado del zoom puesto)."
                                       ]
                       }
                   ]
