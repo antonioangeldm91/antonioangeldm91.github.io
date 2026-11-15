@@ -1,9 +1,9 @@
 {
-    "version":  "0.14.116",
-    "build":  186,
+    "version":  "0.14.117",
+    "build":  187,
     "fecha":  "2026-11-15",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Editor de imágenes más completo: recortar a mano alzada, enderezar unos grados, cambiar el tamaño, calidez del color y pixelar zonas. Y en los documentos que son una foto, \"Editar el documento\" \u003e \"Editar la imagen\": se edita la foto y se rehace el documento; la foto tal como se importó se guarda para poder deshacerlo.",
+    "notas":  "Novedades de esta version:\r\n- Estudiar: repaso de hoy de todos los temas, racha y tiempo de estudio.\r\n- Test tipo examen con tus subrayados (con tiempo y nota), y test de tus fallos.\r\n- Tarjetas con la frase completa, el tema y la pagina.\r\n- Dudas para el profesor, historial de cambios de cada tema y resumen en esquema.\r\n- Buscar en lo escrito a mano.\r\n- Conectar Google Drive sin escribir datos del proyecto.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
                       {
