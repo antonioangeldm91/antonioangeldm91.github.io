@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.115",
-    "build":  185,
+    "version":  "0.14.116",
+    "build":  186,
     "fecha":  "2026-11-15",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Nuevo: editor de presentaciones de PowerPoint (.pptx) dentro de Neptia (\"Editar el documento\" \u003e \"Editar el PowerPoint con Neptia\"): mover y cambiar de tamaño textos, imágenes y formas, escribir con formato (negrita, colores, tamaños, viñetas...), añadir textos, imágenes y formas, relleno y línea, traer al frente o al fondo, duplicar y eliminar; diapositivas nuevas, duplicar, eliminar y cambiar de orden. Animaciones, transiciones, notas, gráficos y tablas se conservan.\n- Páginas del documento: al abrir la lista de páginas se ve directamente la página en la que estás (antes empezaba siempre por la primera).\n- Nuevo: \"Añadir originales (Word, Excel, PowerPoint)\" en el botón Nuevo: eliges varios archivos y cada uno se añade al documento de la biblioteca que se llama igual (se revisa la lista antes), sin tocar su PDF ni lo subrayado.\n- Nuevo: editor de hojas de cálculo de Excel (.xlsx) dentro de Neptia (\"Editar el documento\" \u003e \"Editar el Excel con Neptia\"): celdas con fórmulas en español, formato de letra, relleno, bordes, números, fechas y moneda, combinar celdas, insertar y quitar filas y columnas, ordenar, inmovilizar paneles, buscar, varias hojas (añadir, renombrar, eliminar) y deshacer. Gráficos, formatos condicionales, validaciones y tablas se conservan y se mueven con las filas y columnas.\n- \"Editar el documento\" desde un documento abierto: si es un Word con su original, deja elegir entre el editor de Word y el de PDF. En el editor de PDF, barra de páginas abajo (anterior, siguiente, primera, última e ir a una página).\n- Nuevo: editor de documentos de Word dentro de Neptia (menú del documento \u003e \"Editar el documento\"). Texto, formato, estilos, listas, tablas, imágenes y saltos de página; lo que no se toca se guarda igual y lo que Neptia no edita (encabezados, notas, campos, comentarios...) se conserva.\n- Al importar un Word, Excel o PowerPoint se guarda también el original junto al PDF y se sincroniza con Google Drive. Desde \"Editar el documento\" se puede abrir con su programa, rehacer el PDF desde él (las marcas se llevan a su sitio) o añadir el original a documentos importados antes.",
+    "notas":  "Novedades de esta version:\n- Editor de imágenes más completo: recortar a mano alzada, enderezar unos grados, cambiar el tamaño, calidez del color y pixelar zonas. Y en los documentos que son una foto, \"Editar el documento\" \u003e \"Editar la imagen\": se edita la foto y se rehace el documento; la foto tal como se importó se guarda para poder deshacerlo.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.116",
+                          "fecha":  "15/11/2026",
+                          "cambios":  [
+                                          "Editor de imágenes más completo: recortar a mano alzada, enderezar unos grados, cambiar el tamaño, calidez del color y pixelar zonas. Y en los documentos que son una foto, \"Editar el documento\" \u003e \"Editar la imagen\": se edita la foto y se rehace el documento; la foto tal como se importó se guarda para poder deshacerlo."
+                                      ]
+                      },
                       {
                           "version":  "0.14.115",
                           "fecha":  "15/11/2026",
@@ -197,13 +204,6 @@
                                           "Documentos muy subrayados más fluidos: lo anotado de cada página se dibuja una vez y se reutiliza, en vez de repintarlo entero con cada cambio.",
                                           "Abrir y cerrar documentos más rápido: las anotaciones grandes se leen y se empaquetan para sincronizar en segundo plano, y ya no se espera a la sincronización del documento anterior al abrir otro.",
                                           "La biblioteca guarda las portadas dibujadas: al abrir la app aparecen al momento."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.85",
-                          "fecha":  "05/11/2026",
-                          "cambios":  [
-                                          "MÓVIL, MOVER CON UN DEDO (otra vez): con Mover, el dedo arrastra la página siempre (lo hace Neptia directamente, con inercia al soltar deprisa); con dos dedos se amplía y se mueve como antes."
                                       ]
                       }
                   ]
