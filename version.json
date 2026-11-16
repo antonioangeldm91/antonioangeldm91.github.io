@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.117",
-    "build":  187,
-    "fecha":  "2026-11-15",
+    "version":  "0.14.118",
+    "build":  188,
+    "fecha":  "2026-11-16",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\r\n- Estudiar: repaso de hoy de todos los temas, racha y tiempo de estudio.\r\n- Test tipo examen con tus subrayados (con tiempo y nota), y test de tus fallos.\r\n- Tarjetas con la frase completa, el tema y la pagina.\r\n- Dudas para el profesor, historial de cambios de cada tema y resumen en esquema.\r\n- Buscar en lo escrito a mano.\r\n- Conectar Google Drive sin escribir datos del proyecto.",
+    "notas":  "Novedades de esta version:\n- \"Editar el documento\" desde dentro de un documento enseña siempre las opciones: si no tiene su Word, Excel o PowerPoint original se puede añadir ahí mismo y abrirlo ya en el editor de Neptia.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.118",
+                          "fecha":  "16/11/2026",
+                          "cambios":  [
+                                          "\"Editar el documento\" desde dentro de un documento enseña siempre las opciones: si no tiene su Word, Excel o PowerPoint original se puede añadir ahí mismo y abrirlo ya en el editor de Neptia."
+                                      ]
+                      },
                       {
                           "version":  "0.14.116",
                           "fecha":  "15/11/2026",
@@ -173,37 +180,6 @@
                                           "Pasar apuntes a limpio: fotos de apuntes (a mano o impresos) a texto ordenado en títulos, listas y tablas, para revisarlo y guardarlo en Word, Excel, PDF o en la biblioteca.",
                                           "Tres formas de leerlos: rápida sin Internet (OCR del dispositivo), avanzada sin Internet en Windows (modelo GLM-OCR que lee letra a mano, se descarga una vez) y con IA en la nube.",
                                           "La IA de Neptia (Gemini o Claude) ya puede leer fotos."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.87",
-                          "fecha":  "06/11/2026",
-                          "cambios":  [
-                                          "Repaso con FSRS: los intervalos se ajustan a tu memoria y hay 4 botones (Otra vez, Difícil, Bien, Fácil) con el próximo repaso a la vista.",
-                                          "Curva del olvido: puedes elegir la retención que quieres (80-95 %).",
-                                          "Test a medida: elige temas, páginas y tipo de preguntas (nuevas, falladas, favoritas, pendientes, flojas) y guárdalo como examen.",
-                                          "Juegos nuevos: Relacionar (parejas contrarreloj) y Ordenar; Relacionar también desde las tablas cruzadas.",
-                                          "Objetivo diario, nivel y puntos; la racha perdona un día cada semana.",
-                                          "Pomodoro (25/5, 50/10, 90/15) con aviso y minutos de concentración.",
-                                          "Repaso en audio: lee la pregunta, deja una pausa y dice la respuesta (para el coche o el paseo).",
-                                          "Estadísticas: horas, preguntas, evolución de notas, nota prevista y temas flojos.",
-                                          "Convocatorias: fechas de publicación, plazo y examen con cuenta atrás.",
-                                          "Mazos de Anki y Quizlet: importa tus tarjetas y repásalas o haz tests.",
-                                          "Tarjetas contrarreloj (10, 20 o 30 segundos).",
-                                          "Tablas cruzadas: columna \"Desde cuándo\" en los plazos.",
-                                          "Transcribir la clase: graba y pasa la clase a texto sin Internet, y guárdala como documento para estudiarla.",
-                                          "Límite de tarjetas nuevas al día (20 por defecto) para que los repasos no se acumulen; se cambia en Estudiar \u003e Ajustes del repaso.",
-                                          "Fecha del examen: ninguna tarjeta se deja para después del examen (toma la de Convocatorias o la del Plan de estudio).",
-                                          "Cuadros transversales: los plazos, mayorías, cifras y órganos se pueden repasar como tarjetas con repaso espaciado.",
-                                          "Repetir solo las falladas al terminar un test, unas flashcards o un test de opciones.",
-                                          "Botón de bandera para quitar una pregunta mal hecha (no vuelve a salir); se recuperan en Ajustes del repaso.",
-                                          "Al guardar los cuadros transversales o el resumen en PDF, el aviso dice en qué carpeta queda y el documento aparece el primero en Recientes.",
-                                          "Android: con la Mano vuelve a funcionar el zoom pellizcando.",
-                                          "Cuadros transversales legibles: agrupados por artículo o apartado, con el dato destacado y la frase completa del texto (en la app y en el PDF, sin cortar nada).",
-                                          "Cuadros transversales: ya salen los plazos escritos en letra como \"doce meses\" o \"cuarenta y cinco días\".",
-                                          "Documentos muy subrayados más fluidos: lo anotado de cada página se dibuja una vez y se reutiliza, en vez de repintarlo entero con cada cambio.",
-                                          "Abrir y cerrar documentos más rápido: las anotaciones grandes se leen y se empaquetan para sincronizar en segundo plano, y ya no se espera a la sincronización del documento anterior al abrir otro.",
-                                          "La biblioteca guarda las portadas dibujadas: al abrir la app aparecen al momento."
                                       ]
                       }
                   ]
