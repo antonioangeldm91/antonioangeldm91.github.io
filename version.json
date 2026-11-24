@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.119",
-    "build":  189,
+    "version":  "0.14.120",
+    "build":  190,
     "fecha":  "2026-11-24",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Lápiz \u003e \"Aligerar los trazos a mano\": quita los puntos que sobran de lo que ya estaba escrito en el documento (se ve igual y se puede deshacer).\n- \"Tu día\" (modo Día a día): tareas sin marcar de las notas fijadas o con fecha (se marcan con un toque; las atrasadas, primero) y botones para crear una nota o un evento sin salir del inicio.\n- Documentos muy anotados: ampliar con dos dedos y arrastrar para subrayar o seleccionar texto ya no repintan toda la página en cada movimiento.\n- Modo de uso: Estudio o Día a día. Se elige la primera vez y se cambia cuando se quiera (botón junto a \"Ordenar\" o menú \u003e Modo de uso). En Día a día se esconde lo de estudiar y el inicio enseña \"Tu día\": lo de hoy y los próximos días del calendario y las notas fijadas. No se borra nada.\n- Mover la página con dos dedos mientras se subraya o se dibuja: si el segundo dedo llegaba un poco tarde se ignoraba y se dibujaba en vez de mover. Ahora se reconoce por el movimiento y la página se mueve.\n- Escritura a mano: los trazos guardan muchos menos puntos (se ven igual), así las páginas muy escritas ocupan menos y van más fluidas.",
+    "notas":  "Novedades de esta version:\n- Arreglo urgente: la 0.14.119 se cerraba al abrirse en Android. Se quitan de momento los cambios de esa versión (modo Estudio / Día a día, \"Tu día\", dos dedos, aligerar trazos) hasta encontrar el fallo.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.120",
+                          "fecha":  "24/11/2026",
+                          "cambios":  [
+                                          "Arreglo urgente: la 0.14.119 se cerraba al abrirse en Android. Se quitan de momento los cambios de esa versión (modo Estudio / Día a día, \"Tu día\", dos dedos, aligerar trazos) hasta encontrar el fallo."
+                                      ]
+                      },
                       {
                           "version":  "0.14.119",
                           "fecha":  "24/11/2026",
@@ -141,41 +148,6 @@
                                           "Tema ilustrado con más información: los apartados con poco contenido se completan con las frases más importantes del propio tema, los apartados repetidos se juntan, las ideas se cortan en un punto (no a mitad) y hay un selector de detalle (Poco, Normal, Mucho). El cómic también aprovecha esas frases.",
                                           "IA en línea: nombres de modelo puestos al día (Groq y Cerebras con GPT-OSS 120B, OpenRouter con su selector gratuito, Qwen 3.8) y, si alguno deja de existir, Neptia prueba otros sola. OpenRouter gratis también lee fotos.",
                                           "Gemini: si el modelo de siempre ya no está disponible (Google los va retirando), Neptia busca solo uno que funcione con tu clave y se queda con él. Reconoce también las claves nuevas de Google (\"AQ.\")."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.92",
-                          "fecha":  "08/11/2026",
-                          "cambios":  [
-                                          "La IA gasta mucho menos y va más rápida: se le manda solo el cuerpo del tema (sin índice, encabezados, pies ni números de página, con las palabras partidas unidas) en un formato compacto con títulos y listas.",
-                                          "El tema va siempre primero y con las mismas instrucciones: las IA que guardan lo ya leído (Gemini, DeepSeek, Qwen, Claude y la IA sin Internet del PC) no lo vuelven a cobrar ni a leer en la siguiente tarea del mismo tema.",
-                                          "Lo que ya hizo la IA (resúmenes, mapas, test, juegos) se guarda: si pides lo mismo, sale al momento y gratis; en test y juegos puedes elegir \"Hacer otras nuevas\".",
-                                          "IA sin Internet del PC: todo el contexto para una sola tarea y reaprovecha lo ya leído.",
-                                          "DeepSeek se puede conectar como IA en línea (barata; también lee fotos, aunque para apuntes a mano van mejor Gemini, Qwen o Claude).",
-                                          "Tarjetas de repaso y flashcards: botón de IA para que escriba una pregunta en cada tarjeta (se guarda y no se vuelve a pedir).",
-                                          "Juegos (rosco, ahorcado, anagrama, crucigrama y relacionar): opción de que la IA haga las palabras y las pistas, tipo Pasapalabra.",
-                                          "IA en línea más fácil de conectar: eliges una, botón para abrir su página, pegas la clave (Neptia reconoce de cuál es) y \"Probar\".",
-                                          "Más IA en línea gratuitas: Google Gemini, Groq, OpenRouter, Mistral, Cerebras y GitHub Models; y de pago, Qwen (Alibaba) y Claude. Puedes conectar varias: si una llega a su límite, Neptia cambia sola a la siguiente (y, en el PC, a la IA sin Internet si la tienes).",
-                                          "Aunque digas que no a la IA, cada apartado tiene su botón de IA por si cambias de idea.",
-                                          "Explícamelo: \"Que la IA explique cada idea\" (como un profesor, con los datos exactos) y responde en voz alta tus preguntas.",
-                                          "OCR de escaneados: al terminar, la IA puede corregir las palabras mal leídas sin moverlas de su sitio (se siguen pudiendo buscar y subrayar).",
-                                          "Mapa mental: \"Rehacer con IA\". Apuntes a mano: interruptor \"Después, que la IA corrija y ordene\".",
-                                          "IA opcional en todas partes: la primera vez que usas algo que la IA puede mejorar (subrayado automático, resúmenes, test, preguntas al tema, cuadros transversales, mapa mental, esquemas y cómic, apuntes a mano, escritura a mano, dudas, recitar), Neptia te pregunta si quieres añadirla y te dice cuánto ocupa la descarga. Si dices que no, sigue con el método de siempre; si dices que sí, cada vez eliges entre los dos.",
-                                          "En el móvil la IA tiene que ser en línea (y se avisa); en el PC puede ser sin Internet (Qwen3 4B, unos 2,5 GB) o en línea.",
-                                          "Apuntes a mano: después del lector, la IA corrige lo mal leído y lo ordena en títulos, listas y tablas, sin inventar.",
-                                          "Subrayado automático con IA: Neptia propone las frases y la IA elige las que caen en examen.",
-                                          "Cuadros transversales: \"Resumir cada fila con IA\" (también sale en el PDF).",
-                                          "Dudas: \"Que la IA la responda\" con lo que dice el tema. Recitar de memoria: \"Que la IA me corrija\".",
-                                          "Escritura a mano con el lápiz: la IA puede corregir lo reconocido.",
-                                          "Nueva pantalla \"Dónde usar la IA\" (en IA y lectores sin Internet): sin IA, con IA o preguntar, por apartado, y la IA preferida.",
-                                          "Esquema de llaves del tema (Estudiar): sale del texto o de tu mapa mental, se pliega por apartados y se guarda como imagen o PDF.",
-                                          "Tema ilustrado: una lámina con un recuadro y un dibujo por apartado y sus ideas clave. Puedes cambiar dibujos e ideas.",
-                                          "El tema en cómic: viñetas con personajes fijos (búho, profe, opositores, jueza, agente, ciudadana) que preguntan y explican el tema con sus datos. Cada viñeta se puede editar.",
-                                          "Mejorar con IA (opcional) el esquema, la lámina y el guion del cómic: con la IA sin Internet del PC o con la IA en línea.",
-                                          "Pregúntale a la IA: chat con la IA sin Internet (Qwen3 4B en el PC, gratis y sin límite) o en línea. Desde un tema responde con lo que dice el documento y la página; desde \"Pregúntale a tu biblioteca\", con todos tus temas.",
-                                          "IA y lectores sin Internet: nueva pantalla en el menú de la biblioteca para descargarlos, comprobarlos y borrarlos.",
-                                          "El administrador puede ocultar por cliente o por equipo todo lo nuevo: lectores, IA, esquemas, cómic, ajustes del repaso, marcar preguntas, repetir falladas y tarjetas de los cuadros.",
-                                          "Al mover, renombrar o borrar un tema se llevan también su mapa mental y sus esquemas."
                                       ]
                       }
                   ]
