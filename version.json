@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.120",
-    "build":  190,
+    "version":  "0.14.121",
+    "build":  191,
     "fecha":  "2026-11-24",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Arreglo urgente: la 0.14.119 se cerraba al abrirse en Android. Se quitan de momento los cambios de esa versión (modo Estudio / Día a día, \"Tu día\", dos dedos, aligerar trazos) hasta encontrar el fallo.",
+    "notas":  "Novedades de esta version:\n- Android: la app se cerraba al abrirse (0.14.119 y 0.14.120). Al compilar se había colado sola una versión nueva (0.20.0) de la librería del lector de apuntes; se vuelve a la 0.19.1 y se deja fija.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.121",
+                          "fecha":  "24/11/2026",
+                          "cambios":  [
+                                          "Android: la app se cerraba al abrirse (0.14.119 y 0.14.120). Al compilar se había colado sola una versión nueva (0.20.0) de la librería del lector de apuntes; se vuelve a la 0.19.1 y se deja fija."
+                                      ]
+                      },
                       {
                           "version":  "0.14.120",
                           "fecha":  "24/11/2026",
@@ -135,19 +142,6 @@
                                           "IA sin Internet más rápida: usa la tarjeta gráfica (también la integrada de Intel o AMD) si la hay; si no funciona con tu tarjeta, vuelve sola al procesador. Usa bien los núcleos del procesador.",
                                           "Nueva IA sin Internet \"rápida\" (Qwen3 1,7B, unos 1,1 GB): 2-3 veces más rápida que la buena, aunque se equivoca más. Se elige en \"IAs: descargar y borrar\".",
                                           "Windows: arrastra documentos o carpetas a la ventana de la biblioteca y se guardan en la carpeta que tengas abierta."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.94",
-                          "fecha":  "08/11/2026",
-                          "cambios":  [
-                                          "Gemini y los modelos que \"piensan\" (GPT-OSS en Groq y Cerebras): se les pide pensar lo mínimo para que no se queden sin espacio y respondan en blanco; si aun así pasa, se explica el motivo.",
-                                          "Nuevo apartado \"IAs: descargar y borrar\": la IA de texto, los lectores y las IA en línea en un solo sitio. Las descargas van en segundo plano: puedes salir y seguir usando Neptia, abajo se ve el progreso y hay un botón para cancelar en cualquier momento.",
-                                          "Cómic con contenido: en cada apartado alguien pregunta y el experto lo explica con las frases importantes del tema (enteras), las listas y los datos; sin apartados repetidos, preguntas más naturales (\"¿Qué regula el Título II, «De la Corona»?\") y selector de detalle (Poco, Normal, Mucho).",
-                                          "Esquema de llaves y tema ilustrado: las frases salen enteras (sin \"…\"), en pantalla y al exportar, y el esquema ya no corta las ramas largas con \"y N más\".",
-                                          "Tema ilustrado con más información: los apartados con poco contenido se completan con las frases más importantes del propio tema, los apartados repetidos se juntan, las ideas se cortan en un punto (no a mitad) y hay un selector de detalle (Poco, Normal, Mucho). El cómic también aprovecha esas frases.",
-                                          "IA en línea: nombres de modelo puestos al día (Groq y Cerebras con GPT-OSS 120B, OpenRouter con su selector gratuito, Qwen 3.8) y, si alguno deja de existir, Neptia prueba otros sola. OpenRouter gratis también lee fotos.",
-                                          "Gemini: si el modelo de siempre ya no está disponible (Google los va retirando), Neptia busca solo uno que funcione con tu clave y se queda con él. Reconoce también las claves nuevas de Google (\"AQ.\")."
                                       ]
                       }
                   ]
