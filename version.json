@@ -1,11 +1,23 @@
 {
-    "version":  "0.14.118",
-    "build":  188,
-    "fecha":  "2026-11-16",
+    "version":  "0.14.119",
+    "build":  189,
+    "fecha":  "2026-11-24",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- \"Editar el documento\" desde dentro de un documento enseña siempre las opciones: si no tiene su Word, Excel o PowerPoint original se puede añadir ahí mismo y abrirlo ya en el editor de Neptia.",
+    "notas":  "Novedades de esta version:\n- Lápiz \u003e \"Aligerar los trazos a mano\": quita los puntos que sobran de lo que ya estaba escrito en el documento (se ve igual y se puede deshacer).\n- \"Tu día\" (modo Día a día): tareas sin marcar de las notas fijadas o con fecha (se marcan con un toque; las atrasadas, primero) y botones para crear una nota o un evento sin salir del inicio.\n- Documentos muy anotados: ampliar con dos dedos y arrastrar para subrayar o seleccionar texto ya no repintan toda la página en cada movimiento.\n- Modo de uso: Estudio o Día a día. Se elige la primera vez y se cambia cuando se quiera (botón junto a \"Ordenar\" o menú \u003e Modo de uso). En Día a día se esconde lo de estudiar y el inicio enseña \"Tu día\": lo de hoy y los próximos días del calendario y las notas fijadas. No se borra nada.\n- Mover la página con dos dedos mientras se subraya o se dibuja: si el segundo dedo llegaba un poco tarde se ignoraba y se dibujaba en vez de mover. Ahora se reconoce por el movimiento y la página se mueve.\n- Escritura a mano: los trazos guardan muchos menos puntos (se ven igual), así las páginas muy escritas ocupan menos y van más fluidas.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.119",
+                          "fecha":  "24/11/2026",
+                          "cambios":  [
+                                          "Lápiz \u003e \"Aligerar los trazos a mano\": quita los puntos que sobran de lo que ya estaba escrito en el documento (se ve igual y se puede deshacer).",
+                                          "\"Tu día\" (modo Día a día): tareas sin marcar de las notas fijadas o con fecha (se marcan con un toque; las atrasadas, primero) y botones para crear una nota o un evento sin salir del inicio.",
+                                          "Documentos muy anotados: ampliar con dos dedos y arrastrar para subrayar o seleccionar texto ya no repintan toda la página en cada movimiento.",
+                                          "Modo de uso: Estudio o Día a día. Se elige la primera vez y se cambia cuando se quiera (botón junto a \"Ordenar\" o menú \u003e Modo de uso). En Día a día se esconde lo de estudiar y el inicio enseña \"Tu día\": lo de hoy y los próximos días del calendario y las notas fijadas. No se borra nada.",
+                                          "Mover la página con dos dedos mientras se subraya o se dibuja: si el segundo dedo llegaba un poco tarde se ignoraba y se dibujaba en vez de mover. Ahora se reconoce por el movimiento y la página se mueve.",
+                                          "Escritura a mano: los trazos guardan muchos menos puntos (se ven igual), así las páginas muy escritas ocupan menos y van más fluidas."
+                                      ]
+                      },
                       {
                           "version":  "0.14.118",
                           "fecha":  "16/11/2026",
@@ -164,22 +176,6 @@
                                           "IA y lectores sin Internet: nueva pantalla en el menú de la biblioteca para descargarlos, comprobarlos y borrarlos.",
                                           "El administrador puede ocultar por cliente o por equipo todo lo nuevo: lectores, IA, esquemas, cómic, ajustes del repaso, marcar preguntas, repetir falladas y tarjetas de los cuadros.",
                                           "Al mover, renombrar o borrar un tema se llevan también su mapa mental y sus esquemas."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.91",
-                          "fecha":  "06/11/2026",
-                          "cambios":  [
-                                          "Nuevo lector PaddleOCR PP-OCRv6 (Windows y Android): lee una hoja en unos segundos sin Internet, mejor que el lector del sistema. Se descarga una vez (27 MB).",
-                                          "Lector avanzado sin Internet en Windows: PaddleOCR-VL (por defecto) o GLM-OCR, a elegir. Las fotos muy largas se leen por trozos.",
-                                          "Lector avanzado sin Internet en Android: PaddleOCR-VL en el propio móvil (necesita 6-8 GB de memoria).",
-                                          "Modo automático: usa el mejor lector instalado y nunca envía nada a Internet sin preguntar.",
-                                          "Pantalla de lectores: descargar con permiso, comprobar que están enteros, borrar y reinstalar. Interruptor para no usar nunca la IA en línea.",
-                                          "Banco de pruebas de OCR: compara los lectores con tus propias fotos (tiempo, memoria y porcentaje de letras mal leídas).",
-                                          "Pasar apuntes a limpio: también desde un PDF escaneado, detecta hojas a dos columnas y guarda en TXT y Markdown.",
-                                          "Pasar apuntes a limpio: fotos de apuntes (a mano o impresos) a texto ordenado en títulos, listas y tablas, para revisarlo y guardarlo en Word, Excel, PDF o en la biblioteca.",
-                                          "Tres formas de leerlos: rápida sin Internet (OCR del dispositivo), avanzada sin Internet en Windows (modelo GLM-OCR que lee letra a mano, se descarga una vez) y con IA en la nube.",
-                                          "La IA de Neptia (Gemini o Claude) ya puede leer fotos."
                                       ]
                       }
                   ]
