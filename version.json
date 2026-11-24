@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.124",
-    "build":  194,
+    "version":  "0.14.125",
+    "build":  195,
     "fecha":  "2026-11-24",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Lápiz: nuevo ajuste \"Suavizado del trazo\" (nada / normal / mucho) en Opciones \u003e Lápiz (Premium). Y la mano ya no deja puntitos al recolocarse nada más levantar el lápiz: un trazo corto hecho con el dedo en ese instante se descarta.\n- Red de seguridad: si la app se cierra por un error en Android, el motivo queda apuntado (en el registro de diagnóstico y en Descargas como \"Neptia-cierre-fecha.txt\"), sin necesidad de cable. Al publicar, la versión anterior se conserva (Drive: subcarpeta \"anterior\"; PC: COMPILADOS\\anteriores, las 3 últimas) para poder volver atrás.",
+    "notas":  "Novedades de esta version:\n- Barra de herramientas: nuevo botón \"Añadir\" que reúne Imagen, Texto, Formas, Bloques y Enlazar (ya no ocupan un botón cada uno; se pueden volver a poner sueltos en \"Personalizar la barra\"). \"Enlazar\" tiene icono propio, distinto del de insertar imagen.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.125",
+                          "fecha":  "24/11/2026",
+                          "cambios":  [
+                                          "Barra de herramientas: nuevo botón \"Añadir\" que reúne Imagen, Texto, Formas, Bloques y Enlazar (ya no ocupan un botón cada uno; se pueden volver a poner sueltos en \"Personalizar la barra\"). \"Enlazar\" tiene icono propio, distinto del de insertar imagen."
+                                      ]
+                      },
                       {
                           "version":  "0.14.124",
                           "fecha":  "24/11/2026",
@@ -132,15 +139,6 @@
                                           "Al seleccionar texto del documento, el menú rápido tiene \"¿Qué significa?\" (con la IA: su significado en esa frase, otros usos y un sinónimo; y el diccionario de la RAE) y \"Traducir\" (en Windows, con la IA). Se puede guardar en Mi vocabulario.",
                                           "Editor de texto: \"Más colores y código hex…\" para la letra, el resaltado y el sombreado (paleta completa, personalizado o hex).",
                                           "Editor de texto: al poner una lista, el párrafo entra una tabulación (como en Word) y vuelve a su sitio al quitarla."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.99",
-                          "fecha":  "08/11/2026",
-                          "cambios":  [
-                                          "Pellizcar para ampliar o reducir funciona con cualquier herramienta (bolígrafo, subrayador, texto, selección… y en modo solo lápiz) si el candado está quitado, también con el panel táctil del portátil; aunque el segundo dedo llegue un poco tarde.",
-                                          "Textos enlazados a una frase (y notas de imagen): ahora guardan las listas 1), a), viñetas, niveles y sangrías; se ven igual al abrirlos y no se pierden al editarlos.",
-                                          "Compilar: el instalable de Windows se crea en una carpeta temporal y se reintenta; si falla, no se sube a Drive uno a medias, y ya no se borra de Drive el que se acaba de subir."
                                       ]
                       }
                   ]
