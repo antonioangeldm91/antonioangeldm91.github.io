@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.126",
-    "build":  196,
-    "fecha":  "2026-11-24",
+    "version":  "0.14.127",
+    "build":  197,
+    "fecha":  "2026-11-25",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- \"Añadir\" incluye también el Recorte de la página y la Grabación de audio; los botones de grabar, insertar imagen y recorte ya no están en la barra de arriba (el contador rojo sigue viéndose mientras se graba, y vuelven arriba si quitas \"Añadir\" de la barra).\n- Recortar imagen (Premium): en Añadir \u003e \"Figura recortada\" eliges una imagen y la recortas antes de ponerla; o selecciona una imagen ya puesta y toca \"Recortar\". Silueta: rodeas a mano la figura y se queda solo eso, sin el fondo. Fondo liso: tocas el blanco (o un color) y desaparece. Se puede acercar, deshacer cada paso y, ya en la página, Deshacer devuelve la imagen original.",
+    "notas":  "Novedades de esta version:\n- Buscar en el documento: al tocar un resultado, la vista baja hasta la frase encontrada aunque esté al final de la página (antes se quedaba al principio). Igual al ir a una respuesta de \"Preguntar al documento\".",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.127",
+                          "fecha":  "25/11/2026",
+                          "cambios":  [
+                                          "Buscar en el documento: al tocar un resultado, la vista baja hasta la frase encontrada aunque esté al final de la página (antes se quedaba al principio). Igual al ir a una respuesta de \"Preguntar al documento\"."
+                                      ]
+                      },
                       {
                           "version":  "0.14.126",
                           "fecha":  "24/11/2026",
@@ -119,24 +126,6 @@
                           "cambios":  [
                                           "Editar PDF: cambiar o borrar un texto ya no cierra la app (Windows y Android): el texto original se vacía en vez de quitarlo de la página, y la letra estándar solo se carga si hace falta.",
                                           "Editar PDF en Android: ya no se cierra la app al abrirlo o al cambiar un texto (usaba demasiada memoria: la imagen de la página era enorme y cada cambio guardaba una copia del PDF entero). Con PDF grandes en el móvil, los cambios no se pueden deshacer (sal sin guardar si no te gusta)."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.102",
-                          "fecha":  "12/11/2026",
-                          "cambios":  [
-                                          "Sincronizar desde un documento: ahora guarda, sincroniza de verdad y dice cómo ha ido. Si Neptia se cerró haciendo otra cosa (p. ej. editando un PDF), la sincronización ya no se queda en pausa.",
-                                          "Modo solo lápiz: el dedo vuelve a mover la página (y dos dedos amplían).",
-                                          "Buscar en el documento: sin caracteres raros, sin importar las tildes y encontrando las palabras aunque haya otras entre medias (\"consideracion servicio publico\" encuentra \"consideración de servicio público\").",
-                                          "Diccionario: sinónimos y antónimos, palabras como \"dimanante\" (busca dimanar), y de un participio se ve también el verbo. Hay que volver a descargarlo una vez.",
-                                          "Solo lo subrayado: ahora se ve como texto completo, en tarjetas y sin que se monten (con un botón para verlo como en el PDF).",
-                                          "Seleccionar: flechas al final de la barra para mover lo seleccionado poco a poco (mantén pulsado para seguir).",
-                                          "Grosor exacto escribiendo los px (bolígrafo, resaltador, formas...).",
-                                          "Rectángulos y círculos: con o sin fondo, y del color que quieras.",
-                                          "Goma que cambia de color: pasa por encima y lo amarillo (o lo que filtres) pasa al color elegido.",
-                                          "El zoom en vertical y en horizontal se recuerda por separado.",
-                                          "Actualizar Neptia: \"Seguir usando Neptia\" descarga la actualización en segundo plano y al terminar pregunta si instalar.",
-                                          "Calculadora científica flotante encima del documento; se ancla en pequeño junto al botón de las pizarras."
                                       ]
                       }
                   ]
