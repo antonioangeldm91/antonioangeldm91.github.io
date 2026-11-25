@@ -1,11 +1,23 @@
 {
-    "version":  "0.14.128",
-    "build":  198,
+    "version":  "0.14.129",
+    "build":  199,
     "fecha":  "2026-11-25",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Editar el PDF: antes de dar por bueno un cambio de texto, un borrado o un movimiento, se comprueba que el resto de la página se sigue viendo igual. Con algunos PDF el cambio dejaba todo el texto en negrita y las imágenes en negro: ahora, si va a pasar, se deshace y el texto se cambia tapando y escribiendo encima.",
+    "notas":  "Novedades de esta version:\n- IA más rápida: si tienes una IA en línea conectada, se usa esa antes que la de este PC (segundos en vez de minutos, y mejores resultados); la del PC queda para cuando no hay Internet o si la eliges tú en Ajustes \u003e IA. Con varias conectadas se prueban de la más rápida a la más lenta, no se espera dos minutos a una que no responde y la que llega a su límite descansa un rato.\n- Subrayado automático y cuadros transversales con IA en línea: se hacen por trozos más pequeños y tres a la vez (más rápido y más cuidado en temas largos).\n- Biblioteca más sencilla: la barra lateral deja a la vista Inicio, Estudiar, Plan de estudio, Calendario y Notas; el resto está en \"Más herramientas\" (se despliega y se recuerda). La pregunta \"¿Para qué vas a usar Neptia?\" ya solo sale una vez.\n- Corregido: en el Centro de estudio, los botones \"Todo el tema\" y \"Mis subrayados\" salían en blanco, sin texto.\n- Más directo: con Mover, toca un texto, una imagen, una forma o una tabla y queda seleccionado (con sus tiradores) sin cambiar a Seleccionar; al tocar fuera vuelves a Mover. Y al poner una imagen queda ya seleccionada para colocarla, y al tocar fuera vuelves a la herramienta que tenías. Se puede quitar en Ver \u003e \"Tocar para seleccionar\".\n- Nuevo panel de funciones: el botón de los tres puntos (o Ctrl+K) ya no abre listas dentro de listas, sino todas las opciones a la vista con su icono, agrupadas por colores, con buscador, \"Últimas usadas\" y \"Favoritas\" (toca la estrella de una opción o mantenla pulsada).",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.129",
+                          "fecha":  "25/11/2026",
+                          "cambios":  [
+                                          "IA más rápida: si tienes una IA en línea conectada, se usa esa antes que la de este PC (segundos en vez de minutos, y mejores resultados); la del PC queda para cuando no hay Internet o si la eliges tú en Ajustes \u003e IA. Con varias conectadas se prueban de la más rápida a la más lenta, no se espera dos minutos a una que no responde y la que llega a su límite descansa un rato.",
+                                          "Subrayado automático y cuadros transversales con IA en línea: se hacen por trozos más pequeños y tres a la vez (más rápido y más cuidado en temas largos).",
+                                          "Biblioteca más sencilla: la barra lateral deja a la vista Inicio, Estudiar, Plan de estudio, Calendario y Notas; el resto está en \"Más herramientas\" (se despliega y se recuerda). La pregunta \"¿Para qué vas a usar Neptia?\" ya solo sale una vez.",
+                                          "Corregido: en el Centro de estudio, los botones \"Todo el tema\" y \"Mis subrayados\" salían en blanco, sin texto.",
+                                          "Más directo: con Mover, toca un texto, una imagen, una forma o una tabla y queda seleccionado (con sus tiradores) sin cambiar a Seleccionar; al tocar fuera vuelves a Mover. Y al poner una imagen queda ya seleccionada para colocarla, y al tocar fuera vuelves a la herramienta que tenías. Se puede quitar en Ver \u003e \"Tocar para seleccionar\".",
+                                          "Nuevo panel de funciones: el botón de los tres puntos (o Ctrl+K) ya no abre listas dentro de listas, sino todas las opciones a la vista con su icono, agrupadas por colores, con buscador, \"Últimas usadas\" y \"Favoritas\" (toca la estrella de una opción o mantenla pulsada)."
+                                      ]
+                      },
                       {
                           "version":  "0.14.128",
                           "fecha":  "25/11/2026",
@@ -118,13 +130,6 @@
                           "cambios":  [
                                           "Editar PDF: ya no se cierra la app al añadir texto ni al cambiarlo (PDFium buscaba la letra desde un hilo que no era el suyo; ahora los cambios se hacen en el hilo de PDFium).",
                                           "Editar PDF: tocar un texto lo selecciona sin moverlo; para moverlo, arrástralo una vez seleccionado."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.108",
-                          "fecha":  "13/11/2026",
-                          "cambios":  [
-                                          "Editar PDF: arreglado el cierre de la app al cambiar o borrar un texto (PDFium cerraba la app al dejar un texto vacío)."
                                       ]
                       }
                   ]
