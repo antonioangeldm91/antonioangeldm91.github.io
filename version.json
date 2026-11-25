@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.127",
-    "build":  197,
+    "version":  "0.14.128",
+    "build":  198,
     "fecha":  "2026-11-25",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Buscar en el documento: al tocar un resultado, la vista baja hasta la frase encontrada aunque esté al final de la página (antes se quedaba al principio). Igual al ir a una respuesta de \"Preguntar al documento\".",
+    "notas":  "Novedades de esta version:\n- Editar el PDF: antes de dar por bueno un cambio de texto, un borrado o un movimiento, se comprueba que el resto de la página se sigue viendo igual. Con algunos PDF el cambio dejaba todo el texto en negrita y las imágenes en negro: ahora, si va a pasar, se deshace y el texto se cambia tapando y escribiendo encima.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.128",
+                          "fecha":  "25/11/2026",
+                          "cambios":  [
+                                          "Editar el PDF: antes de dar por bueno un cambio de texto, un borrado o un movimiento, se comprueba que el resto de la página se sigue viendo igual. Con algunos PDF el cambio dejaba todo el texto en negrita y las imágenes en negro: ahora, si va a pasar, se deshace y el texto se cambia tapando y escribiendo encima."
+                                      ]
+                      },
                       {
                           "version":  "0.14.127",
                           "fecha":  "25/11/2026",
@@ -118,14 +125,6 @@
                           "fecha":  "13/11/2026",
                           "cambios":  [
                                           "Editar PDF: arreglado el cierre de la app al cambiar o borrar un texto (PDFium cerraba la app al dejar un texto vacío)."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.103",
-                          "fecha":  "12/11/2026",
-                          "cambios":  [
-                                          "Editar PDF: cambiar o borrar un texto ya no cierra la app (Windows y Android): el texto original se vacía en vez de quitarlo de la página, y la letra estándar solo se carga si hace falta.",
-                                          "Editar PDF en Android: ya no se cierra la app al abrirlo o al cambiar un texto (usaba demasiada memoria: la imagen de la página era enorme y cada cambio guardaba una copia del PDF entero). Con PDF grandes en el móvil, los cambios no se pueden deshacer (sal sin guardar si no te gusta)."
                                       ]
                       }
                   ]
