@@ -1,11 +1,20 @@
 {
-    "version":  "0.14.132",
-    "build":  202,
+    "version":  "0.14.135",
+    "build":  205,
     "fecha":  "2026-11-26",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Sincronización: si el archivo de organización (colores, etiquetas, carpetas) guardado en Google Drive está dañado, ya no falla siempre con \"Unterminated string\": se sustituye por la organización de este dispositivo. Y un fallo ahí ya no deja sin sincronizar las notas y el calendario.",
+    "notas":  "Novedades de esta version:\n- Word con su formato original, sin Internet y sin Office: en Android (y en un PC sin Word ni LibreOffice) los .docx se abren ahora con su portada, tipos y tamaños de letra, colores, tablas, imágenes, recuadros, encabezados y pies. Ocupa 0,2 MB. Si en algún aparato no se puede, se abre con el conversor sencillo de antes.\n- Word sin Office: ahora también salen las imágenes del documento (a su tamaño), los colores de letra y el texto centrado o a la derecha.\n- Word sin Office (Android, o un PC sin Word ni LibreOffice): los .docx se abren mucho más parecidos al original. Tablas con sus columnas, colores y texto completo (antes salían cortadas con \"~\"), recuadros de color, negritas, listas con puntos, títulos por niveles y página en horizontal si el documento lo está; los emojis ya no salen como \"?\". En un PC con Word o LibreOffice sigue saliendo idéntico al original.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.135",
+                          "fecha":  "26/11/2026",
+                          "cambios":  [
+                                          "Word con su formato original, sin Internet y sin Office: en Android (y en un PC sin Word ni LibreOffice) los .docx se abren ahora con su portada, tipos y tamaños de letra, colores, tablas, imágenes, recuadros, encabezados y pies. Ocupa 0,2 MB. Si en algún aparato no se puede, se abre con el conversor sencillo de antes.",
+                                          "Word sin Office: ahora también salen las imágenes del documento (a su tamaño), los colores de letra y el texto centrado o a la derecha.",
+                                          "Word sin Office (Android, o un PC sin Word ni LibreOffice): los .docx se abren mucho más parecidos al original. Tablas con sus columnas, colores y texto completo (antes salían cortadas con \"~\"), recuadros de color, negritas, listas con puntos, títulos por niveles y página en horizontal si el documento lo está; los emojis ya no salen como \"?\". En un PC con Word o LibreOffice sigue saliendo idéntico al original."
+                                      ]
+                      },
                       {
                           "version":  "0.14.132",
                           "fecha":  "26/11/2026",
@@ -115,13 +124,6 @@
                           "fecha":  "16/11/2026",
                           "cambios":  [
                                           "\"Editar el documento\" desde dentro de un documento enseña siempre las opciones: si no tiene su Word, Excel o PowerPoint original se puede añadir ahí mismo y abrirlo ya en el editor de Neptia."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.116",
-                          "fecha":  "15/11/2026",
-                          "cambios":  [
-                                          "Editor de imágenes más completo: recortar a mano alzada, enderezar unos grados, cambiar el tamaño, calidez del color y pixelar zonas. Y en los documentos que son una foto, \"Editar el documento\" \u003e \"Editar la imagen\": se edita la foto y se rehace el documento; la foto tal como se importó se guarda para poder deshacerlo."
                                       ]
                       }
                   ]
