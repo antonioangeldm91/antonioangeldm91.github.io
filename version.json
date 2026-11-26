@@ -1,11 +1,18 @@
 {
-    "version":  "0.14.130",
-    "build":  200,
+    "version":  "0.14.131",
+    "build":  201,
     "fecha":  "2026-11-26",
     "url":  "https://drive.google.com/drive/folders/1aubPnziODYQP3fhZa7wPzX-sCV2cetpR?usp=sharing",
-    "notas":  "Novedades de esta version:\n- Seleccionar texto del documento: mantener pulsada otra palabra empieza una selección nueva ahí (antes ampliaba la anterior y se llevaba todo lo de en medio). Para coger más o menos texto, los tiradores.\n- Seleccionar texto del documento: ahora salen dos tiradores (al principio y al final de lo seleccionado). Arrástralos para coger más o menos texto, sin tener que empezar de nuevo.",
+    "notas":  "Novedades de esta version:\n- Selección de texto con Mover: al arrastrar un tirador la página ya no se mueve a la vez, y un toque fuera del texto quita la selección.",
     "clave":  "AIzaSyB8UNu3iiT5c9pP640qjTrs2lQ60uzCDm8",
     "historial":  [
+                      {
+                          "version":  "0.14.131",
+                          "fecha":  "26/11/2026",
+                          "cambios":  [
+                                          "Selección de texto con Mover: al arrastrar un tirador la página ya no se mueve a la vez, y un toque fuera del texto quita la selección."
+                                      ]
+                      },
                       {
                           "version":  "0.14.130",
                           "fecha":  "26/11/2026",
@@ -121,15 +128,6 @@
                                           "\"Editar el documento\" desde un documento abierto: si es un Word con su original, deja elegir entre el editor de Word y el de PDF. En el editor de PDF, barra de páginas abajo (anterior, siguiente, primera, última e ir a una página).",
                                           "Nuevo: editor de documentos de Word dentro de Neptia (menú del documento \u003e \"Editar el documento\"). Texto, formato, estilos, listas, tablas, imágenes y saltos de página; lo que no se toca se guarda igual y lo que Neptia no edita (encabezados, notas, campos, comentarios...) se conserva.",
                                           "Al importar un Word, Excel o PowerPoint se guarda también el original junto al PDF y se sincroniza con Google Drive. Desde \"Editar el documento\" se puede abrir con su programa, rehacer el PDF desde él (las marcas se llevan a su sitio) o añadir el original a documentos importados antes."
-                                      ]
-                      },
-                      {
-                          "version":  "0.14.112",
-                          "fecha":  "15/11/2026",
-                          "cambios":  [
-                                          "Texto con formato: en tablet y móvil ya se pueden arrastrar los puntos azules para ampliar la selección (antes se deseleccionaba o se movía la página).",
-                                          "Editar PDF: con algunos PDF, cambiar o borrar un texto estropeaba los demás enunciados de la página (salía \"I C\"); ahora se comprueba y, si pasaría, se tapa y se escribe encima.",
-                                          "Texto con formato (Nuevo texto / Editar texto): en tablet o móvil en horizontal, con el teclado abierto, la ventana se compacta (la cinta se pliega en sus pestañas y los botones suben arriba) para que se vea y se pueda seleccionar lo que escribes."
                                       ]
                       }
                   ]
